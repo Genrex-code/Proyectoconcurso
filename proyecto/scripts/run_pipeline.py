@@ -4,11 +4,7 @@ pipeline principal de lsistema de analisis de cleitnes HPE
 Equipo Devcode
 
 """
-config = {
-    "data_path": "data/synthetic/",
-    "output_path": "results/",
-    "modo": "test"
-}
+
 
 import time
 
