@@ -1,0 +1,13 @@
+#librerias usadas para que funcione:
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+python-dotenv
+requests
+nltk
+joblib
+transformers
+torch
+gtts
