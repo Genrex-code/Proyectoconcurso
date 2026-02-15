@@ -1,0 +1,5 @@
+id_cliente,fecha,tipo_evento,impacto
+1,2025-01-01,nueva inversion,Alto
+1,2025-02-01,expansion,Medio
+2,2025-03-01,despidos,Alto
+3,2025-01-15,crecimiento ventas,Medio

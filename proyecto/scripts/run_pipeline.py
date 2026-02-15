@@ -15,6 +15,7 @@ from modules.scoring import calcular_score
 from modules.clasificador import clasificar_clientes
 from modules.recomendador import recomendar_hpe
 from modules.salida import guardar_resultados
+from run_pipeline import run_pipeline
 
 def log_paso(nombre):
     """Imprime separador bonito para debug"""
@@ -64,4 +65,14 @@ if __name__ == "__main__":
         "output_path": "results/",
         "modo": "test"
     }
+    run_pipeline(config)
+
+
+def test_pipeline():
+    config = {
+        "data_path":"tests/data",
+        "output_path":"tests/output",
+        "modo":"test"
+    }
+
     run_pipeline(config)

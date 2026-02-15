@@ -1,0 +1,4 @@
+id_clientes,nombre,empresa,industria,T_empresa,ingresosAP,interes_producto
+1,Ana,TechCorp,IT,Grande,90000,Alto
+2,Luis,FoodSA,Alimentos,Pequeña,20000,Bajo
+3,Sara,BuildCo,Construccion,Mediana,50000,Medio
