@@ -5,17 +5,16 @@ Equipo Devcode
 
 """
 
-
 import time
 
 #modulos del proyecto ( sujeto a cambios)
-from modules.recolector import cargar_datos
-from modules.extractor import extraer_senales
-from modules.scoring import calcular_score
-from modules.clasificador import clasificar_clientes
-from modules.recomendador import recomendar_hpe
-from modules.salida import guardar_resultados
-from run_pipeline import run_pipeline
+from src.recolector.recolector import carga_datos  # Asumiendo recolector.py en raíz o ajusta ruta
+from src.extractor.extractor import extraer_senales  # extractor/extractor.py -> desde extractor/
+from src.scoring.scoring import calcular_score  # scoring.py en src/
+from src.clasificador.modelo import clasificar_clientes  # Ajustado a src/clasificador/modelo.py
+from src.recomendador.recomendador import recomendar_hpe  # Ajustado a src/recomendador/
+from src.salida.reportes import guardar_resultados  # Ajustado a src/reportes/
+from run_pipeline import run_pipeline  # run_pipeline.py en scripts/
 
 def log_paso(nombre):
     """Imprime separador bonito para debug"""
