@@ -1,0 +1,1538 @@
+id_cliente,fecha,tipo_evento,impacto
+1,2024-09-23,expansion,Alto
+1,2025-11-09,crecimiento ventas,Medio
+1,2025-12-26,problema legal,Alto
+1,2024-02-25,expansion,Alto
+1,2025-10-01,expansion,Alto
+2,2024-07-18,problema legal,Alto
+2,2025-08-20,despidos,Medio
+2,2024-04-14,problema legal,Alto
+2,2024-03-26,crecimiento ventas,Medio
+2,2025-07-17,nueva inversion,Alto
+3,2024-09-14,problema legal,Alto
+4,2024-06-23,crecimiento ventas,Medio
+5,2025-06-19,despidos,Medio
+6,2024-06-27,nueva inversion,Alto
+6,2024-09-12,nueva inversion,Alto
+7,2024-03-15,crecimiento ventas,Medio
+7,2025-12-18,despidos,Medio
+8,2025-07-11,despidos,Medio
+9,2025-09-27,problema legal,Alto
+9,2025-12-10,problema legal,Alto
+9,2024-08-21,despidos,Medio
+9,2024-06-28,nueva inversion,Alto
+10,2024-10-20,despidos,Medio
+10,2024-04-04,despidos,Medio
+10,2024-03-29,crecimiento ventas,Medio
+11,2025-07-24,expansion,Alto
+11,2025-08-29,problema legal,Alto
+11,2024-10-21,problema legal,Alto
+11,2024-08-23,crecimiento ventas,Medio
+11,2024-09-13,problema legal,Alto
+12,2025-07-19,nueva inversion,Alto
+12,2024-05-10,nueva inversion,Alto
+12,2026-02-18,expansion,Alto
+12,2026-01-02,nueva inversion,Alto
+12,2024-06-03,problema legal,Alto
+13,2024-02-27,nueva inversion,Alto
+14,2024-06-25,nueva inversion,Alto
+14,2025-11-02,problema legal,Alto
+14,2025-11-10,expansion,Alto
+14,2024-07-06,expansion,Alto
+14,2026-01-04,nueva inversion,Alto
+15,2025-07-02,crecimiento ventas,Medio
+16,2024-04-14,despidos,Medio
+16,2025-07-19,crecimiento ventas,Medio
+16,2026-02-04,despidos,Medio
+16,2024-11-02,nueva inversion,Alto
+17,2025-01-28,nueva inversion,Alto
+18,2025-08-13,despidos,Medio
+19,2024-06-22,despidos,Medio
+19,2025-09-19,crecimiento ventas,Medio
+19,2025-12-20,crecimiento ventas,Medio
+19,2025-02-22,problema legal,Alto
+19,2025-02-03,despidos,Medio
+20,2024-11-03,problema legal,Alto
+20,2025-04-16,expansion,Alto
+20,2025-02-15,expansion,Alto
+20,2025-01-07,expansion,Alto
+21,2025-02-17,despidos,Medio
+21,2026-02-03,problema legal,Alto
+21,2024-05-29,despidos,Medio
+21,2025-06-17,nueva inversion,Alto
+22,2024-03-06,expansion,Alto
+23,2025-11-17,problema legal,Alto
+24,2024-11-27,despidos,Medio
+24,2025-06-27,nueva inversion,Alto
+25,2024-10-29,crecimiento ventas,Medio
+25,2024-07-10,crecimiento ventas,Medio
+25,2025-03-04,despidos,Medio
+25,2024-08-02,expansion,Alto
+26,2025-09-21,despidos,Medio
+26,2025-04-22,crecimiento ventas,Medio
+26,2024-11-02,crecimiento ventas,Medio
+26,2024-11-19,expansion,Alto
+26,2025-08-18,crecimiento ventas,Medio
+27,2025-04-24,despidos,Medio
+27,2024-10-03,nueva inversion,Alto
+27,2025-08-14,problema legal,Alto
+28,2024-05-22,expansion,Alto
+28,2025-04-28,expansion,Alto
+28,2025-10-05,crecimiento ventas,Medio
+28,2025-01-08,despidos,Medio
+28,2025-06-04,crecimiento ventas,Medio
+29,2024-03-16,nueva inversion,Alto
+29,2024-08-17,crecimiento ventas,Medio
+29,2024-09-30,crecimiento ventas,Medio
+29,2025-08-22,expansion,Alto
+29,2024-09-26,crecimiento ventas,Medio
+30,2025-03-14,despidos,Medio
+30,2025-04-14,nueva inversion,Alto
+30,2025-03-09,nueva inversion,Alto
+30,2025-01-25,crecimiento ventas,Medio
+30,2024-04-22,despidos,Medio
+31,2025-01-02,problema legal,Alto
+32,2024-11-27,crecimiento ventas,Medio
+32,2025-06-17,problema legal,Alto
+32,2025-09-29,crecimiento ventas,Medio
+32,2025-03-13,expansion,Alto
+33,2025-11-27,problema legal,Alto
+33,2024-06-18,despidos,Medio
+34,2024-11-04,nueva inversion,Alto
+35,2024-06-10,expansion,Alto
+35,2025-01-03,despidos,Medio
+35,2025-12-27,nueva inversion,Alto
+35,2025-07-12,problema legal,Alto
+36,2025-10-30,problema legal,Alto
+37,2025-01-28,nueva inversion,Alto
+37,2024-11-14,nueva inversion,Alto
+37,2025-05-21,expansion,Alto
+37,2024-10-09,nueva inversion,Alto
+38,2026-01-22,crecimiento ventas,Medio
+38,2026-01-21,nueva inversion,Alto
+39,2024-06-26,problema legal,Alto
+40,2025-06-29,nueva inversion,Alto
+40,2026-02-19,problema legal,Alto
+41,2025-09-18,problema legal,Alto
+41,2025-09-06,nueva inversion,Alto
+41,2024-06-19,problema legal,Alto
+42,2025-06-30,crecimiento ventas,Medio
+42,2025-05-28,crecimiento ventas,Medio
+43,2025-07-17,nueva inversion,Alto
+43,2025-12-23,problema legal,Alto
+43,2024-03-11,problema legal,Alto
+43,2024-06-01,problema legal,Alto
+43,2024-03-02,despidos,Medio
+44,2025-02-26,nueva inversion,Alto
+44,2025-12-09,expansion,Alto
+44,2024-12-27,despidos,Medio
+44,2025-01-16,nueva inversion,Alto
+44,2025-08-05,despidos,Medio
+45,2024-11-09,despidos,Medio
+45,2025-11-23,problema legal,Alto
+45,2025-02-06,problema legal,Alto
+45,2024-12-25,problema legal,Alto
+45,2025-01-08,despidos,Medio
+46,2025-05-31,problema legal,Alto
+46,2024-10-19,expansion,Alto
+46,2024-11-19,crecimiento ventas,Medio
+46,2024-05-10,despidos,Medio
+46,2025-05-13,expansion,Alto
+47,2025-12-26,problema legal,Alto
+47,2024-06-10,crecimiento ventas,Medio
+47,2025-05-04,problema legal,Alto
+47,2025-07-14,despidos,Medio
+47,2024-12-27,problema legal,Alto
+48,2024-09-19,problema legal,Alto
+48,2024-08-05,expansion,Alto
+48,2025-09-28,nueva inversion,Alto
+49,2024-05-30,despidos,Medio
+49,2024-12-11,despidos,Medio
+49,2025-04-08,expansion,Alto
+49,2025-08-19,problema legal,Alto
+50,2025-05-22,crecimiento ventas,Medio
+51,2025-09-27,crecimiento ventas,Medio
+51,2025-05-02,despidos,Medio
+51,2025-10-02,problema legal,Alto
+51,2025-05-15,despidos,Medio
+51,2025-02-02,nueva inversion,Alto
+52,2025-04-25,despidos,Medio
+52,2025-10-27,crecimiento ventas,Medio
+52,2025-09-15,crecimiento ventas,Medio
+52,2026-01-15,expansion,Alto
+53,2024-11-08,expansion,Alto
+53,2025-07-31,nueva inversion,Alto
+54,2024-11-27,problema legal,Alto
+55,2024-11-28,expansion,Alto
+56,2026-02-14,despidos,Medio
+56,2024-05-09,problema legal,Alto
+56,2025-08-25,nueva inversion,Alto
+56,2025-12-08,nueva inversion,Alto
+56,2025-03-26,despidos,Medio
+57,2024-03-20,crecimiento ventas,Medio
+57,2024-09-29,problema legal,Alto
+57,2026-02-01,problema legal,Alto
+58,2026-01-23,expansion,Alto
+58,2025-03-14,crecimiento ventas,Medio
+58,2025-05-28,expansion,Alto
+58,2025-04-11,nueva inversion,Alto
+58,2024-03-03,crecimiento ventas,Medio
+59,2024-03-03,problema legal,Alto
+60,2025-04-16,crecimiento ventas,Medio
+60,2025-02-21,crecimiento ventas,Medio
+60,2024-09-03,problema legal,Alto
+61,2024-10-05,problema legal,Alto
+61,2024-10-26,crecimiento ventas,Medio
+62,2024-05-28,nueva inversion,Alto
+62,2024-04-12,nueva inversion,Alto
+62,2024-08-21,nueva inversion,Alto
+63,2025-10-13,problema legal,Alto
+63,2024-09-09,crecimiento ventas,Medio
+63,2025-08-19,despidos,Medio
+63,2025-01-31,problema legal,Alto
+64,2024-11-26,nueva inversion,Alto
+64,2025-04-25,crecimiento ventas,Medio
+65,2024-05-26,nueva inversion,Alto
+65,2025-03-28,nueva inversion,Alto
+65,2024-06-17,nueva inversion,Alto
+65,2024-10-13,despidos,Medio
+66,2025-05-09,problema legal,Alto
+66,2025-01-08,nueva inversion,Alto
+67,2025-08-30,nueva inversion,Alto
+67,2024-10-25,expansion,Alto
+68,2025-10-04,expansion,Alto
+68,2024-06-22,expansion,Alto
+68,2025-03-13,crecimiento ventas,Medio
+68,2025-03-25,nueva inversion,Alto
+69,2024-03-26,problema legal,Alto
+69,2024-12-27,expansion,Alto
+69,2024-03-30,crecimiento ventas,Medio
+69,2025-05-07,expansion,Alto
+70,2024-03-21,crecimiento ventas,Medio
+70,2024-06-05,crecimiento ventas,Medio
+70,2025-08-27,despidos,Medio
+70,2024-11-04,crecimiento ventas,Medio
+70,2025-11-05,problema legal,Alto
+71,2025-07-13,expansion,Alto
+71,2025-10-20,despidos,Medio
+71,2025-10-14,despidos,Medio
+71,2025-05-14,nueva inversion,Alto
+71,2025-05-13,expansion,Alto
+72,2024-10-29,problema legal,Alto
+72,2025-07-18,nueva inversion,Alto
+72,2025-02-25,expansion,Alto
+72,2025-04-03,despidos,Medio
+72,2024-12-08,nueva inversion,Alto
+73,2025-05-10,despidos,Medio
+73,2025-07-29,problema legal,Alto
+73,2025-04-16,expansion,Alto
+73,2024-12-10,crecimiento ventas,Medio
+73,2026-01-15,despidos,Medio
+74,2024-08-18,nueva inversion,Alto
+74,2024-03-31,problema legal,Alto
+74,2024-05-07,expansion,Alto
+74,2025-01-06,problema legal,Alto
+74,2024-11-02,nueva inversion,Alto
+75,2025-05-06,nueva inversion,Alto
+75,2025-06-02,crecimiento ventas,Medio
+75,2024-05-13,nueva inversion,Alto
+75,2026-02-10,expansion,Alto
+76,2024-06-08,expansion,Alto
+76,2025-02-24,despidos,Medio
+76,2024-10-28,problema legal,Alto
+76,2026-02-15,crecimiento ventas,Medio
+76,2024-08-30,problema legal,Alto
+77,2024-06-17,nueva inversion,Alto
+77,2025-02-07,expansion,Alto
+77,2025-09-22,despidos,Medio
+78,2024-07-28,nueva inversion,Alto
+79,2026-01-14,problema legal,Alto
+79,2024-04-13,expansion,Alto
+79,2026-02-14,despidos,Medio
+79,2025-02-20,crecimiento ventas,Medio
+80,2024-12-10,problema legal,Alto
+80,2025-11-20,problema legal,Alto
+80,2024-08-16,expansion,Alto
+81,2025-12-21,problema legal,Alto
+81,2025-10-14,expansion,Alto
+81,2024-04-03,despidos,Medio
+81,2024-06-07,expansion,Alto
+81,2025-03-17,problema legal,Alto
+82,2025-09-27,problema legal,Alto
+82,2025-04-12,problema legal,Alto
+82,2025-02-21,despidos,Medio
+82,2024-08-25,problema legal,Alto
+83,2024-04-16,problema legal,Alto
+83,2024-07-15,nueva inversion,Alto
+83,2025-11-05,crecimiento ventas,Medio
+84,2025-11-04,problema legal,Alto
+84,2025-09-03,crecimiento ventas,Medio
+85,2025-11-19,crecimiento ventas,Medio
+85,2025-03-05,problema legal,Alto
+86,2025-06-29,problema legal,Alto
+86,2025-07-21,expansion,Alto
+87,2024-12-24,despidos,Medio
+88,2024-08-02,nueva inversion,Alto
+89,2024-05-05,crecimiento ventas,Medio
+90,2024-12-18,expansion,Alto
+91,2024-12-15,nueva inversion,Alto
+91,2024-02-29,problema legal,Alto
+91,2024-10-03,despidos,Medio
+92,2025-06-19,crecimiento ventas,Medio
+92,2025-03-11,despidos,Medio
+92,2025-05-26,problema legal,Alto
+92,2025-06-12,crecimiento ventas,Medio
+93,2024-09-24,crecimiento ventas,Medio
+93,2025-11-15,despidos,Medio
+93,2025-10-22,expansion,Alto
+94,2025-03-19,problema legal,Alto
+94,2026-02-06,expansion,Alto
+94,2026-02-03,despidos,Medio
+94,2025-12-26,problema legal,Alto
+95,2024-12-06,expansion,Alto
+95,2024-12-19,crecimiento ventas,Medio
+95,2025-02-13,expansion,Alto
+96,2024-10-10,crecimiento ventas,Medio
+96,2024-03-25,nueva inversion,Alto
+97,2025-08-20,nueva inversion,Alto
+98,2025-02-09,despidos,Medio
+98,2025-06-13,despidos,Medio
+98,2024-07-03,despidos,Medio
+98,2025-11-13,crecimiento ventas,Medio
+99,2024-07-14,expansion,Alto
+99,2024-10-21,problema legal,Alto
+99,2025-12-04,expansion,Alto
+100,2025-02-09,nueva inversion,Alto
+101,2025-08-25,expansion,Alto
+101,2025-06-08,despidos,Medio
+101,2025-06-25,problema legal,Alto
+102,2025-07-13,nueva inversion,Alto
+102,2024-05-28,problema legal,Alto
+102,2025-08-17,expansion,Alto
+102,2025-12-23,despidos,Medio
+103,2025-01-18,problema legal,Alto
+103,2025-11-21,nueva inversion,Alto
+103,2024-08-02,crecimiento ventas,Medio
+103,2025-03-10,problema legal,Alto
+104,2024-12-04,nueva inversion,Alto
+104,2025-07-20,expansion,Alto
+104,2026-01-22,nueva inversion,Alto
+104,2025-07-08,despidos,Medio
+105,2024-04-15,expansion,Alto
+105,2024-08-15,problema legal,Alto
+105,2024-12-13,nueva inversion,Alto
+106,2025-09-09,nueva inversion,Alto
+107,2024-08-25,despidos,Medio
+107,2025-03-14,crecimiento ventas,Medio
+107,2025-06-29,expansion,Alto
+108,2025-08-26,nueva inversion,Alto
+109,2025-06-09,expansion,Alto
+109,2025-06-06,expansion,Alto
+109,2024-04-02,problema legal,Alto
+109,2024-10-17,problema legal,Alto
+109,2025-07-21,nueva inversion,Alto
+110,2025-05-12,nueva inversion,Alto
+110,2025-06-21,problema legal,Alto
+110,2024-04-19,expansion,Alto
+110,2025-03-11,expansion,Alto
+110,2025-02-07,problema legal,Alto
+111,2025-01-08,despidos,Medio
+111,2026-01-31,expansion,Alto
+111,2025-09-01,despidos,Medio
+111,2024-10-25,nueva inversion,Alto
+111,2024-09-17,crecimiento ventas,Medio
+112,2025-06-17,crecimiento ventas,Medio
+112,2024-08-26,problema legal,Alto
+112,2025-02-14,expansion,Alto
+112,2024-12-02,expansion,Alto
+112,2025-05-24,crecimiento ventas,Medio
+113,2024-08-17,expansion,Alto
+113,2026-01-16,nueva inversion,Alto
+113,2025-12-07,problema legal,Alto
+113,2025-03-29,nueva inversion,Alto
+114,2025-10-10,problema legal,Alto
+115,2025-12-16,problema legal,Alto
+116,2025-05-20,expansion,Alto
+116,2024-09-08,crecimiento ventas,Medio
+116,2026-02-01,crecimiento ventas,Medio
+117,2024-09-24,crecimiento ventas,Medio
+117,2025-01-31,despidos,Medio
+117,2026-01-06,problema legal,Alto
+118,2026-01-28,expansion,Alto
+118,2025-05-04,despidos,Medio
+118,2025-03-16,nueva inversion,Alto
+119,2025-12-02,expansion,Alto
+119,2025-12-07,despidos,Medio
+119,2024-07-03,expansion,Alto
+119,2024-07-05,expansion,Alto
+120,2026-02-01,crecimiento ventas,Medio
+120,2025-06-11,crecimiento ventas,Medio
+120,2024-07-25,expansion,Alto
+121,2024-10-23,problema legal,Alto
+121,2024-07-04,crecimiento ventas,Medio
+121,2025-08-22,problema legal,Alto
+121,2025-05-01,problema legal,Alto
+122,2025-06-28,problema legal,Alto
+122,2026-01-07,crecimiento ventas,Medio
+122,2024-04-28,nueva inversion,Alto
+122,2025-11-19,expansion,Alto
+122,2025-08-23,despidos,Medio
+123,2025-02-04,expansion,Alto
+123,2024-04-17,expansion,Alto
+123,2025-11-01,problema legal,Alto
+124,2024-07-28,expansion,Alto
+124,2024-07-16,problema legal,Alto
+124,2025-01-02,expansion,Alto
+125,2024-12-24,nueva inversion,Alto
+125,2025-02-19,expansion,Alto
+125,2025-03-05,problema legal,Alto
+125,2026-01-15,expansion,Alto
+126,2024-04-07,problema legal,Alto
+126,2025-12-04,crecimiento ventas,Medio
+127,2025-11-19,crecimiento ventas,Medio
+128,2025-10-17,expansion,Alto
+128,2024-05-08,despidos,Medio
+129,2024-11-08,crecimiento ventas,Medio
+129,2025-11-15,crecimiento ventas,Medio
+129,2025-10-28,problema legal,Alto
+129,2024-10-12,crecimiento ventas,Medio
+130,2025-03-19,problema legal,Alto
+130,2024-12-29,nueva inversion,Alto
+130,2024-06-04,nueva inversion,Alto
+130,2025-10-18,crecimiento ventas,Medio
+131,2024-06-26,expansion,Alto
+131,2025-12-01,expansion,Alto
+131,2026-01-14,crecimiento ventas,Medio
+132,2025-11-06,nueva inversion,Alto
+132,2024-10-14,crecimiento ventas,Medio
+133,2025-03-27,despidos,Medio
+133,2025-10-06,expansion,Alto
+133,2024-08-24,despidos,Medio
+133,2026-01-18,problema legal,Alto
+133,2024-04-04,problema legal,Alto
+134,2024-09-07,expansion,Alto
+134,2025-09-05,nueva inversion,Alto
+134,2025-11-08,expansion,Alto
+134,2025-04-29,nueva inversion,Alto
+134,2025-10-04,expansion,Alto
+135,2024-04-01,crecimiento ventas,Medio
+136,2025-01-18,nueva inversion,Alto
+137,2025-03-30,expansion,Alto
+137,2025-05-28,problema legal,Alto
+137,2025-04-02,crecimiento ventas,Medio
+137,2024-11-08,nueva inversion,Alto
+137,2025-01-21,expansion,Alto
+138,2024-03-28,expansion,Alto
+138,2025-07-18,nueva inversion,Alto
+139,2024-05-18,crecimiento ventas,Medio
+139,2025-10-21,problema legal,Alto
+140,2025-09-04,nueva inversion,Alto
+140,2024-05-08,despidos,Medio
+140,2026-01-22,problema legal,Alto
+140,2024-09-05,crecimiento ventas,Medio
+141,2024-05-18,nueva inversion,Alto
+141,2024-12-27,crecimiento ventas,Medio
+142,2025-08-04,despidos,Medio
+142,2026-01-03,nueva inversion,Alto
+142,2025-12-02,expansion,Alto
+142,2025-09-06,problema legal,Alto
+142,2026-01-12,nueva inversion,Alto
+143,2025-07-03,problema legal,Alto
+143,2026-02-14,crecimiento ventas,Medio
+143,2024-06-20,despidos,Medio
+144,2024-12-29,nueva inversion,Alto
+144,2025-01-05,despidos,Medio
+144,2024-03-18,problema legal,Alto
+144,2025-04-27,expansion,Alto
+144,2025-04-21,nueva inversion,Alto
+145,2025-03-31,nueva inversion,Alto
+146,2025-07-15,nueva inversion,Alto
+147,2024-12-25,nueva inversion,Alto
+147,2024-11-12,expansion,Alto
+148,2024-05-12,crecimiento ventas,Medio
+148,2024-03-10,expansion,Alto
+148,2024-12-11,crecimiento ventas,Medio
+148,2024-06-11,crecimiento ventas,Medio
+148,2024-04-01,despidos,Medio
+149,2025-10-24,expansion,Alto
+149,2025-08-05,crecimiento ventas,Medio
+150,2024-06-23,problema legal,Alto
+151,2024-08-09,crecimiento ventas,Medio
+152,2025-11-04,problema legal,Alto
+152,2025-03-21,despidos,Medio
+152,2025-01-31,despidos,Medio
+152,2025-03-04,expansion,Alto
+153,2024-04-14,crecimiento ventas,Medio
+153,2025-05-11,problema legal,Alto
+153,2025-11-19,crecimiento ventas,Medio
+154,2026-02-08,nueva inversion,Alto
+154,2025-01-24,expansion,Alto
+154,2024-12-12,nueva inversion,Alto
+155,2026-01-23,nueva inversion,Alto
+155,2025-07-05,crecimiento ventas,Medio
+155,2025-12-12,nueva inversion,Alto
+155,2025-03-24,expansion,Alto
+156,2024-09-28,nueva inversion,Alto
+157,2025-09-11,problema legal,Alto
+157,2024-11-03,expansion,Alto
+157,2026-01-01,nueva inversion,Alto
+158,2025-05-23,crecimiento ventas,Medio
+158,2024-08-03,despidos,Medio
+158,2026-01-23,expansion,Alto
+159,2025-09-10,nueva inversion,Alto
+159,2025-03-01,problema legal,Alto
+159,2026-02-18,crecimiento ventas,Medio
+160,2025-07-11,crecimiento ventas,Medio
+160,2024-12-10,nueva inversion,Alto
+161,2024-08-16,problema legal,Alto
+161,2025-01-07,crecimiento ventas,Medio
+161,2025-11-11,expansion,Alto
+161,2024-11-02,nueva inversion,Alto
+161,2025-09-01,nueva inversion,Alto
+162,2025-08-31,problema legal,Alto
+163,2024-07-26,crecimiento ventas,Medio
+164,2026-02-17,expansion,Alto
+164,2025-11-04,despidos,Medio
+165,2024-06-19,crecimiento ventas,Medio
+165,2025-01-15,expansion,Alto
+166,2024-08-16,expansion,Alto
+166,2025-01-31,despidos,Medio
+166,2025-10-20,nueva inversion,Alto
+166,2025-08-16,expansion,Alto
+166,2024-06-24,problema legal,Alto
+167,2025-05-29,crecimiento ventas,Medio
+167,2024-04-04,expansion,Alto
+167,2025-10-12,expansion,Alto
+167,2025-11-18,crecimiento ventas,Medio
+168,2025-08-19,nueva inversion,Alto
+169,2025-04-12,despidos,Medio
+169,2025-11-12,crecimiento ventas,Medio
+169,2025-10-28,crecimiento ventas,Medio
+169,2025-05-11,despidos,Medio
+169,2024-09-01,despidos,Medio
+170,2024-05-02,crecimiento ventas,Medio
+171,2025-07-19,nueva inversion,Alto
+171,2025-03-08,nueva inversion,Alto
+171,2025-06-10,problema legal,Alto
+171,2024-02-25,despidos,Medio
+171,2025-10-05,problema legal,Alto
+172,2025-08-06,nueva inversion,Alto
+172,2025-10-14,crecimiento ventas,Medio
+173,2025-09-26,expansion,Alto
+173,2024-12-05,nueva inversion,Alto
+173,2024-11-29,despidos,Medio
+173,2025-12-14,problema legal,Alto
+173,2024-12-27,expansion,Alto
+174,2024-09-01,despidos,Medio
+174,2025-05-01,nueva inversion,Alto
+175,2025-05-12,problema legal,Alto
+175,2025-07-08,expansion,Alto
+175,2025-07-08,expansion,Alto
+176,2024-10-03,problema legal,Alto
+176,2025-08-24,crecimiento ventas,Medio
+176,2024-09-14,problema legal,Alto
+177,2025-06-14,nueva inversion,Alto
+177,2024-06-19,expansion,Alto
+177,2024-04-25,problema legal,Alto
+177,2025-07-12,expansion,Alto
+178,2024-11-15,nueva inversion,Alto
+178,2025-02-28,crecimiento ventas,Medio
+178,2025-04-14,crecimiento ventas,Medio
+178,2024-08-14,expansion,Alto
+178,2025-11-06,despidos,Medio
+179,2024-02-25,crecimiento ventas,Medio
+179,2025-04-20,problema legal,Alto
+179,2024-12-06,crecimiento ventas,Medio
+179,2024-07-15,expansion,Alto
+179,2025-01-04,expansion,Alto
+180,2024-10-26,despidos,Medio
+180,2024-03-06,nueva inversion,Alto
+180,2024-06-17,crecimiento ventas,Medio
+180,2024-03-29,nueva inversion,Alto
+180,2025-04-10,despidos,Medio
+181,2025-10-14,crecimiento ventas,Medio
+181,2024-12-20,nueva inversion,Alto
+181,2024-04-15,problema legal,Alto
+181,2025-04-16,expansion,Alto
+182,2024-10-09,crecimiento ventas,Medio
+183,2025-06-14,problema legal,Alto
+183,2024-11-08,despidos,Medio
+183,2026-02-12,crecimiento ventas,Medio
+183,2025-10-01,crecimiento ventas,Medio
+183,2025-06-19,problema legal,Alto
+184,2024-07-13,problema legal,Alto
+184,2025-04-17,despidos,Medio
+184,2024-11-16,problema legal,Alto
+185,2024-04-09,crecimiento ventas,Medio
+185,2025-07-15,despidos,Medio
+186,2024-11-30,crecimiento ventas,Medio
+186,2024-08-09,nueva inversion,Alto
+186,2025-06-04,nueva inversion,Alto
+187,2025-09-05,despidos,Medio
+187,2024-08-17,problema legal,Alto
+187,2025-04-07,nueva inversion,Alto
+188,2024-12-04,problema legal,Alto
+188,2025-01-05,problema legal,Alto
+188,2025-10-05,nueva inversion,Alto
+188,2025-06-25,despidos,Medio
+188,2025-01-19,nueva inversion,Alto
+189,2024-03-20,despidos,Medio
+189,2025-02-11,crecimiento ventas,Medio
+190,2025-11-15,expansion,Alto
+190,2025-01-22,crecimiento ventas,Medio
+191,2025-01-20,expansion,Alto
+191,2024-10-02,crecimiento ventas,Medio
+192,2025-06-12,nueva inversion,Alto
+192,2025-09-13,expansion,Alto
+192,2025-04-02,expansion,Alto
+193,2026-02-06,problema legal,Alto
+194,2025-03-01,expansion,Alto
+194,2025-06-17,nueva inversion,Alto
+194,2025-09-08,nueva inversion,Alto
+194,2024-06-08,problema legal,Alto
+194,2025-08-12,crecimiento ventas,Medio
+195,2024-12-11,problema legal,Alto
+195,2025-03-20,nueva inversion,Alto
+196,2024-12-16,problema legal,Alto
+196,2026-01-11,problema legal,Alto
+196,2025-11-13,crecimiento ventas,Medio
+196,2024-03-13,nueva inversion,Alto
+196,2025-04-26,expansion,Alto
+197,2026-01-26,problema legal,Alto
+197,2025-10-10,despidos,Medio
+197,2024-06-11,problema legal,Alto
+198,2024-08-18,expansion,Alto
+198,2024-08-17,expansion,Alto
+199,2025-01-26,nueva inversion,Alto
+199,2025-12-24,crecimiento ventas,Medio
+199,2025-06-13,despidos,Medio
+200,2024-10-03,problema legal,Alto
+200,2025-01-26,crecimiento ventas,Medio
+200,2024-12-25,despidos,Medio
+200,2026-01-06,despidos,Medio
+200,2024-10-13,crecimiento ventas,Medio
+201,2026-01-16,crecimiento ventas,Medio
+201,2025-08-26,despidos,Medio
+201,2026-01-15,crecimiento ventas,Medio
+201,2024-07-25,crecimiento ventas,Medio
+201,2026-01-05,despidos,Medio
+202,2025-08-26,crecimiento ventas,Medio
+203,2025-05-31,problema legal,Alto
+203,2024-02-25,nueva inversion,Alto
+203,2024-08-28,expansion,Alto
+203,2026-01-05,problema legal,Alto
+203,2025-04-20,nueva inversion,Alto
+204,2025-09-24,expansion,Alto
+205,2025-05-08,problema legal,Alto
+205,2025-09-08,problema legal,Alto
+205,2025-06-22,problema legal,Alto
+206,2025-06-11,crecimiento ventas,Medio
+206,2025-01-07,problema legal,Alto
+207,2024-03-18,problema legal,Alto
+207,2025-07-05,crecimiento ventas,Medio
+207,2024-06-04,problema legal,Alto
+207,2025-02-27,despidos,Medio
+207,2024-06-19,despidos,Medio
+208,2025-06-04,expansion,Alto
+208,2024-12-18,despidos,Medio
+208,2024-07-14,despidos,Medio
+208,2025-05-27,expansion,Alto
+208,2024-05-20,expansion,Alto
+209,2024-11-10,problema legal,Alto
+209,2026-02-06,despidos,Medio
+209,2025-03-01,crecimiento ventas,Medio
+209,2025-09-10,despidos,Medio
+210,2026-01-12,despidos,Medio
+210,2024-07-31,nueva inversion,Alto
+210,2024-10-26,despidos,Medio
+211,2025-06-10,problema legal,Alto
+211,2026-01-13,crecimiento ventas,Medio
+212,2024-06-01,problema legal,Alto
+212,2024-05-02,despidos,Medio
+212,2025-11-12,nueva inversion,Alto
+212,2025-11-04,problema legal,Alto
+213,2024-07-01,crecimiento ventas,Medio
+214,2025-01-23,problema legal,Alto
+215,2025-03-09,crecimiento ventas,Medio
+215,2025-07-04,expansion,Alto
+215,2025-07-16,expansion,Alto
+215,2024-04-07,despidos,Medio
+215,2024-04-30,crecimiento ventas,Medio
+216,2025-04-21,expansion,Alto
+216,2024-04-01,problema legal,Alto
+217,2024-04-15,problema legal,Alto
+217,2025-07-07,crecimiento ventas,Medio
+217,2024-03-03,nueva inversion,Alto
+217,2024-06-10,nueva inversion,Alto
+218,2024-03-20,nueva inversion,Alto
+218,2025-05-06,nueva inversion,Alto
+219,2025-02-06,crecimiento ventas,Medio
+219,2025-03-24,problema legal,Alto
+219,2026-01-23,nueva inversion,Alto
+219,2025-02-18,despidos,Medio
+219,2025-05-10,despidos,Medio
+220,2024-09-25,nueva inversion,Alto
+220,2024-09-20,problema legal,Alto
+220,2025-12-17,problema legal,Alto
+221,2025-05-13,crecimiento ventas,Medio
+221,2025-09-12,expansion,Alto
+222,2026-02-01,expansion,Alto
+222,2025-04-07,despidos,Medio
+223,2024-09-27,problema legal,Alto
+223,2024-09-02,expansion,Alto
+223,2024-07-18,expansion,Alto
+223,2024-03-17,crecimiento ventas,Medio
+224,2024-04-17,problema legal,Alto
+224,2024-09-22,despidos,Medio
+224,2025-10-15,expansion,Alto
+224,2024-04-08,expansion,Alto
+224,2024-12-13,crecimiento ventas,Medio
+225,2025-05-08,problema legal,Alto
+225,2025-09-07,problema legal,Alto
+225,2024-09-01,crecimiento ventas,Medio
+226,2025-08-02,problema legal,Alto
+226,2024-10-12,problema legal,Alto
+226,2024-12-27,crecimiento ventas,Medio
+226,2024-04-02,problema legal,Alto
+227,2024-04-08,expansion,Alto
+227,2025-10-27,crecimiento ventas,Medio
+227,2025-04-14,expansion,Alto
+227,2025-07-03,despidos,Medio
+227,2024-10-16,despidos,Medio
+228,2024-03-29,expansion,Alto
+228,2026-01-22,despidos,Medio
+228,2024-10-15,nueva inversion,Alto
+228,2025-11-18,expansion,Alto
+228,2025-10-28,despidos,Medio
+229,2025-01-07,problema legal,Alto
+229,2024-06-29,crecimiento ventas,Medio
+229,2025-08-13,nueva inversion,Alto
+229,2024-12-03,problema legal,Alto
+229,2025-04-24,despidos,Medio
+230,2024-07-04,nueva inversion,Alto
+231,2024-07-19,problema legal,Alto
+231,2024-05-17,despidos,Medio
+231,2025-10-30,nueva inversion,Alto
+231,2024-06-14,crecimiento ventas,Medio
+232,2026-01-15,expansion,Alto
+232,2024-08-20,expansion,Alto
+233,2025-02-09,expansion,Alto
+233,2025-09-01,expansion,Alto
+233,2024-07-19,expansion,Alto
+234,2025-12-16,crecimiento ventas,Medio
+234,2025-03-31,crecimiento ventas,Medio
+234,2025-03-05,crecimiento ventas,Medio
+234,2025-12-20,problema legal,Alto
+235,2025-11-09,nueva inversion,Alto
+236,2025-06-25,despidos,Medio
+236,2024-02-21,despidos,Medio
+236,2025-12-19,nueva inversion,Alto
+236,2025-06-21,nueva inversion,Alto
+237,2024-11-06,nueva inversion,Alto
+238,2025-06-16,nueva inversion,Alto
+238,2024-12-01,expansion,Alto
+239,2024-11-15,despidos,Medio
+239,2025-01-11,nueva inversion,Alto
+239,2025-01-29,nueva inversion,Alto
+239,2025-09-14,crecimiento ventas,Medio
+239,2025-07-04,despidos,Medio
+240,2025-02-08,crecimiento ventas,Medio
+240,2024-06-28,despidos,Medio
+240,2025-06-14,nueva inversion,Alto
+240,2026-02-06,problema legal,Alto
+241,2024-10-11,expansion,Alto
+241,2024-05-24,problema legal,Alto
+241,2026-02-03,despidos,Medio
+241,2024-03-10,problema legal,Alto
+241,2024-12-30,nueva inversion,Alto
+242,2024-05-01,problema legal,Alto
+242,2024-10-30,problema legal,Alto
+243,2024-11-18,expansion,Alto
+243,2024-10-16,nueva inversion,Alto
+243,2025-01-31,crecimiento ventas,Medio
+243,2025-12-30,crecimiento ventas,Medio
+243,2025-04-30,expansion,Alto
+244,2025-06-30,nueva inversion,Alto
+244,2026-01-30,problema legal,Alto
+244,2024-09-19,expansion,Alto
+244,2025-01-06,expansion,Alto
+245,2025-07-21,problema legal,Alto
+245,2026-01-13,nueva inversion,Alto
+246,2025-02-12,nueva inversion,Alto
+247,2025-03-28,despidos,Medio
+247,2024-09-25,crecimiento ventas,Medio
+247,2024-12-05,problema legal,Alto
+247,2025-10-16,nueva inversion,Alto
+248,2025-05-29,expansion,Alto
+249,2025-10-27,nueva inversion,Alto
+249,2025-07-16,crecimiento ventas,Medio
+250,2025-05-07,problema legal,Alto
+250,2024-04-13,expansion,Alto
+250,2024-05-06,crecimiento ventas,Medio
+250,2025-11-17,despidos,Medio
+251,2025-02-15,crecimiento ventas,Medio
+252,2025-01-25,crecimiento ventas,Medio
+252,2025-03-31,nueva inversion,Alto
+252,2025-07-15,crecimiento ventas,Medio
+252,2025-07-29,problema legal,Alto
+253,2025-02-23,crecimiento ventas,Medio
+253,2025-07-21,crecimiento ventas,Medio
+253,2025-06-02,expansion,Alto
+254,2024-04-19,crecimiento ventas,Medio
+254,2025-07-17,problema legal,Alto
+255,2025-01-19,crecimiento ventas,Medio
+255,2024-06-03,despidos,Medio
+256,2024-11-30,despidos,Medio
+256,2024-11-16,despidos,Medio
+256,2025-11-09,problema legal,Alto
+256,2025-09-18,crecimiento ventas,Medio
+257,2025-02-11,expansion,Alto
+257,2025-07-14,crecimiento ventas,Medio
+258,2025-06-27,problema legal,Alto
+258,2025-12-09,crecimiento ventas,Medio
+258,2025-10-23,crecimiento ventas,Medio
+258,2024-04-18,expansion,Alto
+258,2025-12-03,crecimiento ventas,Medio
+259,2025-07-19,despidos,Medio
+259,2025-04-14,problema legal,Alto
+259,2024-10-20,expansion,Alto
+259,2024-07-24,despidos,Medio
+259,2025-01-06,nueva inversion,Alto
+260,2025-09-21,nueva inversion,Alto
+260,2025-08-05,crecimiento ventas,Medio
+260,2025-10-06,problema legal,Alto
+260,2024-10-10,despidos,Medio
+260,2025-12-06,crecimiento ventas,Medio
+261,2026-01-23,despidos,Medio
+261,2024-03-19,nueva inversion,Alto
+261,2024-07-25,nueva inversion,Alto
+261,2024-06-22,nueva inversion,Alto
+261,2024-09-18,crecimiento ventas,Medio
+262,2025-07-19,despidos,Medio
+262,2025-11-24,despidos,Medio
+262,2025-05-15,despidos,Medio
+263,2024-05-17,problema legal,Alto
+263,2024-10-22,problema legal,Alto
+263,2025-04-18,problema legal,Alto
+264,2026-02-01,nueva inversion,Alto
+264,2024-09-05,crecimiento ventas,Medio
+264,2024-10-10,expansion,Alto
+264,2024-04-30,expansion,Alto
+265,2025-08-12,despidos,Medio
+265,2024-03-12,problema legal,Alto
+265,2025-10-03,nueva inversion,Alto
+265,2024-03-31,nueva inversion,Alto
+266,2024-09-25,expansion,Alto
+267,2024-05-21,despidos,Medio
+267,2024-03-01,nueva inversion,Alto
+268,2025-06-13,expansion,Alto
+268,2025-02-04,problema legal,Alto
+269,2025-03-17,expansion,Alto
+270,2025-03-13,nueva inversion,Alto
+271,2024-11-22,expansion,Alto
+272,2024-04-19,crecimiento ventas,Medio
+272,2024-08-29,expansion,Alto
+272,2025-10-08,crecimiento ventas,Medio
+272,2025-03-12,despidos,Medio
+272,2025-07-29,problema legal,Alto
+273,2025-09-12,expansion,Alto
+273,2026-01-24,expansion,Alto
+274,2025-11-03,expansion,Alto
+274,2025-01-20,despidos,Medio
+274,2025-09-13,crecimiento ventas,Medio
+275,2025-03-10,crecimiento ventas,Medio
+275,2025-04-04,crecimiento ventas,Medio
+275,2025-06-22,despidos,Medio
+275,2025-07-06,problema legal,Alto
+275,2025-04-02,nueva inversion,Alto
+276,2024-04-23,crecimiento ventas,Medio
+277,2025-07-27,problema legal,Alto
+277,2024-05-12,expansion,Alto
+278,2025-02-27,crecimiento ventas,Medio
+278,2025-07-07,problema legal,Alto
+278,2024-06-11,problema legal,Alto
+279,2024-11-05,expansion,Alto
+279,2024-02-26,crecimiento ventas,Medio
+279,2024-05-09,despidos,Medio
+280,2025-08-14,problema legal,Alto
+280,2025-01-23,despidos,Medio
+280,2024-03-07,expansion,Alto
+281,2024-07-03,expansion,Alto
+281,2024-07-23,expansion,Alto
+282,2024-08-12,despidos,Medio
+282,2025-03-03,nueva inversion,Alto
+282,2024-09-07,despidos,Medio
+283,2024-11-26,expansion,Alto
+283,2024-06-20,nueva inversion,Alto
+283,2025-09-07,crecimiento ventas,Medio
+283,2024-10-03,expansion,Alto
+283,2025-08-23,problema legal,Alto
+284,2025-11-03,crecimiento ventas,Medio
+285,2024-12-28,problema legal,Alto
+286,2025-03-23,despidos,Medio
+286,2025-04-23,nueva inversion,Alto
+286,2024-10-19,despidos,Medio
+286,2025-03-30,problema legal,Alto
+287,2024-10-09,despidos,Medio
+288,2025-07-29,crecimiento ventas,Medio
+289,2024-12-02,nueva inversion,Alto
+289,2026-02-04,crecimiento ventas,Medio
+289,2024-05-22,problema legal,Alto
+289,2025-06-01,despidos,Medio
+290,2025-11-17,crecimiento ventas,Medio
+290,2025-09-16,nueva inversion,Alto
+291,2025-11-02,expansion,Alto
+291,2025-06-19,despidos,Medio
+291,2025-07-20,crecimiento ventas,Medio
+292,2025-07-15,problema legal,Alto
+292,2026-02-16,nueva inversion,Alto
+292,2025-04-08,problema legal,Alto
+292,2024-07-08,expansion,Alto
+292,2024-03-05,crecimiento ventas,Medio
+293,2024-06-10,despidos,Medio
+293,2024-07-10,despidos,Medio
+293,2024-09-05,nueva inversion,Alto
+293,2025-10-08,nueva inversion,Alto
+294,2025-03-21,expansion,Alto
+294,2025-09-26,despidos,Medio
+295,2024-06-09,crecimiento ventas,Medio
+296,2025-09-16,crecimiento ventas,Medio
+296,2025-04-09,expansion,Alto
+296,2025-05-02,despidos,Medio
+297,2026-01-20,nueva inversion,Alto
+297,2024-02-27,despidos,Medio
+297,2025-07-26,expansion,Alto
+298,2024-08-10,expansion,Alto
+298,2025-09-19,expansion,Alto
+299,2025-09-15,crecimiento ventas,Medio
+300,2025-03-27,nueva inversion,Alto
+301,2025-10-31,problema legal,Alto
+302,2026-01-11,crecimiento ventas,Medio
+303,2025-10-29,nueva inversion,Alto
+304,2024-05-29,nueva inversion,Alto
+304,2024-10-19,problema legal,Alto
+304,2025-05-19,crecimiento ventas,Medio
+304,2025-01-23,problema legal,Alto
+305,2025-02-23,expansion,Alto
+305,2025-08-12,nueva inversion,Alto
+306,2024-07-12,nueva inversion,Alto
+306,2025-11-22,crecimiento ventas,Medio
+307,2024-07-21,nueva inversion,Alto
+307,2024-03-07,nueva inversion,Alto
+307,2024-07-05,crecimiento ventas,Medio
+307,2025-12-05,expansion,Alto
+307,2024-09-10,nueva inversion,Alto
+308,2024-03-26,expansion,Alto
+308,2025-10-04,expansion,Alto
+308,2025-06-12,expansion,Alto
+308,2025-05-21,despidos,Medio
+309,2024-09-15,despidos,Medio
+309,2025-05-16,nueva inversion,Alto
+309,2024-12-27,expansion,Alto
+310,2025-06-16,problema legal,Alto
+310,2024-11-07,crecimiento ventas,Medio
+310,2025-01-15,expansion,Alto
+311,2024-04-15,despidos,Medio
+311,2024-11-25,crecimiento ventas,Medio
+311,2024-03-20,crecimiento ventas,Medio
+312,2025-09-03,despidos,Medio
+312,2025-09-23,despidos,Medio
+312,2024-08-01,expansion,Alto
+313,2025-01-15,despidos,Medio
+313,2025-08-05,crecimiento ventas,Medio
+313,2025-09-26,expansion,Alto
+313,2024-12-29,problema legal,Alto
+313,2025-10-04,despidos,Medio
+314,2024-05-11,problema legal,Alto
+314,2025-07-28,expansion,Alto
+314,2025-04-24,nueva inversion,Alto
+315,2024-06-20,problema legal,Alto
+315,2024-05-16,problema legal,Alto
+315,2024-05-30,despidos,Medio
+315,2025-04-11,problema legal,Alto
+316,2025-11-08,despidos,Medio
+316,2024-08-29,problema legal,Alto
+317,2026-01-07,despidos,Medio
+317,2025-12-27,expansion,Alto
+317,2024-06-21,crecimiento ventas,Medio
+317,2024-09-19,expansion,Alto
+318,2024-03-20,problema legal,Alto
+318,2024-02-28,despidos,Medio
+318,2024-09-01,expansion,Alto
+318,2024-05-19,expansion,Alto
+318,2025-08-23,nueva inversion,Alto
+319,2025-07-25,despidos,Medio
+319,2025-10-05,expansion,Alto
+319,2024-02-28,expansion,Alto
+320,2024-03-12,nueva inversion,Alto
+321,2024-11-22,expansion,Alto
+321,2024-10-28,problema legal,Alto
+321,2024-07-03,expansion,Alto
+322,2024-10-28,despidos,Medio
+322,2025-06-24,nueva inversion,Alto
+322,2025-08-13,problema legal,Alto
+322,2024-12-17,nueva inversion,Alto
+323,2024-12-06,despidos,Medio
+324,2024-10-26,expansion,Alto
+324,2024-07-11,problema legal,Alto
+324,2025-01-28,crecimiento ventas,Medio
+324,2025-06-23,problema legal,Alto
+324,2024-02-24,crecimiento ventas,Medio
+325,2024-08-31,crecimiento ventas,Medio
+326,2024-12-11,despidos,Medio
+326,2025-02-14,despidos,Medio
+327,2025-07-01,nueva inversion,Alto
+327,2025-05-21,nueva inversion,Alto
+327,2024-04-15,expansion,Alto
+327,2025-01-02,expansion,Alto
+327,2026-01-07,problema legal,Alto
+328,2025-05-14,crecimiento ventas,Medio
+328,2025-07-18,crecimiento ventas,Medio
+328,2025-12-04,problema legal,Alto
+328,2024-06-24,expansion,Alto
+328,2024-02-29,problema legal,Alto
+329,2025-11-15,nueva inversion,Alto
+329,2025-03-07,problema legal,Alto
+329,2024-02-21,nueva inversion,Alto
+329,2024-05-05,problema legal,Alto
+329,2024-04-14,problema legal,Alto
+330,2026-01-29,expansion,Alto
+330,2025-06-19,problema legal,Alto
+330,2024-05-14,nueva inversion,Alto
+330,2025-12-25,despidos,Medio
+331,2025-10-26,expansion,Alto
+331,2024-02-25,despidos,Medio
+331,2024-12-07,despidos,Medio
+331,2025-06-02,nueva inversion,Alto
+332,2025-09-25,despidos,Medio
+332,2025-11-14,problema legal,Alto
+332,2024-08-31,problema legal,Alto
+332,2024-12-02,crecimiento ventas,Medio
+333,2024-06-10,despidos,Medio
+333,2025-12-26,crecimiento ventas,Medio
+333,2025-03-29,crecimiento ventas,Medio
+333,2025-12-31,expansion,Alto
+334,2025-07-24,nueva inversion,Alto
+334,2024-05-25,nueva inversion,Alto
+335,2025-12-13,crecimiento ventas,Medio
+335,2024-10-20,problema legal,Alto
+335,2024-12-11,despidos,Medio
+335,2025-05-13,problema legal,Alto
+336,2025-09-22,despidos,Medio
+337,2025-07-30,crecimiento ventas,Medio
+337,2025-02-21,expansion,Alto
+337,2024-11-16,expansion,Alto
+337,2025-09-30,problema legal,Alto
+338,2025-12-15,problema legal,Alto
+338,2025-05-12,problema legal,Alto
+338,2024-05-09,nueva inversion,Alto
+339,2025-11-16,expansion,Alto
+340,2025-08-18,problema legal,Alto
+341,2024-03-21,despidos,Medio
+341,2024-05-30,despidos,Medio
+341,2025-05-11,crecimiento ventas,Medio
+342,2025-04-13,nueva inversion,Alto
+342,2025-03-22,nueva inversion,Alto
+342,2024-07-31,problema legal,Alto
+342,2025-08-07,problema legal,Alto
+343,2025-01-15,crecimiento ventas,Medio
+343,2026-02-19,problema legal,Alto
+344,2024-11-05,problema legal,Alto
+345,2024-12-18,nueva inversion,Alto
+345,2024-07-09,despidos,Medio
+346,2025-06-27,expansion,Alto
+346,2025-12-17,problema legal,Alto
+346,2024-04-27,expansion,Alto
+346,2024-10-14,crecimiento ventas,Medio
+347,2025-01-15,nueva inversion,Alto
+347,2025-08-18,problema legal,Alto
+347,2025-04-10,expansion,Alto
+347,2025-09-24,despidos,Medio
+347,2024-11-14,despidos,Medio
+348,2024-09-12,problema legal,Alto
+349,2025-01-19,crecimiento ventas,Medio
+349,2025-03-08,despidos,Medio
+350,2025-12-02,problema legal,Alto
+350,2025-01-26,expansion,Alto
+350,2024-06-24,expansion,Alto
+350,2024-06-07,crecimiento ventas,Medio
+351,2024-05-15,despidos,Medio
+351,2024-05-13,nueva inversion,Alto
+352,2024-09-11,nueva inversion,Alto
+352,2025-08-17,problema legal,Alto
+352,2024-08-30,crecimiento ventas,Medio
+353,2024-11-07,despidos,Medio
+353,2025-01-15,problema legal,Alto
+354,2024-07-12,despidos,Medio
+354,2024-09-02,expansion,Alto
+354,2025-03-07,nueva inversion,Alto
+354,2024-11-28,expansion,Alto
+354,2024-11-05,problema legal,Alto
+355,2025-08-20,expansion,Alto
+356,2024-05-30,despidos,Medio
+356,2024-10-01,expansion,Alto
+357,2025-08-22,problema legal,Alto
+357,2025-09-01,expansion,Alto
+358,2025-08-20,nueva inversion,Alto
+358,2026-01-06,crecimiento ventas,Medio
+359,2025-01-31,nueva inversion,Alto
+359,2024-08-17,despidos,Medio
+359,2025-09-08,expansion,Alto
+359,2025-09-06,expansion,Alto
+360,2026-01-26,expansion,Alto
+361,2025-05-02,expansion,Alto
+361,2026-01-13,nueva inversion,Alto
+362,2024-06-13,despidos,Medio
+362,2024-11-20,nueva inversion,Alto
+363,2025-07-22,problema legal,Alto
+364,2025-03-09,despidos,Medio
+365,2025-12-11,problema legal,Alto
+365,2024-03-04,despidos,Medio
+365,2024-11-27,crecimiento ventas,Medio
+365,2025-04-28,problema legal,Alto
+365,2025-02-22,nueva inversion,Alto
+366,2025-05-16,problema legal,Alto
+366,2024-04-17,expansion,Alto
+366,2025-02-24,expansion,Alto
+366,2025-12-01,nueva inversion,Alto
+367,2024-06-20,despidos,Medio
+367,2024-04-06,nueva inversion,Alto
+367,2026-01-04,crecimiento ventas,Medio
+367,2025-07-03,crecimiento ventas,Medio
+367,2024-03-15,crecimiento ventas,Medio
+368,2024-12-20,despidos,Medio
+368,2024-07-11,crecimiento ventas,Medio
+368,2025-11-19,crecimiento ventas,Medio
+368,2025-09-21,expansion,Alto
+369,2024-08-02,despidos,Medio
+369,2025-05-28,nueva inversion,Alto
+369,2024-02-28,nueva inversion,Alto
+370,2025-07-28,crecimiento ventas,Medio
+370,2024-05-05,problema legal,Alto
+370,2024-11-03,expansion,Alto
+370,2025-01-01,problema legal,Alto
+371,2025-10-22,expansion,Alto
+371,2024-05-31,crecimiento ventas,Medio
+371,2024-11-09,crecimiento ventas,Medio
+371,2024-10-02,expansion,Alto
+372,2024-04-12,nueva inversion,Alto
+372,2024-09-24,nueva inversion,Alto
+372,2025-05-12,expansion,Alto
+372,2024-11-28,despidos,Medio
+373,2025-01-05,expansion,Alto
+373,2025-03-18,expansion,Alto
+373,2025-02-03,despidos,Medio
+373,2024-09-11,expansion,Alto
+374,2024-05-14,expansion,Alto
+375,2024-08-03,despidos,Medio
+375,2024-04-02,expansion,Alto
+376,2024-07-23,expansion,Alto
+376,2024-11-17,problema legal,Alto
+376,2025-01-10,problema legal,Alto
+376,2025-02-28,crecimiento ventas,Medio
+376,2025-02-23,crecimiento ventas,Medio
+377,2024-08-07,despidos,Medio
+377,2025-09-21,crecimiento ventas,Medio
+377,2024-07-14,despidos,Medio
+377,2025-01-11,despidos,Medio
+377,2025-08-13,expansion,Alto
+378,2026-02-08,nueva inversion,Alto
+378,2024-07-05,problema legal,Alto
+379,2025-01-29,nueva inversion,Alto
+379,2025-03-16,crecimiento ventas,Medio
+379,2025-05-16,nueva inversion,Alto
+379,2025-11-06,crecimiento ventas,Medio
+379,2024-03-16,despidos,Medio
+380,2026-01-21,crecimiento ventas,Medio
+380,2025-10-29,crecimiento ventas,Medio
+381,2026-02-18,crecimiento ventas,Medio
+381,2025-06-28,nueva inversion,Alto
+381,2024-12-19,problema legal,Alto
+381,2025-09-07,expansion,Alto
+382,2024-12-13,nueva inversion,Alto
+382,2024-03-10,nueva inversion,Alto
+383,2024-09-10,crecimiento ventas,Medio
+384,2025-03-01,nueva inversion,Alto
+384,2025-06-10,expansion,Alto
+384,2025-05-31,problema legal,Alto
+384,2025-04-19,problema legal,Alto
+384,2024-02-23,problema legal,Alto
+385,2025-11-09,nueva inversion,Alto
+385,2025-03-11,crecimiento ventas,Medio
+386,2024-07-24,despidos,Medio
+387,2024-12-04,crecimiento ventas,Medio
+387,2024-12-04,nueva inversion,Alto
+388,2026-01-13,crecimiento ventas,Medio
+389,2025-07-03,despidos,Medio
+389,2025-10-20,despidos,Medio
+389,2025-12-15,crecimiento ventas,Medio
+389,2025-05-12,expansion,Alto
+389,2024-02-23,crecimiento ventas,Medio
+390,2025-12-10,nueva inversion,Alto
+390,2025-07-01,nueva inversion,Alto
+390,2026-01-27,nueva inversion,Alto
+391,2024-09-11,problema legal,Alto
+391,2024-11-01,despidos,Medio
+391,2025-08-07,crecimiento ventas,Medio
+392,2025-04-28,nueva inversion,Alto
+392,2025-11-29,expansion,Alto
+392,2025-12-28,crecimiento ventas,Medio
+392,2024-08-26,nueva inversion,Alto
+392,2025-07-16,crecimiento ventas,Medio
+393,2025-03-17,despidos,Medio
+394,2024-03-13,expansion,Alto
+394,2025-02-23,despidos,Medio
+394,2025-07-18,crecimiento ventas,Medio
+394,2025-04-07,problema legal,Alto
+395,2025-06-05,expansion,Alto
+396,2025-11-21,problema legal,Alto
+396,2026-01-03,problema legal,Alto
+396,2025-08-10,problema legal,Alto
+396,2024-09-15,problema legal,Alto
+397,2024-07-06,crecimiento ventas,Medio
+398,2024-09-06,expansion,Alto
+398,2025-07-19,nueva inversion,Alto
+398,2025-03-03,problema legal,Alto
+398,2024-09-03,problema legal,Alto
+398,2024-11-28,problema legal,Alto
+399,2024-04-29,despidos,Medio
+399,2024-07-19,nueva inversion,Alto
+399,2026-02-04,nueva inversion,Alto
+400,2024-02-26,crecimiento ventas,Medio
+400,2025-03-13,expansion,Alto
+400,2026-02-09,nueva inversion,Alto
+400,2025-08-05,despidos,Medio
+400,2024-06-13,nueva inversion,Alto
+401,2024-06-05,despidos,Medio
+401,2024-11-18,expansion,Alto
+401,2026-01-02,despidos,Medio
+402,2025-05-14,expansion,Alto
+402,2024-06-07,nueva inversion,Alto
+402,2025-08-03,expansion,Alto
+403,2025-02-12,nueva inversion,Alto
+404,2025-07-08,despidos,Medio
+404,2024-05-13,crecimiento ventas,Medio
+404,2024-11-05,crecimiento ventas,Medio
+404,2025-05-26,nueva inversion,Alto
+404,2024-05-05,nueva inversion,Alto
+405,2024-05-10,nueva inversion,Alto
+405,2025-02-21,problema legal,Alto
+406,2025-07-22,expansion,Alto
+406,2024-05-07,nueva inversion,Alto
+406,2025-05-22,despidos,Medio
+406,2025-03-08,crecimiento ventas,Medio
+406,2024-12-01,despidos,Medio
+407,2025-03-14,crecimiento ventas,Medio
+407,2025-12-15,problema legal,Alto
+407,2025-12-19,crecimiento ventas,Medio
+407,2025-03-16,despidos,Medio
+407,2024-08-01,expansion,Alto
+408,2025-06-13,despidos,Medio
+408,2025-11-25,crecimiento ventas,Medio
+408,2024-12-29,nueva inversion,Alto
+408,2024-04-12,despidos,Medio
+409,2024-12-06,despidos,Medio
+409,2025-06-05,crecimiento ventas,Medio
+409,2025-06-24,despidos,Medio
+409,2025-12-03,problema legal,Alto
+409,2024-03-13,despidos,Medio
+410,2025-01-01,despidos,Medio
+410,2025-05-06,expansion,Alto
+410,2025-04-19,nueva inversion,Alto
+410,2025-12-22,nueva inversion,Alto
+411,2025-06-01,nueva inversion,Alto
+412,2024-11-08,problema legal,Alto
+412,2025-01-12,problema legal,Alto
+413,2025-03-20,problema legal,Alto
+413,2024-08-12,nueva inversion,Alto
+413,2025-07-09,nueva inversion,Alto
+413,2024-11-18,problema legal,Alto
+413,2025-01-20,problema legal,Alto
+414,2026-02-02,despidos,Medio
+414,2024-04-04,despidos,Medio
+414,2024-08-22,despidos,Medio
+415,2025-07-14,problema legal,Alto
+416,2024-04-20,despidos,Medio
+417,2025-12-21,nueva inversion,Alto
+417,2024-12-13,despidos,Medio
+418,2026-02-13,expansion,Alto
+418,2025-07-30,despidos,Medio
+418,2024-09-30,problema legal,Alto
+419,2024-09-01,crecimiento ventas,Medio
+419,2025-10-19,nueva inversion,Alto
+419,2025-07-11,despidos,Medio
+419,2025-11-10,nueva inversion,Alto
+419,2025-10-11,problema legal,Alto
+420,2024-09-07,crecimiento ventas,Medio
+420,2025-10-06,problema legal,Alto
+420,2025-10-23,despidos,Medio
+420,2024-09-21,crecimiento ventas,Medio
+420,2024-09-08,expansion,Alto
+421,2024-05-14,crecimiento ventas,Medio
+421,2024-04-20,crecimiento ventas,Medio
+422,2024-12-02,despidos,Medio
+422,2024-03-25,problema legal,Alto
+422,2024-10-02,problema legal,Alto
+422,2026-02-11,nueva inversion,Alto
+423,2025-02-20,problema legal,Alto
+423,2025-07-16,despidos,Medio
+423,2025-04-02,expansion,Alto
+424,2025-11-23,crecimiento ventas,Medio
+424,2025-11-23,expansion,Alto
+424,2024-05-27,crecimiento ventas,Medio
+424,2026-02-08,expansion,Alto
+424,2025-04-12,problema legal,Alto
+425,2024-03-17,nueva inversion,Alto
+425,2025-11-28,nueva inversion,Alto
+425,2025-01-20,crecimiento ventas,Medio
+425,2024-03-09,problema legal,Alto
+425,2025-08-08,crecimiento ventas,Medio
+426,2025-02-03,despidos,Medio
+426,2025-09-17,nueva inversion,Alto
+426,2025-11-29,crecimiento ventas,Medio
+426,2025-01-23,crecimiento ventas,Medio
+427,2024-10-27,despidos,Medio
+428,2024-08-17,crecimiento ventas,Medio
+428,2025-07-21,expansion,Alto
+428,2024-09-23,despidos,Medio
+428,2024-06-08,problema legal,Alto
+428,2024-05-04,expansion,Alto
+429,2025-07-23,expansion,Alto
+429,2024-05-20,crecimiento ventas,Medio
+429,2024-11-20,expansion,Alto
+430,2024-06-16,problema legal,Alto
+430,2025-03-02,problema legal,Alto
+431,2024-08-18,crecimiento ventas,Medio
+431,2025-12-30,despidos,Medio
+431,2024-10-03,crecimiento ventas,Medio
+431,2025-07-22,despidos,Medio
+431,2025-03-02,expansion,Alto
+432,2025-11-06,problema legal,Alto
+432,2025-12-22,crecimiento ventas,Medio
+432,2025-03-05,despidos,Medio
+432,2025-05-31,crecimiento ventas,Medio
+433,2024-07-29,nueva inversion,Alto
+433,2025-10-17,nueva inversion,Alto
+433,2025-06-19,despidos,Medio
+434,2024-06-24,expansion,Alto
+434,2026-01-27,crecimiento ventas,Medio
+434,2024-12-06,expansion,Alto
+434,2024-11-03,crecimiento ventas,Medio
+434,2025-01-06,nueva inversion,Alto
+435,2024-03-02,crecimiento ventas,Medio
+435,2025-09-18,problema legal,Alto
+435,2025-11-25,despidos,Medio
+435,2025-04-15,nueva inversion,Alto
+436,2024-12-31,despidos,Medio
+436,2025-04-30,despidos,Medio
+436,2024-09-23,nueva inversion,Alto
+436,2025-03-01,problema legal,Alto
+437,2025-12-22,expansion,Alto
+437,2025-03-06,crecimiento ventas,Medio
+437,2025-05-25,despidos,Medio
+438,2025-03-14,problema legal,Alto
+438,2024-10-20,despidos,Medio
+439,2025-09-23,expansion,Alto
+440,2024-11-02,nueva inversion,Alto
+440,2026-02-09,problema legal,Alto
+440,2025-09-22,crecimiento ventas,Medio
+440,2025-09-01,nueva inversion,Alto
+440,2025-12-13,problema legal,Alto
+441,2025-06-28,crecimiento ventas,Medio
+441,2025-04-29,expansion,Alto
+441,2026-01-06,crecimiento ventas,Medio
+441,2024-08-13,nueva inversion,Alto
+442,2025-10-11,expansion,Alto
+443,2024-12-21,nueva inversion,Alto
+443,2024-12-09,despidos,Medio
+443,2025-10-13,nueva inversion,Alto
+443,2024-12-15,problema legal,Alto
+443,2025-08-21,crecimiento ventas,Medio
+444,2024-12-06,nueva inversion,Alto
+444,2024-07-08,problema legal,Alto
+444,2026-02-13,despidos,Medio
+444,2025-09-22,crecimiento ventas,Medio
+445,2024-07-03,despidos,Medio
+445,2025-02-21,despidos,Medio
+445,2025-09-24,despidos,Medio
+445,2025-12-30,problema legal,Alto
+446,2025-07-20,nueva inversion,Alto
+446,2024-12-29,nueva inversion,Alto
+446,2025-01-08,crecimiento ventas,Medio
+446,2025-12-01,crecimiento ventas,Medio
+447,2025-11-30,problema legal,Alto
+448,2025-05-03,expansion,Alto
+448,2024-10-22,nueva inversion,Alto
+448,2025-01-06,crecimiento ventas,Medio
+448,2024-08-13,despidos,Medio
+449,2025-03-24,problema legal,Alto
+449,2025-10-12,problema legal,Alto
+449,2024-08-01,expansion,Alto
+449,2024-09-07,problema legal,Alto
+449,2024-08-07,crecimiento ventas,Medio
+450,2025-04-19,crecimiento ventas,Medio
+450,2024-07-13,problema legal,Alto
+450,2025-09-26,expansion,Alto
+450,2024-03-07,expansion,Alto
+450,2025-01-25,despidos,Medio
+451,2024-06-28,problema legal,Alto
+451,2026-02-05,nueva inversion,Alto
+451,2024-10-10,crecimiento ventas,Medio
+452,2024-04-30,expansion,Alto
+452,2025-09-04,despidos,Medio
+452,2024-08-28,despidos,Medio
+453,2025-09-17,expansion,Alto
+453,2025-05-20,expansion,Alto
+453,2024-03-11,nueva inversion,Alto
+453,2024-08-10,crecimiento ventas,Medio
+453,2026-01-07,despidos,Medio
+454,2024-12-16,crecimiento ventas,Medio
+454,2025-07-28,despidos,Medio
+455,2024-09-07,problema legal,Alto
+455,2025-09-18,despidos,Medio
+455,2025-06-26,crecimiento ventas,Medio
+455,2024-05-20,despidos,Medio
+455,2025-06-02,crecimiento ventas,Medio
+456,2025-05-30,nueva inversion,Alto
+456,2025-08-06,nueva inversion,Alto
+456,2024-12-02,problema legal,Alto
+456,2024-09-02,crecimiento ventas,Medio
+456,2025-01-15,despidos,Medio
+457,2024-09-20,despidos,Medio
+457,2024-11-14,nueva inversion,Alto
+457,2025-02-09,nueva inversion,Alto
+457,2025-08-08,problema legal,Alto
+457,2025-06-13,crecimiento ventas,Medio
+458,2025-06-12,despidos,Medio
+458,2025-03-25,expansion,Alto
+458,2025-04-13,crecimiento ventas,Medio
+458,2025-12-14,nueva inversion,Alto
+458,2025-10-28,despidos,Medio
+459,2024-08-09,expansion,Alto
+459,2024-08-12,problema legal,Alto
+459,2024-03-05,despidos,Medio
+460,2024-03-16,nueva inversion,Alto
+460,2025-07-17,problema legal,Alto
+460,2025-12-12,despidos,Medio
+460,2025-05-08,expansion,Alto
+460,2024-04-21,despidos,Medio
+461,2024-12-07,despidos,Medio
+461,2026-02-04,nueva inversion,Alto
+461,2025-04-12,expansion,Alto
+461,2024-06-01,despidos,Medio
+462,2025-12-18,expansion,Alto
+462,2024-12-29,despidos,Medio
+462,2025-03-10,expansion,Alto
+462,2025-09-29,despidos,Medio
+463,2024-10-29,nueva inversion,Alto
+464,2025-08-04,nueva inversion,Alto
+464,2025-06-02,problema legal,Alto
+465,2025-11-11,expansion,Alto
+465,2024-12-25,crecimiento ventas,Medio
+465,2025-11-24,despidos,Medio
+465,2025-11-19,problema legal,Alto
+466,2024-08-28,crecimiento ventas,Medio
+466,2025-09-29,expansion,Alto
+466,2024-09-08,nueva inversion,Alto
+466,2024-11-11,problema legal,Alto
+466,2024-10-06,nueva inversion,Alto
+467,2025-11-06,expansion,Alto
+467,2025-08-12,despidos,Medio
+467,2024-05-29,nueva inversion,Alto
+468,2025-04-02,despidos,Medio
+468,2025-02-28,nueva inversion,Alto
+468,2024-07-05,expansion,Alto
+468,2025-03-01,despidos,Medio
+468,2026-01-16,despidos,Medio
+469,2025-03-20,crecimiento ventas,Medio
+469,2024-04-12,expansion,Alto
+470,2024-07-30,expansion,Alto
+470,2024-08-14,problema legal,Alto
+471,2026-01-22,crecimiento ventas,Medio
+471,2024-05-16,problema legal,Alto
+471,2025-09-01,despidos,Medio
+472,2026-01-13,expansion,Alto
+472,2025-03-21,crecimiento ventas,Medio
+473,2025-06-07,problema legal,Alto
+473,2024-08-01,despidos,Medio
+473,2025-05-08,expansion,Alto
+473,2025-07-25,crecimiento ventas,Medio
+473,2024-06-19,nueva inversion,Alto
+474,2024-12-21,crecimiento ventas,Medio
+474,2025-10-04,despidos,Medio
+474,2025-01-08,crecimiento ventas,Medio
+474,2024-02-24,nueva inversion,Alto
+475,2024-09-19,despidos,Medio
+475,2024-05-12,expansion,Alto
+476,2025-09-10,crecimiento ventas,Medio
+476,2025-01-06,crecimiento ventas,Medio
+476,2025-11-21,crecimiento ventas,Medio
+476,2024-06-16,nueva inversion,Alto
+477,2025-07-30,problema legal,Alto
+478,2024-04-12,crecimiento ventas,Medio
+478,2025-09-12,expansion,Alto
+478,2024-04-18,expansion,Alto
+479,2024-03-07,despidos,Medio
+479,2024-12-27,despidos,Medio
+479,2025-05-11,crecimiento ventas,Medio
+479,2024-10-05,despidos,Medio
+480,2024-11-16,nueva inversion,Alto
+480,2024-04-13,problema legal,Alto
+480,2024-10-31,problema legal,Alto
+480,2025-12-27,expansion,Alto
+480,2024-10-21,despidos,Medio
+481,2024-07-05,nueva inversion,Alto
+481,2025-03-19,crecimiento ventas,Medio
+481,2026-01-29,nueva inversion,Alto
+482,2025-12-17,despidos,Medio
+482,2024-05-07,problema legal,Alto
+482,2024-11-21,crecimiento ventas,Medio
+482,2024-11-25,nueva inversion,Alto
+482,2024-10-17,nueva inversion,Alto
+483,2025-09-16,nueva inversion,Alto
+483,2025-07-17,expansion,Alto
+484,2024-03-13,crecimiento ventas,Medio
+484,2026-01-10,despidos,Medio
+484,2025-02-19,expansion,Alto
+484,2024-03-17,expansion,Alto
+484,2025-09-12,problema legal,Alto
+485,2024-10-27,crecimiento ventas,Medio
+486,2026-01-18,expansion,Alto
+486,2024-06-01,crecimiento ventas,Medio
+486,2024-10-31,nueva inversion,Alto
+486,2025-01-12,expansion,Alto
+486,2024-12-07,crecimiento ventas,Medio
+487,2024-08-04,crecimiento ventas,Medio
+487,2025-02-06,expansion,Alto
+488,2025-12-29,despidos,Medio
+488,2024-11-16,nueva inversion,Alto
+488,2024-10-15,crecimiento ventas,Medio
+488,2025-02-05,despidos,Medio
+488,2025-01-23,despidos,Medio
+489,2025-08-01,problema legal,Alto
+489,2024-06-27,nueva inversion,Alto
+490,2025-09-28,nueva inversion,Alto
+490,2025-01-03,expansion,Alto
+490,2024-06-07,problema legal,Alto
+490,2024-06-10,crecimiento ventas,Medio
+491,2024-10-31,crecimiento ventas,Medio
+491,2024-02-28,despidos,Medio
+491,2025-06-28,crecimiento ventas,Medio
+491,2024-05-21,crecimiento ventas,Medio
+492,2024-10-03,expansion,Alto
+493,2025-05-24,nueva inversion,Alto
+494,2024-12-25,despidos,Medio
+494,2025-11-12,nueva inversion,Alto
+495,2024-12-27,expansion,Alto
+495,2025-09-27,nueva inversion,Alto
+495,2024-11-16,problema legal,Alto
+496,2025-05-16,crecimiento ventas,Medio
+496,2024-10-18,problema legal,Alto
+496,2026-01-25,crecimiento ventas,Medio
+497,2024-08-12,nueva inversion,Alto
+498,2025-04-27,expansion,Alto
+499,2026-02-01,despidos,Medio
+499,2025-10-21,problema legal,Alto
+499,2025-03-20,crecimiento ventas,Medio
+499,2025-08-23,expansion,Alto
+500,2025-08-21,expansion,Alto
