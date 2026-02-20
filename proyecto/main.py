@@ -1,4 +1,4 @@
-from modules.recolector import carga_datos
+from src.recolector.recolector import carga_datos
 
 config = {"data_path": "data/synthetic/"}
 

@@ -31,7 +31,7 @@ def run_pipeline(config):
     inicio_total = time.time()
     try:
         log_paso("recolector")
-        clientes,eventos,historial = cargar_datos(config)
+        clientes,eventos,historial = carga_datos(config)
         
         # ---------------------------
         log_paso("2. Extractor de señales")
