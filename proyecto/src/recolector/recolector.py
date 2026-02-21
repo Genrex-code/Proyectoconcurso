@@ -81,7 +81,7 @@ def carga_datos(config):
     # Validar columnas mínimas
     validar_columnas(
         clientes,
-        ["id_clientes", "nombre", "empresa", "industria"],
+        ["id_cliente", "nombre", "empresa", "industria"],
         "clientes"
     )
 
