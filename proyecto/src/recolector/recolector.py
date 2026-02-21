@@ -4,7 +4,6 @@ Modulo encargado de cargar datos desde CSV o Excel
 para el sistema IA HPE
 """
 
-from email.mime import base
 from pathlib import Path
 import pandas as pd
 
