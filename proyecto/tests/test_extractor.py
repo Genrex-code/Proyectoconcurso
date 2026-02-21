@@ -1,11 +1,12 @@
-from modules.extractor import extraer_senales
-import pandas as pd
+def test_extractor_crea_features():
+    import pandas as pd
+    from src.extractor.extractor import extraer_senales
 
-def test_extractor():
-    clientes = pd.read_csv("tests/data/clientes.csv")
-    eventos = pd.read_csv("tests/data/eventos.csv")
-    historial = pd.read_csv("tests/data/historial.csv")
+    clientes = pd.DataFrame({"id_clientes":[1]})
+    eventos = pd.DataFrame({"id_cliente":[1], "tipo_evento":["expansion"]})
+    historial = pd.DataFrame({"id_cliente":[1], "compras_previas":[2]})
 
-    features = extraer_senales(clientes, eventos, historial)
+    features = extraer_senales(clientes,eventos,historial)
 
-    assert "score_base" in features.columns
+    assert "score_eventos" in features.columns
+    

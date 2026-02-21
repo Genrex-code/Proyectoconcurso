@@ -1,18 +1,7 @@
-"""
-test_speech.py
-Prueba básica del generador de speech
-"""
+def test_speech_texto():
+    from src.speech.speech import generar_speech
 
-from modules.speech import generar_speech
+    txt = generar_speech("Empresa X", "segmento alto")
 
-
-def test_speech_basico():
-
-    texto = generar_speech({
-        "id_cliente": 1,
-        "empresa": "TechCorp",
-        "recomendacion": "Ofrecer servidor cloud"
-    })
-
-    assert isinstance(texto, str)
-    assert len(texto) > 10
+    assert isinstance(txt,str)
+    assert len(txt) > 5

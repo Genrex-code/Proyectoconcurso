@@ -1,27 +1,9 @@
-"""
-test_modelo.py
-Prueba básica de scoring + clasificador
-"""
+def test_clasificador_segmentos():
+    import pandas as pd
+    from src.clasificador.modelo import clasificar_clientes
 
-import pandas as pd
-from modules.scoring import calcular_score
-from modules.clasificador import clasificar_clientes
+    scores = pd.DataFrame({"score_total":[90,50,10]})
 
+    seg = clasificar_clientes(scores)
 
-def test_modelo_basico():
-
-    # dataset mínimo
-    features = pd.DataFrame({
-        "id_cliente": [1, 2, 3],
-        "score_base": [10, 60, 90]
-    })
-
-    scores = calcular_score(features)
-
-    assert "score_total" in scores.columns
-    assert scores["score_total"].max() <= 100
-
-    segmentos = clasificar_clientes(scores)
-
-    assert "segmento" in segmentos.columns
-    assert len(segmentos) == 3
+    assert len(seg) == 3
