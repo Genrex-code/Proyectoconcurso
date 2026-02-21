@@ -8,7 +8,7 @@ Equipo Devcode
 import time
 
 #modulos del proyecto ( sujeto a cambios)
-from src.recolector.recolector import carga_datos  # Asumiendo recolector.py en raíz o ajusta ruta
+from src.recolector.recolector import carga_datos  # recolector.py en src/
 from src.extractor.extractor import extraer_senales  # extractor/extractor.py -> desde extractor/
 from src.scoring.scoring import calcular_score  # scoring.py en src/
 from src.clasificador.modelo import clasificar_clientes  # Ajustado a src/clasificador/modelo.py
