@@ -10,7 +10,6 @@ import pandas as pd
 
 
 print ("Cargando módulo recolector...")
-print ("buscandoen:", base.resolve())
 
 def log(msg):
     print(f"[Recolector] {msg}")
