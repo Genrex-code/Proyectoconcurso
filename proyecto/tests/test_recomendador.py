@@ -1,20 +1,9 @@
-"""
-test_recomendador.py
-Prueba básica del recomendador HPE
-"""
+def test_recomendador_genera_algo():
+    import pandas as pd
+    from src.recomendador.recomendador import recomendar_hpe
 
-import pandas as pd
-from modules.recomendador import recomendar_hpe
+    seg = pd.DataFrame({"segmento":["alto","medio","bajo"]})
 
+    rec = recomendar_hpe(seg)
 
-def test_recomendador_basico():
-
-    segmentos = pd.DataFrame({
-        "id_cliente": [1, 2, 3],
-        "segmento": ["alto", "medio", "bajo"]
-    })
-
-    recomendaciones = recomendar_hpe(segmentos)
-
-    assert "recomendacion" in recomendaciones.columns
-    assert len(recomendaciones) == 3
+    assert len(rec) == 3

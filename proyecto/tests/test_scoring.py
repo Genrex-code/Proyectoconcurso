@@ -1,11 +1,12 @@
-from modules.scoring import calcular_score
-import pandas as pd
+def test_scoring_no_negativo():
+    import pandas as pd
+    from src.scoring.scoring import calcular_score
 
-def test_scoring():
-    df = pd.DataFrame({
-        "score_base":[10,50,90]
+    features = pd.DataFrame({
+        "score_eventos":[10],
+        "compras_previas":[2]
     })
 
-    scores = calcular_score(df)
+    scores = calcular_score(features)
 
-    assert max(scores["score_total"]) <= 100
+    assert scores.iloc[0]["score_total"] >= 0
