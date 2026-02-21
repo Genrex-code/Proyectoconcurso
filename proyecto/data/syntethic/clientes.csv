@@ -1,0 +1,501 @@
+id_cliente,nombre,empresa,industria,email,telefono,tamano_empresa,ingresos_anuales,presupuesto_TI,interes_producto,region
+1,Timoteo,Alvarado-Laureano,Tecnología,espartachavez@trejo-brito.org,(001)338-9083x863,Grande,2933912,276242,Alto,Tlaxcala
+2,Cristobal,"Molina, Ledesma y Cortés",Finanzas,ivancanales@olivares-calderon.com,940.781.6184,Pequeña,67314,4748,Alto,San Luis Potosí
+3,Esperanza,"Despacho Gonzales, Campos y Olivares",Educación,maria-elena52@mota-fuentes.com,1-192-832-7648x35030,Pequeña,51853,3228,Medio,Puebla
+4,Andrés,Industrias Mascareñas y Galindo,Retail,portiz@collazo.com,884.969.6532x87101,Pequeña,104104,8367,Alto,Durango
+5,Luisa,Olmos-Olivárez,Educación,qtafoya@carrero.net,514-627-0482,Mediana,1939387,158742,Medio,Chiapas
+6,Héctor,Grupo Niño y Cuellar,Finanzas,zamudioirene@almaraz.com,039.117.1822,Mediana,367335,39175,Medio,Yucatán
+7,Óliver,"Galarza, Tirado y Fernández",Retail,leonor57@casarez.com,1-098-393-0103,Pequeña,185682,16745,Bajo,Coahuila de Zaragoza
+8,Isabel,Serrano-Granados,Manufactura,yolanda73@laboratorios.info,763.116.5667,Pequeña,131178,6164,Bajo,Campeche
+9,Verónica,Ballesteros-Padrón,Manufactura,bianca33@industrias.biz,(473)178-1080,Pequeña,92694,4335,Alto,Colima
+10,Lorenzo,Rosales y Gallardo y Asociados,Educación,kbahena@acevedo.info,(687)234-3098,Pequeña,74651,5683,Medio,Campeche
+11,Rocío,Sandoval y Tamez S.A.,Tecnología,saucedaariadna@despacho.com,193-990-9169x985,Mediana,390650,41451,Alto,Morelos
+12,Leonardo,Laboratorios Macías-Reyna,Salud,antonia07@benavides-terrazas.com,425-135-4278x4980,Grande,4109014,435875,Alto,Oaxaca
+13,Gabino,Carbajal-Uribe,Tecnología,georginalerma@laboratorios.com,740-164-0052x4278,Pequeña,128940,14877,Bajo,Tamaulipas
+14,Bruno,Córdova-Trejo,Salud,negronrodolfo@club.com,053.315.8692,Grande,6258584,249661,Medio,Michoacán de Ocampo
+15,Liliana,Duarte e Hijos,Tecnología,lilia34@proyectos.com,337.543.3036x541,Mediana,702167,30956,Bajo,Nayarit
+16,Nancy,"Terán, Meraz y Amaya",Educación,ibarradiego@despacho.com,569.816.9340x60883,Pequeña,43657,2948,Bajo,San Luis Potosí
+17,Sofía,Castellanos-Macías S. R.L. de C.V.,Educación,yeni65@lucero.com,(629)946-8044x369,Mediana,1608629,92242,Bajo,Puebla
+18,Margarita,Industrias Rojas y de la O,Salud,limonnoelia@caban-gollum.com,320.037.9176,Pequeña,164221,7063,Alto,Hidalgo
+19,Juan Carlos,Pabón y Guerrero S.A.,Retail,carbajalluz@grupo.com,(317)278-8957x9868,Pequeña,18234,493,Alto,Tlaxcala
+20,Francisco Javier,Proyectos Lebrón y Soliz,Manufactura,rgriego@bernal.com,1-581-223-6231,Mediana,1893443,73921,Alto,Tabasco
+21,Anel,Proyectos Peres y Ordóñez,Retail,velasquezjuan@aguayo.biz,(889)373-4670x656,Mediana,1727174,172819,Alto,Guanajuato
+22,Oswaldo,Orta S. R.L. de C.V.,Tecnología,botellotrinidad@cervantez.com,653-755-6464,Mediana,723882,46555,Bajo,Colima
+23,Paola,Montez S.A.,Manufactura,arevaloalta-gracia@grupo.com,719-374-5299,Pequeña,53597,3674,Alto,Chihuahua
+24,Dalia,"Despacho Véliz, Alvarez y Marrero",Manufactura,tosorio@despacho.com,1-491-905-8651x85067,Mediana,1844315,89495,Bajo,Chiapas
+25,María Luisa,Club del Valle-Solorio,Salud,sergio87@pulido.com,147.379.9650,Pequeña,25331,2370,Alto,Zacatecas
+26,Joaquín,"Corporacin Lemus, Ybarra y Leal",Finanzas,sierraelias@guardado-palomo.info,(377)701-4363x4957,Grande,2672023,71749,Alto,Quintana Roo
+27,María Elena,"Corporacin Heredia, Godoy y Casárez",Educación,ignaciocasares@grupo.com,989.413.4352x40824,Pequeña,119897,9395,Bajo,Baja California Sur
+28,Carmen,Candelaria y Alcala S. R.L. de C.V.,Educación,mariano77@enriquez-avalos.info,01671902294,Pequeña,186079,9303,Medio,Colima
+29,Rubén,Proyectos Solorzano y Olivares,Retail,tquintero@magana.org,133.412.3281x20679,Mediana,477781,51641,Alto,Yucatán
+30,María Elena,González-Jaime,Tecnología,luzcarrero@laboratorios.com,00249947174,Mediana,1591226,181229,Alto,Sonora
+31,Rufino,Preciado e Hijos,Finanzas,salma40@giron-velasquez.org,+49(0)2787429671,Grande,4876288,432769,Medio,Yucatán
+32,Isabela,Cantú-Cruz S.A. de C.V.,Tecnología,ssaldivar@urbina.com,1-451-680-8760,Mediana,292456,15604,Alto,Hidalgo
+33,Socorro,Ávalos y Figueroa S.A. de C.V.,Educación,gracielaquezada@casas.org,248.086.1317,Pequeña,29724,3281,Bajo,Chihuahua
+34,Modesto,"Industrias Laboy, Pelayo y Rosas",Retail,dguerrero@club.net,214.658.4044x99727,Pequeña,90808,9979,Alto,Yucatán
+35,Pedro,"Reséndez, Medina y Esparza",Manufactura,reinaolivera@proyectos.com,766.270.2895x17187,Grande,9416659,1105362,Bajo,Aguascalientes
+36,Cristal,Rodarte-Jaimes,Educación,sofia61@tejeda-olivares.info,(091)343-1611x7240,Grande,9248294,934770,Medio,Baja California Sur
+37,Anabel,"Corporacin Noriega, Prado y Concepción",Manufactura,olgapatino@grupo.org,937-923-7474x074,Pequeña,62316,3425,Alto,Guanajuato
+38,Timoteo,"Henríquez, Reyes y Madrid",Salud,juan-carlosrosas@granado-olivarez.org,944.064.0909,Mediana,1545284,92667,Bajo,Zacatecas
+39,Gonzalo,Industrias Mora y Gaona,Salud,silvanohenriquez@laboratorios.com,1-095-214-5623x285,Pequeña,38417,2437,Bajo,Nayarit
+40,Francisco,Lucero y Mireles y Asociados,Retail,rochaantonio@proyectos.net,160.481.7549,Grande,3594496,87844,Medio,Sinaloa
+41,José Emilio,González-Rodríguez,Retail,valentinitzel@laboratorios.com,612-004-7113x82675,Pequeña,184125,15156,Bajo,Tabasco
+42,Linda,Saiz-Pantoja,Salud,alonso53@rael.com,05850643171,Grande,4480135,146629,Medio,Jalisco
+43,Alejandra,Merino S.A.,Salud,raulflorez@urrutia-franco.org,1-352-904-2284,Mediana,1051601,108706,Medio,Guerrero
+44,Jorge,Industrias Mejía y Alemán,Educación,gabinoavila@laboratorios.com,177.589.1783x90847,Grande,5969373,220682,Alto,Baja California
+45,Bianca,Quiroz y Benavides A.C.,Tecnología,sandra21@corporacin.com,984-789-6118x367,Pequeña,48627,1197,Medio,México
+46,Barbara,Ponce-Marroquín e Hijos,Educación,jose-luis27@bustos-briones.com,(152)809-8851x656,Pequeña,181981,3740,Alto,Campeche
+47,Natividad,Grupo Rosario y Garrido,Manufactura,montezpilar@carrero-leiva.com,(899)809-4024x455,Mediana,479632,41611,Bajo,Aguascalientes
+48,Ángela,Laboratorios Angulo-Bustos,Finanzas,jose-manuelperea@mondragon.com,599.102.2901x47679,Mediana,743564,77320,Medio,Tlaxcala
+49,Nelly,Montaño-Posada,Retail,limonrosalia@soto.com,900-343-2445x107,Pequeña,81228,4221,Bajo,Tamaulipas
+50,Estela,Becerra-Osorio y Asociados,Salud,pulidoaida@bernal.biz,1-664-160-5297x5161,Mediana,893908,59527,Alto,Michoacán de Ocampo
+51,Karla,Ortiz-Marín,Tecnología,estela52@segovia-carrera.net,355-231-2432x9212,Mediana,1200299,137163,Medio,Zacatecas
+52,Raúl,Mata-Corona S.C.,Tecnología,rodartemargarita@proyectos.com,147-700-5411x9986,Mediana,1218465,71750,Bajo,Veracruz de Ignacio de la Llave
+53,Alma,Vázquez y Escobedo S.A. de C.V.,Salud,jsanchez@raya.com,1-182-037-7889x25546,Mediana,1441289,124383,Alto,Tabasco
+54,Rufino,Mesa A.C.,Finanzas,barbara86@corporacin.com,1-254-629-1486x5281,Mediana,886508,58039,Medio,Tamaulipas
+55,Aida,Mares-Dueñas S.A.,Tecnología,mercedes33@grupo.com,880-592-9622x2927,Pequeña,151405,18167,Medio,Baja California Sur
+56,Zoé,Club Linares y Rangel,Tecnología,oswaldogriego@proyectos.org,1-746-886-2392x407,Pequeña,62261,5113,Alto,San Luis Potosí
+57,Carlota,"Despacho Cruz, Laboy y Rascón",Educación,marco-antoniobustos@proyectos.com,(068)536-1530x515,Grande,7093961,651479,Alto,Durango
+58,Mariana,Proyectos Rodarte-Rangel,Tecnología,betancourtaida@grupo.biz,04341036971,Grande,3663710,290201,Bajo,Chihuahua
+59,Susana,Laboratorios Colón y Lovato,Retail,nabreu@guajardo-vasquez.com,(185)188-8880x67065,Mediana,1587310,42691,Bajo,Morelos
+60,Jonás,Montaño-Guajardo,Manufactura,verdugoisabela@despacho.com,277-221-7043x03054,Mediana,1532918,139082,Medio,Sonora
+61,Alejandro,Corporacin Munguía y Arreola,Educación,georgina15@pabon.com,(775)841-6169,Mediana,1113465,88239,Medio,Guerrero
+62,Benjamín,Menchaca-Lucero,Manufactura,marisela96@laboratorios.info,+59(6)4016582029,Grande,7605171,407938,Medio,Tlaxcala
+63,Verónica,Nájera-Olivera S. R.L. de C.V.,Retail,zedillocristian@nevarez.com,1-285-654-3102x7868,Grande,7881955,595711,Bajo,Chihuahua
+64,Ernesto,"Laboratorios Salas, Feliciano y Casillas",Manufactura,antoniarazo@laboratorios.com,(518)844-2258x31323,Grande,7971366,516683,Alto,Zacatecas
+65,Renato,Robles-Ureña S.A.,Salud,barrazahoracio@roque.biz,1-125-177-8528x9226,Mediana,1192499,87162,Medio,Campeche
+66,Daniel,Corporacin Garza-Montemayor,Finanzas,arcelia43@grupo.net,299-229-9590x01094,Pequeña,199080,10263,Bajo,Jalisco
+67,Serafín,Salinas e Hijos,Salud,tomas47@proyectos.info,00276773592,Grande,6945813,553435,Alto,Puebla
+68,Jaime,"Cedillo, Nevárez y Serrato",Finanzas,matosfabiola@casillas.com,104-696-3259,Grande,6480649,307384,Alto,Puebla
+69,Mayte,Manzanares y Salinas A.C.,Manufactura,orozconatalia@guajardo.com,+04(7)9748016245,Mediana,1203936,65097,Alto,Sonora
+70,Ramiro,Corporacin Uribe y Lomeli,Salud,olveranatalia@urbina.org,(912)165-5852x39868,Pequeña,49111,5643,Alto,Baja California Sur
+71,Mario,Córdova y Zelaya S. R.L. de C.V.,Retail,itzelmatos@club.com,887-947-0551x6940,Mediana,1128453,119634,Medio,Yucatán
+72,Esperanza,Vergara S.C.,Finanzas,ofeliaolivares@proyectos.org,1-130-756-2636x89702,Pequeña,72879,5480,Alto,Jalisco
+73,Humberto,Club Tejada-Monroy,Educación,zoe49@espinosa.net,(344)375-7584,Grande,4371613,463219,Alto,Nuevo León
+74,Leonardo,Concepción-López A.C.,Retail,arcelia57@laboratorios.net,842-199-3308,Grande,3249813,333635,Alto,México
+75,Mariana,Chapa-Adame,Retail,lorenzorolon@feliciano.com,019-380-2620x67240,Grande,5376486,376607,Medio,Aguascalientes
+76,Israel,"Club Tórrez, Soria y Salcido",Educación,nataliarocha@grupo.info,420-549-3296x68516,Pequeña,70011,7252,Bajo,Chiapas
+77,Abraham,"Club Gracia, Ramón y Jaramillo",Salud,hermelinda99@ibarra.com,1-301-742-6841x45933,Mediana,580610,36920,Medio,Distrito Federal
+78,Samuel,Pelayo-Ulloa S.C.,Educación,fernandoybarra@sotelo-ramon.net,1-519-108-8398x22587,Mediana,1063282,73947,Bajo,Chihuahua
+79,Rodolfo,Bustos y Segovia S.C.,Tecnología,rendoncesar@reyes.net,1-406-403-9106x518,Mediana,877954,102736,Medio,Campeche
+80,Alonso,"Club Dueñas, Cervántez y Peres",Manufactura,juana76@blanco.com,02868230047,Mediana,1505757,124286,Alto,Tamaulipas
+81,Fernando,Montemayor y Correa S.A. de C.V.,Salud,brunoaparicio@aleman.com,09079030673,Pequeña,175156,17503,Bajo,Jalisco
+82,Gregorio,Proyectos Velásquez y Matos,Finanzas,eva42@club.com,(926)870-5685x6624,Pequeña,179793,12556,Bajo,Sinaloa
+83,Espartaco,"Proyectos Colón, Rivas y Baeza",Manufactura,jpena@club.com,1-175-183-0469,Grande,3213344,125516,Bajo,Baja California Sur
+84,Rodrigo,Club Frías y Mercado,Tecnología,adela33@roque-guerra.org,1-363-854-6785x44587,Mediana,1920816,92744,Medio,Veracruz de Ignacio de la Llave
+85,Mariano,Figueroa-Nevárez S.A. de C.V.,Retail,karmenta@laboratorios.com,(996)423-5369x3785,Mediana,923777,69460,Bajo,Morelos
+86,Tomás,Rincón y de la Garza e Hijos,Tecnología,dario28@enriquez.com,010-062-3120x3875,Pequeña,117682,6098,Medio,Campeche
+87,Sergio,Saavedra y Alemán A.C.,Salud,balcala@industrias.biz,(118)233-9845,Pequeña,141672,7536,Alto,Nayarit
+88,Arcelia,Palomino-Rico S. R.L. de C.V.,Finanzas,espartacomacias@aparicio-caban.biz,687-002-1765x918,Mediana,1573175,43235,Medio,Baja California Sur
+89,Raquel,Juárez y Arredondo A.C.,Salud,pamela90@proyectos.com,1-261-429-3968x5621,Grande,9208684,534112,Medio,Quintana Roo
+90,Marco Antonio,Proyectos Benítez y Molina,Educación,bmena@proyectos.com,(662)961-9431x1426,Pequeña,71543,6327,Medio,Durango
+91,Ilse,Carbajal-Bustos A.C.,Educación,maria54@centeno-brito.com,(788)861-0158x199,Mediana,548892,27415,Alto,Puebla
+92,Liliana,"Bravo, Valdivia y Guerra",Manufactura,juande-la-o@corporacin.info,126-464-7154,Pequeña,149242,11430,Alto,Michoacán de Ocampo
+93,Elsa,Carbajal y Cervántez S.A. de C.V.,Manufactura,ortizisabela@mendoza.biz,924-593-7526x54793,Pequeña,70866,5937,Medio,Puebla
+94,Laura,Carrera-Valle S.A.,Salud,paulinaamador@fuentes.com,1-167-243-4266x17979,Mediana,924703,46156,Medio,Sonora
+95,Lourdes,Murillo e Hijos,Salud,cardonafelix@de.biz,1-610-143-8889,Grande,5011167,248489,Bajo,México
+96,Rolando,Corporacin Alvarado-Rosas,Manufactura,lucerolinda@carrillo-collado.com,(573)875-7177,Grande,8250957,852190,Medio,Puebla
+97,Camila,Montalvo e Hijos,Educación,de-andafederico@industrias.net,(736)226-6093x796,Grande,8338241,806700,Bajo,Sinaloa
+98,Ernesto,Corporacin Barajas y Vélez,Salud,teraneduardo@melgar-estrada.com,785-969-6915,Mediana,269970,15249,Alto,Quintana Roo
+99,Zacarías,"Industrias Villanueva, Bravo y Cervantes",Salud,caridad34@elizondo-nino.com,669-296-6278x2827,Mediana,1313278,146231,Alto,Nuevo León
+100,María del Carmen,Muñoz A.C.,Educación,mchacon@valenzuela.biz,(767)721-9034x04384,Pequeña,69143,6390,Medio,Guanajuato
+101,Raúl,Ulloa y Segura A.C.,Manufactura,jassopamela@torres-arguello.info,(361)340-7451x7133,Grande,3036737,172664,Bajo,Quintana Roo
+102,Luis Miguel,Industrias Chávez-Fonseca,Salud,ana-mariavargas@tejada-leon.net,(544)948-1260,Pequeña,172410,9103,Bajo,Nayarit
+103,César,Grupo Medina y Gutiérrez,Retail,jsaiz@laboratorios.com,168-457-7590x17518,Pequeña,19754,2362,Alto,Sonora
+104,Gabriel,Limón-Miranda S. R.L. de C.V.,Educación,raulrubio@arriaga-arredondo.info,+12(7)7063242415,Grande,8226603,291651,Medio,Morelos
+105,Daniel,Ortiz e Hijos,Finanzas,eugenia61@abreu-gallardo.info,02938700516,Mediana,1132594,119539,Alto,Distrito Federal
+106,Augusto,Candelaria-Marroquín,Manufactura,helena26@laboratorios.net,1-092-753-2697x3112,Pequeña,42023,1225,Alto,Chihuahua
+107,Juan Carlos,Portillo-Mascareñas y Asociados,Salud,fernandolebron@guzman-uribe.org,940.438.9836x4037,Pequeña,43010,1742,Bajo,Sinaloa
+108,Rosario,Suárez-Alcala,Finanzas,ilse26@navarrete.info,00910430068,Mediana,503432,37264,Alto,Nuevo León
+109,Mónica,"Piña, Padilla y Borrego",Retail,germanbotello@despacho.net,1-691-463-0316,Pequeña,164364,3546,Medio,Chihuahua
+110,Víctor,Despacho Alcala-Chapa,Tecnología,davilamiriam@solorzano-sierra.com,(524)105-6481,Grande,6980031,455101,Alto,Morelos
+111,Nayeli,Baca-Sanabria y Asociados,Educación,jose-carloscotto@proyectos.com,800.030.7562x20863,Mediana,1093960,33689,Bajo,Puebla
+112,Araceli,Casares-Sandoval e Hijos,Salud,duarteesparta@pacheco.info,(451)870-5349,Grande,6910394,630333,Medio,Oaxaca
+113,Miguel,Laboratorios Treviño y Guillen,Finanzas,abrahamparra@gonzales.com,050-641-3836x70241,Grande,9260275,583462,Alto,Baja California Sur
+114,Liliana,Reynoso-Bravo S. R.L. de C.V.,Retail,santiagocecilia@benavidez.com,(234)456-5574x313,Grande,4138170,477376,Bajo,Distrito Federal
+115,Rocío,Cortés-Caraballo,Finanzas,maria-del-carmenrobledo@palomo-casarez.com,1-747-411-2490,Pequeña,107687,8145,Bajo,Jalisco
+116,Itzel,Despacho Guzmán-Moya,Manufactura,dserna@corporacin.info,(831)712-1003x2365,Mediana,1595320,170394,Bajo,Colima
+117,Antonio,Barragán S.A.,Educación,fcazares@casillas-arias.com,(966)706-6253,Pequeña,50561,3449,Alto,Guerrero
+118,Conchita,Guillen e Hijos,Salud,modesto68@ballesteros.biz,638-380-6578,Grande,8437690,686467,Bajo,Zacatecas
+119,Inés,"Jimínez, Dueñas y Alvarez",Retail,ruben30@despacho.org,213.348.0396,Grande,8395554,941592,Medio,Quintana Roo
+120,Eva,Muñoz-Villareal A.C.,Finanzas,raquel92@proyectos.com,(701)039-3087,Grande,6450011,371646,Medio,Aguascalientes
+121,Catalina,Díaz-Mejía A.C.,Finanzas,corderorodrigo@proyectos.com,05691545226,Pequeña,50784,4847,Alto,Zacatecas
+122,Sessa,Garica-Villalpando y Asociados,Salud,jose-mariamaldonado@grupo.biz,1-029-593-9172x5135,Mediana,652080,20463,Medio,Puebla
+123,Yuridia,Ramón-Alba S.A. de C.V.,Tecnología,felixbarreto@hidalgo-cardenas.com,+67(6)2676586179,Mediana,1456875,30257,Medio,México
+124,Aldo,"Despacho Matos, Ibarra y Cantú",Finanzas,monroydavid@cruz.com,1-997-062-9620,Grande,5612596,184758,Bajo,Chiapas
+125,Perla,"Laboratorios Lerma, Luevano y Granados",Manufactura,arroyolaura@corrales.com,(149)731-0324x171,Mediana,239303,26829,Medio,Oaxaca
+126,Virginia,"Despacho Tovar, Ontiveros y Escalante",Salud,juana52@armendariz.info,349-021-1586,Mediana,560444,36994,Bajo,México
+127,Julia,"Tello, Roldán y Vega",Tecnología,martinluna@ortega-aragon.net,1-899-217-2233x2061,Mediana,1298829,77379,Medio,Tamaulipas
+128,Soledad,Proyectos Yáñez-Holguín,Salud,angel16@urias.net,1-099-861-6229x991,Grande,2956524,209899,Medio,Chiapas
+129,Gonzalo,Partida-Jaime S.C.,Finanzas,mvazquez@archuleta.biz,996-065-3074,Mediana,613708,49243,Bajo,San Luis Potosí
+130,Hugo,"Proyectos Salazar, Calvillo y Gil",Salud,helenaquintero@jimenez-pena.com,1-736-785-0821,Grande,7329268,383473,Bajo,Oaxaca
+131,Ofelia,Delgadillo S.A.,Salud,ana-luisaharo@reyes.com,1-345-786-1035x79727,Pequeña,102259,2803,Medio,Quintana Roo
+132,Francisco Javier,Linares-Amaya,Manufactura,karroyo@proyectos.com,680-072-2903,Grande,6253593,414432,Bajo,Morelos
+133,Trinidad,"Club Ocampo, Montes y Rico",Finanzas,esteban74@viera.net,(589)944-1715x45444,Mediana,1251443,144882,Medio,Hidalgo
+134,Ruby,"Maya, Cintrón y Alvarez",Salud,qlucero@palacios.org,1-935-387-5842x82417,Grande,6385128,229064,Medio,Distrito Federal
+135,Dulce,Burgos-Garibay S.A. de C.V.,Manufactura,homeroperes@nieto-hurtado.com,1-170-999-1738x168,Grande,7690658,372340,Bajo,Oaxaca
+136,Cornelio,Grupo Monroy-Parra,Retail,ucollazo@proyectos.com,250-074-3292x71296,Grande,3186387,162579,Bajo,Tamaulipas
+137,Mateo,"Acuña, Archuleta y Tejeda",Educación,jose-luisalcaraz@tamez-espino.com,335-421-6894x21044,Grande,5159815,511679,Alto,Veracruz de Ignacio de la Llave
+138,Cecilia,Saiz-Muñoz y Asociados,Finanzas,danielpaez@gil.com,1-098-215-0648,Mediana,847739,97589,Medio,Campeche
+139,Bianca,Arriaga e Hijos,Salud,penamaria@castaneda.info,1-230-461-8499x26189,Pequeña,143087,14811,Bajo,Chihuahua
+140,Bernabé,Farías y Feliciano y Asociados,Finanzas,octavio35@lucero.net,375.300.1197x218,Pequeña,52532,5417,Bajo,Coahuila de Zaragoza
+141,Trinidad,Club Lucio y Jaime,Educación,garteaga@proyectos.com,(561)100-2255x79415,Mediana,1777878,174907,Alto,Querétaro
+142,Leonor,Jurado y Olmos e Hijos,Retail,pperez@despacho.com,06979729659,Mediana,1168213,114265,Bajo,Baja California
+143,Catalina,Saavedra y Carreón S.C.,Tecnología,earredondo@laboratorios.org,935.889.1637x56289,Grande,9837422,896583,Bajo,Campeche
+144,Natalia,Saldivar y de Jesús A.C.,Finanzas,pmayorga@ledesma-arteaga.com,(663)177-9717x7517,Mediana,392337,39889,Medio,Baja California
+145,Abel,Zayas-Maestas,Retail,vanesareyes@narvaez-ayala.com,1-589-975-7113x055,Pequeña,17389,1966,Bajo,Nuevo León
+146,José Luis,Armenta-de Anda,Finanzas,tcintron@carbajal.com,06373516091,Mediana,1659768,159145,Medio,Tlaxcala
+147,Rolando,Club Acuña-Tamez,Salud,uribemagdalena@sauceda.org,(216)995-8669,Pequeña,49195,5609,Bajo,Michoacán de Ocampo
+148,Guadalupe,Cepeda y Chavarría S.C.,Manufactura,pascual58@grupo.com,(228)851-5879x96846,Pequeña,72505,6082,Bajo,Aguascalientes
+149,Yuridia,Feliciano S.A. de C.V.,Retail,gonzalohenriquez@proyectos.com,(057)198-3863x8406,Grande,3204409,201633,Bajo,Sinaloa
+150,Humberto,Alcántar e Hijos,Salud,eloy97@laboratorios.net,933.472.1228x16064,Mediana,341933,25442,Bajo,Morelos
+151,Rocío,"Despacho Menéndez, Robledo y Correa",Educación,corralesirene@madera.org,(515)832-8182x6886,Mediana,731943,15827,Alto,Colima
+152,Ernesto,Meraz-Muro S.A. de C.V.,Retail,serafintamez@valentin.com,1-399-305-6164x840,Grande,8347482,278313,Medio,San Luis Potosí
+153,Alvaro,"Laboratorios Espinoza, Mayorga y Serrano",Manufactura,calderadaniela@barraza.com,(613)861-2075x01102,Grande,8511156,201700,Alto,Morelos
+154,Esperanza,"Club Oquendo, Raya y Palacios",Tecnología,bmata@casanova.org,09015814491,Mediana,731237,69708,Alto,Nuevo León
+155,Leonardo,Rojo S.A.,Educación,celiaornelas@laboratorios.com,(821)009-9688x1435,Mediana,1038906,66462,Medio,Jalisco
+156,Claudia,Grupo García-Hernádez,Tecnología,camiladuran@ulloa.net,04141397552,Grande,5560961,350678,Alto,Michoacán de Ocampo
+157,Silvano,Esquibel-Matías,Retail,vraya@laboratorios.org,562.053.3645,Grande,4480007,289370,Bajo,Distrito Federal
+158,Mauro,Ramírez y Muñoz y Asociados,Retail,micaela81@laboratorios.com,834-110-8099,Grande,5648545,474178,Alto,Sonora
+159,Alejandro,"Industrias Tirado, Rodríquez y Córdova",Educación,julio-cesar39@grupo.com,580-392-8272x299,Pequeña,169271,16610,Alto,Durango
+160,Jorge,Gaona y Asociados,Finanzas,egomez@corporacin.net,677.005.1844,Pequeña,168621,14822,Medio,Guerrero
+161,Josefina,Sierra-Heredia,Educación,hgarica@morales.info,082.723.1843x2225,Mediana,859314,41134,Alto,Chihuahua
+162,Camila,Roque y Roque S.A.,Finanzas,vicentepartida@guerrero.com,1-922-809-2024x2869,Grande,5743610,687145,Medio,Baja California
+163,Virginia,"Despacho Gálvez, Rangel y Zepeda",Manufactura,krosario@proyectos.com,1-298-425-7991x3662,Pequeña,197005,23586,Bajo,Chiapas
+164,Octavio,"Cornejo, Zelaya y Caldera",Retail,martinzapata@tapia.com,07298068650,Grande,4435735,466356,Bajo,Tamaulipas
+165,Mauricio,"Montez, Villalpando y Velásquez",Manufactura,pizarrocecilia@club.org,(643)009-8180x6356,Pequeña,72058,1630,Bajo,San Luis Potosí
+166,Uriel,"Corporacin Tello, Piña y Vallejo",Manufactura,sara46@club.info,(588)744-9562,Pequeña,91078,10925,Bajo,Chihuahua
+167,Benito,Industrias Pacheco y Mireles,Salud,cruzjulio@bustos.com,961.143.5190x669,Mediana,1626291,88553,Bajo,Nuevo León
+168,Delia,Quiñones y Alarcón S.A.,Finanzas,eloisa09@industrias.com,021.465.6693,Pequeña,89724,3247,Bajo,Aguascalientes
+169,Ángela,Ulloa-Linares,Salud,javier43@club.com,268-181-8451,Pequeña,176476,8372,Bajo,Morelos
+170,Margarita,"Valladares, Roybal y Guerrero",Educación,maria-jose79@rosario.com,06335658804,Grande,7238511,797684,Medio,Michoacán de Ocampo
+171,Leonor,Benítez-Urrutia S.A.,Finanzas,wmartinez@industrias.com,333.433.3395x211,Mediana,1565518,151379,Medio,Colima
+172,Patricia,Rosario S.A. de C.V.,Tecnología,miguel94@elizondo.biz,920.867.8085,Mediana,1151150,102292,Alto,Sonora
+173,Delia,Casárez y Sisneros S.C.,Educación,abril03@vera.com,428.434.7955x2763,Pequeña,91941,4774,Medio,Tabasco
+174,Gilberto,Dueñas y Vázquez S.A.,Finanzas,benitojiminez@industrias.com,270-267-2885,Mediana,1142871,38957,Alto,Zacatecas
+175,Raquel,Otero A.C.,Retail,ana-mariagalvan@club.com,588.450.6159,Grande,8049263,313787,Alto,Hidalgo
+176,Pablo,Proyectos Linares-Mota,Manufactura,zacarias87@berrios.com,1-225-699-6112x535,Mediana,1259993,147001,Alto,Puebla
+177,Salma,"Juárez, Rael y Naranjo",Tecnología,kpedraza@proyectos.com,(413)261-1178x00681,Mediana,1325522,138805,Medio,Chiapas
+178,Julio,"Grupo Gutiérrez, Limón y Quintero",Finanzas,cesarsoto@despacho.com,784.872.8299x796,Grande,6712861,377614,Medio,Oaxaca
+179,Augusto,Manzanares y Navarrete S.C.,Retail,cristal40@solorzano.com,478.077.4064,Pequeña,113259,11268,Medio,México
+180,Ramiro,"Ortega, Haro y Dávila",Educación,oochoa@despacho.org,1-448-463-1224x17974,Pequeña,45923,2447,Medio,Zacatecas
+181,Agustín,Despacho Lerma-Jiménez,Educación,marcelaaguilera@despacho.info,1-564-757-0512,Mediana,1492895,155649,Bajo,Campeche
+182,Mariano,Grupo Henríquez-Olivárez,Educación,casasfelix@quintero.com,1-183-764-5208x814,Mediana,894659,27699,Medio,Yucatán
+183,Elvia,Ávila-Gamez A.C.,Educación,taniapuente@alejandro-de.com,1-163-009-7925x1327,Mediana,756857,74391,Bajo,Colima
+184,Ana María,Moya e Hijos,Finanzas,omarcarbajal@club.net,573-065-2407x78487,Pequeña,188448,4363,Bajo,Hidalgo
+185,Irene,Laureano y Zamudio y Asociados,Manufactura,angelatamez@club.net,708.620.9593,Grande,3710367,260400,Bajo,Puebla
+186,Pablo,"Espinal, Soria y Salinas",Educación,saraleyva@parra-medina.com,102-203-1731x0967,Grande,4726713,320646,Medio,Morelos
+187,Angélica,Frías e Hijos,Finanzas,dbetancourt@muro.biz,094.801.4138,Grande,6061597,701531,Medio,Chiapas
+188,Judith,Grupo Sotelo y Guzmán,Salud,porfiriovaldez@caraballo.info,1-612-286-8528x97558,Mediana,931493,105603,Bajo,Puebla
+189,Irene,Industrias Trejo y Gallegos,Educación,vurbina@corporacin.com,049.082.4043x35048,Pequeña,85400,2382,Medio,Durango
+190,Jonás,Grupo Jaimes-Navarro,Educación,eugeniahidalgo@despacho.com,157.279.1940x96105,Mediana,1378637,65019,Alto,Quintana Roo
+191,Lorena,Gaytán-Zarate,Finanzas,olivasana@industrias.org,583-206-7998,Pequeña,177233,4474,Medio,Colima
+192,Laura,Grupo Miramontes-Borrego,Educación,vvazquez@ulibarri.com,06862278376,Pequeña,116668,13242,Medio,Hidalgo
+193,Fernando,Despacho Jáquez y Posada,Finanzas,rene11@pina.com,1-590-425-9792,Grande,6816179,501092,Bajo,Tlaxcala
+194,Eugenia,Laboratorios Niño y Cortés,Educación,carreonana@industrias.com,1-147-705-3833,Mediana,590723,68649,Medio,Morelos
+195,Yolanda,Ocampo S. R.L. de C.V.,Finanzas,herreradavid@limon.org,070-164-5104,Grande,6143237,645690,Medio,Sinaloa
+196,Berta,Rubio-Zambrano S. R.L. de C.V.,Tecnología,escamillaelvia@valentin.com,457-620-5554x3840,Grande,3561951,333618,Medio,Morelos
+197,Gilberto,Grupo Mondragón y Orozco,Tecnología,asuncionolivas@club.com,(495)782-3298x324,Mediana,1603531,61700,Alto,Distrito Federal
+198,Vanesa,Corporacin Barreto-Valdés,Retail,enriquezilse@laboratorios.biz,(474)231-2209x949,Mediana,891274,69738,Bajo,México
+199,Aldonza,Bétancourt-Romero S.A.,Finanzas,lnino@salazar.com,1-306-046-3331,Mediana,843419,51061,Bajo,Guerrero
+200,Minerva,Reyna-Gurule S.C.,Manufactura,marguello@marroquin.org,(808)177-0388x6086,Pequeña,45014,1589,Bajo,Campeche
+201,Gonzalo,de la Crúz y Pichardo S.A. de C.V.,Manufactura,sierraclaudia@razo.net,02982665702,Pequeña,147758,10759,Medio,Veracruz de Ignacio de la Llave
+202,María Elena,Henríquez-Mejía,Salud,carlotabustos@rascon-naranjo.com,689-268-6025x9222,Pequeña,96014,6162,Bajo,Guerrero
+203,Amelia,"Manzanares, Mares y Ramírez",Tecnología,socorro21@grupo.com,1-778-097-3397x767,Mediana,1895950,123887,Bajo,Colima
+204,Germán,Despacho Escalante y Cordero,Salud,montesalejandro@proyectos.org,(510)162-2499,Pequeña,67121,1832,Medio,Guerrero
+205,Ricardo,Aranda-Cabán y Asociados,Retail,irene56@ponce-urbina.com,(721)458-6833,Mediana,266552,16229,Alto,Campeche
+206,Óliver,Roybal-Zedillo,Educación,luis95@industrias.org,1-787-729-3430x1071,Mediana,368296,42874,Bajo,Jalisco
+207,Liliana,Merino S.A. de C.V.,Educación,adalbertoferrer@corporacin.net,(501)556-9902x3557,Grande,3068264,361663,Alto,Yucatán
+208,Soledad,Terán y Meza S.C.,Finanzas,hbadillo@industrias.com,1-955-124-0568,Mediana,925949,44042,Bajo,Guanajuato
+209,Homero,Aparicio-Jurado S.C.,Manufactura,salgadoeva@razo-madrid.net,(215)031-7807,Grande,2281658,182027,Bajo,Durango
+210,Ofelia,"Proyectos Menchaca, Collazo y Calvillo",Salud,emilianoarce@ontiveros.com,(091)570-1840,Pequeña,46735,5577,Alto,Oaxaca
+211,Elvira,Corporacin Lebrón y Tejada,Finanzas,marcos14@grupo.com,881.385.8542x4932,Grande,6372570,390995,Medio,Coahuila de Zaragoza
+212,Ivonne,Arteaga y Cedillo A.C.,Retail,garteaga@ayala.biz,(997)954-5381,Mediana,298323,34056,Bajo,Veracruz de Ignacio de la Llave
+213,Mayte,Reséndez-Marín,Manufactura,orodrigez@grupo.biz,(557)701-7157,Pequeña,151014,6659,Alto,Veracruz de Ignacio de la Llave
+214,Guillermina,Zayas-Velasco S.A.,Salud,palominobernabe@valadez-batista.com,(769)639-3827x6153,Mediana,1073480,78363,Medio,Tamaulipas
+215,Raquel,Tovar-Gracia S.A.,Salud,velamicaela@villarreal-ybarra.info,1-817-246-1919,Mediana,393911,36420,Alto,Sinaloa
+216,Esteban,Industrias Abrego-Contreras,Salud,maria-cristinatapia@club.com,(549)465-1909x86240,Grande,7632535,318289,Alto,San Luis Potosí
+217,Abel,Carmona-Lerma y Asociados,Salud,gollummagdalena@matias.biz,(832)723-8656x242,Pequeña,192354,17384,Medio,Distrito Federal
+218,Micaela,"Chacón, Bravo y Chapa",Salud,yresendez@duenas.biz,(765)326-9097x3846,Mediana,954229,103325,Medio,San Luis Potosí
+219,Maximiliano,Carreón-Vera S.C.,Salud,colladoolivia@club.org,03718949058,Mediana,295872,31483,Bajo,Aguascalientes
+220,Isabel,"Morales, Lozano y Longoria",Manufactura,alejandrozambrano@laboratorios.info,1-290-490-4712x8144,Mediana,682384,52529,Alto,Distrito Federal
+221,Francisco,Carrasco S. R.L. de C.V.,Educación,rosacorona@negron.com,280.512.9276x637,Mediana,552811,55003,Alto,Guanajuato
+222,Jaime,Jaime y Asociados,Tecnología,aviladaniela@ozuna.info,836.674.2860x47658,Grande,2283734,261530,Bajo,Baja California Sur
+223,Teodoro,Preciado-Laboy S.A. de C.V.,Salud,gabriela14@riojas.com,525-800-1061x8175,Pequeña,67336,4417,Alto,México
+224,Alberto,Báez-Villegas,Tecnología,rufinocasas@briseno-zedillo.com,921-244-7174x654,Grande,5450557,118127,Bajo,Guanajuato
+225,Julia,Balderas-Holguín y Asociados,Finanzas,diego71@fernandez.info,02863917410,Pequeña,73168,5998,Medio,Coahuila de Zaragoza
+226,Marisela,Salinas S.A.,Finanzas,archuletawendolin@jaquez.biz,1-087-766-1830x6719,Pequeña,192776,9638,Alto,Quintana Roo
+227,Susana,Navarrete-Téllez,Tecnología,ariadna74@grupo.biz,(346)157-1732x03093,Pequeña,176919,15973,Alto,Zacatecas
+228,Modesto,Alemán y Arce S.A. de C.V.,Salud,mirandaalma@casanova.info,(829)310-2707x90320,Grande,9445345,638033,Alto,Guerrero
+229,Beatriz,de la Rosa y Villareal A.C.,Educación,carreramiriam@despacho.com,651.982.5309x25114,Grande,3209566,327665,Alto,Durango
+230,Daniel,Guerrero y Verdugo A.C.,Tecnología,benitoocampo@despacho.com,+21(9)4672324876,Grande,8074724,565870,Medio,Michoacán de Ocampo
+231,Santiago,Ybarra S.A.,Salud,obueno@corporacin.com,1-181-958-8373,Grande,8450886,975957,Medio,Nayarit
+232,Mario,del Valle y Crespo e Hijos,Finanzas,ayalaveronica@linares-fuentes.com,1-970-108-2207,Mediana,1105650,97263,Bajo,Chihuahua
+233,María,Perea-Farías e Hijos,Manufactura,estela15@despacho.com,317-970-6239x726,Mediana,523424,47719,Bajo,San Luis Potosí
+234,Susana,Jimínez-Fierro S.A. de C.V.,Retail,alonsovarela@leon.com,1-762-534-9292x983,Mediana,1132678,108889,Alto,Colima
+235,Esmeralda,Ríos y Leiva A.C.,Tecnología,pgurule@puente-venegas.org,906-007-8068,Pequeña,16884,935,Alto,Sonora
+236,Berta,Saldivar y Guajardo A.C.,Tecnología,palomoesteban@corporacin.com,+74(2)7990772625,Mediana,1013274,93712,Bajo,Veracruz de Ignacio de la Llave
+237,Angélica,"Mercado, Tamez y Apodaca",Finanzas,luis49@proyectos.com,501-657-9055x2818,Mediana,1234155,32491,Medio,Jalisco
+238,Evelio,Romo-Vera,Educación,espartacomayorga@jaramillo-santacruz.biz,015-577-8817,Mediana,717136,59166,Bajo,Nuevo León
+239,Zacarías,Escobedo-Reyna,Salud,blancojulio-cesar@corporacin.com,127-238-0468,Mediana,896709,51999,Medio,Distrito Federal
+240,Alejandra,"Grupo Barajas, Alonzo y Gómez",Finanzas,lilia95@ruelas-villasenor.net,(774)924-2437x5402,Mediana,858890,100024,Medio,Quintana Roo
+241,Cynthia,"Grupo del Río, Corrales y Cuellar",Manufactura,camiloarguello@velasco-castro.com,238.055.2578,Mediana,1912313,108048,Bajo,Guanajuato
+242,Modesto,Club Maya-Cortés,Manufactura,trevinonatividad@lucero-rojo.org,(297)517-0281x40693,Grande,2580144,225240,Alto,Tlaxcala
+243,Anabel,Industrias Soto y Garibay,Salud,elsa01@brito.com,599.805.6265x650,Pequeña,127720,8675,Medio,Nuevo León
+244,Asunción,Laboratorios Quiroz y Pelayo,Educación,klomeli@pedroza.org,02347851961,Pequeña,75072,6491,Alto,Aguascalientes
+245,Delia,Vanegas y Chapa S.A.,Finanzas,juanalongoria@arias.org,(787)300-2447,Pequeña,77826,5530,Bajo,Chihuahua
+246,Graciela,"Duarte, Salazar y Guevara",Educación,casaresgeronimo@barrera.com,1-796-471-5890x4290,Mediana,1171113,92352,Bajo,Durango
+247,Celia,Dávila-Avilés S.A. de C.V.,Tecnología,lourdes50@corporacin.com,219-285-5445x18952,Mediana,380050,39195,Bajo,Aguascalientes
+248,Mercedes,"Molina, Curiel y Canales",Manufactura,cristalsantacruz@proyectos.org,1-888-167-1120x75452,Mediana,404730,37315,Medio,Tlaxcala
+249,Octavio,de León-Maestas A.C.,Tecnología,garibaycarolina@laboratorios.com,1-216-110-7603,Mediana,1558891,136736,Alto,Chiapas
+250,Nelly,Rodarte A.C.,Finanzas,alvaro14@caldera.com,393.250.1249x5528,Mediana,1168997,116637,Bajo,Michoacán de Ocampo
+251,Ricardo,Tafoya S.A.,Manufactura,guillerminade-la-torre@camacho.net,1-759-271-2566x38361,Mediana,1441940,84906,Bajo,Puebla
+252,Blanca,Club Muro-Lomeli,Finanzas,borregoitzel@carrillo.info,473.864.6317x5207,Pequeña,150742,8528,Alto,Chiapas
+253,Arturo,Collazo-Ortega,Salud,gvillanueva@despacho.com,1-961-367-4994,Grande,5292897,166319,Medio,Sonora
+254,Leticia,Segura y Leiva S.A.,Retail,hcardenas@club.com,00170269524,Grande,3123635,99288,Medio,Chiapas
+255,Nicolás,Robledo y Ferrer S.A. de C.V.,Finanzas,gsalas@industrias.com,+61(6)7567700284,Mediana,1450795,112408,Medio,Guanajuato
+256,Hugo,"Saavedra, Carmona y Varela",Finanzas,rurrutia@rolon.com,064-796-9545x0090,Mediana,805730,31189,Medio,Distrito Federal
+257,Rodolfo,Mondragón S.C.,Manufactura,porrasjaime@patino-montoya.com,349.114.1520,Grande,7478346,455531,Medio,Puebla
+258,Luisa,"Jaramillo, Almonte y Rodarte",Retail,mateojose-maria@medrano.info,03578529456,Pequeña,67810,1577,Alto,Hidalgo
+259,Omar,Corporacin Jaimes y Arreola,Salud,renato63@veliz-cadena.org,1-419-876-3514,Pequeña,80225,8209,Medio,Oaxaca
+260,Karla,"Industrias Serrato, Rendón y Trujillo",Retail,aidasevilla@industrias.info,896-908-3572,Pequeña,127894,7015,Alto,Michoacán de Ocampo
+261,Manuel,"Matos, Barela y Figueroa",Finanzas,sjaramillo@corporacin.biz,123.034.7786,Pequeña,64164,6451,Bajo,Tamaulipas
+262,Celia,Holguín y Asociados,Salud,victoria82@ruelas.com,+15(9)4165162319,Mediana,1999391,237025,Bajo,Chihuahua
+263,Ofelia,"Club Bustamante, Granados y Zapata",Retail,marroquinisaac@gracia.com,02347649078,Pequeña,196487,20208,Bajo,San Luis Potosí
+264,Luisa,Gurule y Ledesma y Asociados,Tecnología,josroldan@manzanares-alonso.org,+03(4)8645183760,Pequeña,176101,10616,Bajo,Sonora
+265,Eugenio,"Grupo Cruz, Quiñones y Mateo",Educación,raponte@salazar-rodriguez.biz,1-612-481-5698,Grande,5845751,505156,Medio,Puebla
+266,Tomás,Laboratorios Quiroz-Chacón,Salud,pachecoelvira@corporacin.com,829.657.7242,Mediana,908323,70661,Bajo,Puebla
+267,Elvia,Pedroza-Nazario,Manufactura,lauraocasio@despacho.org,317-342-0696x94215,Grande,8575743,185477,Alto,Guanajuato
+268,Olivia,"Rendón, Saldaña y Casanova",Tecnología,emiliaespino@corporacin.biz,1-934-362-6204,Pequeña,81832,6993,Medio,Morelos
+269,Felix,Verduzco-Reynoso A.C.,Educación,rodartececilia@otero-galindo.biz,1-694-118-0053x75990,Grande,4562797,410396,Alto,Aguascalientes
+270,Silvano,"Madrid, Ortega y Nevárez",Tecnología,rafaelarguello@corporacin.info,1-721-586-2415,Pequeña,134992,4491,Alto,Baja California Sur
+271,Gilberto,Posada-Leyva S.A. de C.V.,Educación,noemi56@corporacin.net,(703)203-2074x27617,Pequeña,120707,4009,Alto,Baja California Sur
+272,Ramiro,Reyna y Salcedo A.C.,Retail,carlotamontes@figueroa-limon.com,(849)939-0892,Mediana,970832,32729,Alto,Tabasco
+273,Barbara,Alvarez-Linares e Hijos,Finanzas,ortajose-luis@mejia-corrales.com,07774905097,Mediana,1715049,142019,Alto,Puebla
+274,Rebeca,Grupo Arriaga-Leyva,Salud,anabel18@caballero.com,610.326.6421,Pequeña,42284,3932,Medio,Oaxaca
+275,Horacio,Corporacin Caldera-Nazario,Educación,minervaramirez@rolon.org,(165)926-6108x573,Grande,7033230,567998,Bajo,Durango
+276,Armando,"Club Quesada, Bétancourt y Romo",Finanzas,conchita24@industrias.org,+81(0)8186617945,Grande,2457759,170786,Alto,Morelos
+277,Nadia,Carrera e Hijos,Retail,yduarte@proyectos.com,(459)779-4523x219,Pequeña,104659,3474,Bajo,Morelos
+278,Manuel,Adame S.C.,Tecnología,alcantardavid@rincon.org,749.956.4122x03103,Pequeña,163973,3505,Alto,Baja California
+279,Violeta,Club Tijerina y Espino,Tecnología,maderamarisol@club.com,(277)707-9334,Grande,5374547,451750,Bajo,Sonora
+280,Sonia,"Pelayo, Saldivar y Véliz",Retail,alejandro76@serna.org,(730)806-9581x46717,Pequeña,150611,8897,Bajo,Quintana Roo
+281,Cynthia,"Laboratorios Espinosa, Rodarte y Montañez",Manufactura,ggomez@industrias.info,466-572-9341,Pequeña,32600,1030,Bajo,Yucatán
+282,Cristina,Campos y Pelayo S.C.,Educación,eugenio38@almanza.com,228.015.6193,Grande,3151015,66596,Medio,Chihuahua
+283,Jacinto,Arredondo-Valdés S.A. de C.V.,Retail,noeliazayas@arteaga-quezada.info,01991808121,Grande,8552542,797897,Alto,Jalisco
+284,Margarita,Camacho y Corrales e Hijos,Retail,israel21@club.com,548.214.5653x286,Mediana,1271187,32471,Bajo,México
+285,Luis Miguel,"Parra, Reynoso y Sevilla",Tecnología,alta-gracia72@sierra.com,1-562-606-0290,Grande,8063104,345426,Bajo,Nuevo León
+286,Perla,"Laboratorios Martínez, Montañez y Aguilera",Finanzas,oliver92@ramirez.org,756.341.0856x2884,Mediana,1003166,38016,Alto,Jalisco
+287,Jacinto,Despacho Amaya-Tirado,Retail,fabiola46@balderas-nieves.com,851-017-4907x53998,Grande,4683810,480557,Bajo,México
+288,Gloria,Laboratorios Ocasio-Solís,Tecnología,bernardomenchaca@proyectos.com,661-106-2737,Pequeña,145207,16758,Alto,Coahuila de Zaragoza
+289,Olivia,"Villalobos, Valdivia y Solano",Retail,ljaime@pina.info,622.827.7288x13770,Mediana,216712,8683,Bajo,Guanajuato
+290,Lucas,Casárez-Negrón,Salud,alfredo82@nieto-magana.com,(470)229-6044,Grande,9553465,917593,Alto,Jalisco
+291,Minerva,Casillas S. R.L. de C.V.,Educación,angel06@vega.info,1-679-228-7772,Grande,9042857,974095,Medio,Puebla
+292,Sofía,"Ontiveros, Gonzales y Ortega",Manufactura,paola07@laboratorios.org,481-813-9890x98378,Pequeña,120052,13940,Alto,Baja California
+293,Gerardo,Grupo Venegas y Quiroz,Finanzas,tejedasamuel@padilla-villalpando.info,+56(2)6085641118,Pequeña,142494,11929,Medio,Guanajuato
+294,Augusto,Corporacin Pantoja-de la O,Manufactura,melgardolores@baeza.biz,05265461033,Mediana,1879434,169285,Bajo,Michoacán de Ocampo
+295,Natalia,"Carrero, Jiménez y Ballesteros",Tecnología,marisol86@roybal-anaya.biz,304-891-3824x96718,Pequeña,163277,5803,Alto,Jalisco
+296,José Luis,Proyectos Guillen-Terrazas,Finanzas,cvaca@abreu.info,420.074.9465x3984,Mediana,1815513,118356,Medio,Baja California Sur
+297,Ángela,"Despacho Ortega, Casillas y Cintrón",Tecnología,magdalena39@monroy-ibarra.info,355-379-5020,Mediana,511057,46565,Medio,Yucatán
+298,Débora,"Valadez, Sáenz y Orozco",Manufactura,bernalpablo@rael.com,695.620.1753,Mediana,1992228,150603,Bajo,Tlaxcala
+299,Alejandra,"Laboratorios Muñiz, Espinosa y Bustamante",Finanzas,estela37@arce-leon.org,1-036-149-8728,Pequeña,68271,2718,Medio,Hidalgo
+300,Raúl,Despacho Villalobos-Cazares,Tecnología,cavazosfrancisco-javier@industrias.com,1-894-870-6056x64187,Grande,4171144,92516,Alto,Zacatecas
+301,Alvaro,Despacho Ledesma y Peres,Manufactura,amata@esquivel.org,+36(1)3325411076,Pequeña,21192,531,Bajo,Baja California
+302,Socorro,Henríquez-Gutiérrez A.C.,Finanzas,vgriego@merino.com,09971791100,Grande,5579117,309051,Alto,Sinaloa
+303,Andrés,Despacho Quintanilla-Baca,Finanzas,santiago61@badillo-valdivia.com,(661)963-9907,Grande,7175579,607971,Medio,Sinaloa
+304,Luis Miguel,Mojica-Alvarez,Manufactura,vsierra@despacho.org,1-193-928-4567x97232,Mediana,487804,19485,Bajo,Baja California Sur
+305,Nelly,Márquez-Vergara S. R.L. de C.V.,Salud,concepcionrodarte@industrias.com,920-388-0653x3315,Mediana,1386256,72307,Medio,Hidalgo
+306,Mayte,Véliz-Valles S.A. de C.V.,Salud,lourdes52@renteria-arias.info,033.793.3756,Pequeña,133649,7450,Bajo,Jalisco
+307,Abraham,Alarcón-Benavides S.A. de C.V.,Finanzas,vacacamila@corporacin.org,003.342.3425,Grande,2468995,191517,Medio,Michoacán de Ocampo
+308,Benito,Chapa S.C.,Finanzas,mirelesenrique@club.com,961-122-3386x5596,Grande,6727873,513409,Alto,Michoacán de Ocampo
+309,Elena,"Proyectos Córdova, Menchaca y Gutiérrez",Tecnología,lemuscarmen@fuentes.info,(912)868-5787x25587,Grande,3835502,278629,Alto,Zacatecas
+310,Teodoro,Franco S.A.,Salud,maria-cristinagollum@gamez.biz,1-254-812-1478x5390,Pequeña,48721,4407,Alto,Veracruz de Ignacio de la Llave
+311,María del Carmen,Preciado y Paredes S.A. de C.V.,Retail,rmateo@alvarado.com,151-488-8143,Mediana,832847,28021,Alto,Chiapas
+312,Patricio,Corporacin Estrada y Mendoza,Educación,hermelinda43@proyectos.com,(456)690-7826,Mediana,668162,52714,Alto,México
+313,Mario,Industrias Villagómez y Urías,Salud,vriojas@marroquin-escobedo.biz,1-637-780-5292x40755,Grande,9958256,589131,Bajo,México
+314,Pablo,"Corporacin Villagómez, Altamirano y Vanegas",Tecnología,chavezcristian@vanegas-zavala.org,636-186-3715x974,Mediana,1763098,77222,Medio,Colima
+315,Diana,Zavala S.C.,Educación,escobarelvia@olvera-limon.com,481.705.8025,Pequeña,75415,2019,Medio,Tabasco
+316,Lourdes,Barrientos y Ordóñez y Asociados,Retail,catalinaflorez@club.org,(938)743-0271,Mediana,994217,74170,Alto,Sonora
+317,Olivia,Varela-Salas S.C.,Retail,cvelasquez@loera-reyes.com,1-469-263-2967x62916,Pequeña,18758,412,Medio,Baja California Sur
+318,Soledad,"Laboratorios Barrera, Gamboa y Salcido",Salud,huribe@bermudez-cantu.com,(724)380-7017x656,Mediana,1445772,158055,Bajo,Hidalgo
+319,Celia,Rivera-Rubio S.C.,Manufactura,borregopascual@laboratorios.info,220-912-4186,Pequeña,59803,5365,Bajo,Guanajuato
+320,Zoé,"Grupo Quintana, Muñiz y Domínguez",Salud,aldotejada@club.com,470-900-6335x331,Mediana,1399088,145484,Alto,Baja California
+321,Adela,Espinosa-Barajas S.A.,Salud,de-la-fuentedaniela@pelayo.com,1-583-938-6613,Grande,7243642,492805,Alto,Jalisco
+322,Adela,"Mata, Alcala y Ordóñez",Manufactura,maria-josegaray@leiva-negrete.com,03649718924,Mediana,1846005,123856,Bajo,Chiapas
+323,Cecilia,del Río-Matías y Asociados,Tecnología,vbarreto@vigil.biz,389-030-9143x6391,Pequeña,126857,5877,Medio,Campeche
+324,Modesto,"Grupo Coronado, Núñez y Flores",Tecnología,granadosrufino@mendez.com,086-403-5533x80339,Grande,7599131,217112,Medio,Sinaloa
+325,Andrés,Barrios y Espinoza A.C.,Manufactura,emiliacastillo@delgadillo-villarreal.net,1-381-674-2336,Grande,9272034,716463,Alto,Guerrero
+326,Hernán,"Industrias Rangel, Ferrer y Jurado",Salud,xbetancourt@ocasio.info,(896)270-6614x982,Grande,9553564,955786,Bajo,Guerrero
+327,Hilda,Limón y Núñez S. R.L. de C.V.,Tecnología,vbecerra@laboratorios.com,1-008-576-6656,Pequeña,43078,2685,Bajo,Zacatecas
+328,Alfonso,Olmos-Valles,Salud,eloisapulido@proyectos.com,1-066-337-0502x49724,Grande,5333255,280596,Medio,Michoacán de Ocampo
+329,Camilo,Olivo-Otero,Salud,sisneroselena@de.com,869-461-1952x4364,Pequeña,48849,3848,Alto,Aguascalientes
+330,Lorena,"Lomeli, Prado y de la Rosa",Manufactura,jose-luisescamilla@grupo.net,07932302346,Grande,7108344,168798,Medio,Tlaxcala
+331,Teresa,Despacho Lozada-Briones,Retail,rcastellanos@monroy-anguiano.org,771.004.0901,Pequeña,134575,14763,Alto,Jalisco
+332,Nicolás,"Club Rojas, Miranda y Zayas",Retail,xmiramontes@mascarenas-grijalva.biz,905-510-7620x918,Grande,5717081,268371,Medio,Nayarit
+333,María Cristina,Serrato y Pedraza e Hijos,Tecnología,abelardomedina@murillo.com,573.976.9156x71649,Mediana,1921798,137460,Alto,Hidalgo
+334,Reina,Cavazos S.C.,Finanzas,maderazacarias@de.info,(833)321-1602x56434,Pequeña,60531,6276,Alto,Yucatán
+335,Wendolin,Industrias Salazar-Bustamante,Manufactura,esparta99@montalvo-ocasio.biz,863-341-4111x59319,Mediana,1259326,105205,Alto,San Luis Potosí
+336,Abel,"Despacho Villanueva, Tello y Espinal",Retail,upina@castro-solis.org,1-316-087-5243x7729,Grande,6624922,360560,Medio,Nuevo León
+337,Wendolin,Zamudio S.A. de C.V.,Finanzas,nadia14@galvan.biz,+52(3)3027642086,Grande,8541689,902951,Bajo,Querétaro
+338,Julio César,"Becerra, Suárez y Leyva",Finanzas,eloisa86@ceja-mejia.org,+47(2)9277423330,Pequeña,179704,14396,Alto,San Luis Potosí
+339,Concepción,"Ponce, de la Garza y Badillo",Finanzas,moyamario@despacho.com,1-626-301-3674x9261,Mediana,728479,48567,Bajo,Veracruz de Ignacio de la Llave
+340,Violeta,"Laureano, Rael y Nazario",Retail,casarescamilo@casas-saenz.net,099.974.1926,Grande,7556240,575375,Bajo,Yucatán
+341,Manuel,"Industrias Castillo, Camacho y Melgar",Retail,terrazasdulce-maria@almonte.net,718-981-3129x2087,Pequeña,98154,8250,Medio,Puebla
+342,Emiliano,Despacho Valenzuela-Hidalgo,Salud,bravocarlota@corporacin.com,408.487.2975,Pequeña,24883,1503,Medio,Quintana Roo
+343,Berta,Granado A.C.,Tecnología,claudialuna@grupo.com,1-542-961-8446x2671,Mediana,1745039,136640,Bajo,Morelos
+344,Claudio,Despacho Jiménez y Espinoza,Salud,ramon89@club.biz,093-141-8186x151,Grande,5007291,250462,Alto,San Luis Potosí
+345,Georgina,Proyectos Gastélum-Lara,Educación,calvillojose-maria@club.com,497-185-9484x9102,Pequeña,77804,7845,Alto,Puebla
+346,Jaime,"Romero, Villarreal y Cavazos",Retail,abril82@grupo.com,+53(9)6727578446,Grande,9310103,577666,Medio,México
+347,Lorenzo,Bustamante-Bétancourt A.C.,Salud,aureliode-jesus@bravo.com,(706)827-7881x6093,Grande,9921370,269083,Alto,Aguascalientes
+348,Felipe,Zepeda S.C.,Manufactura,zeferinosoria@grupo.com,506-762-5153x8144,Pequeña,99828,11851,Medio,Yucatán
+349,Ernesto,Varela S.C.,Finanzas,hildaserrato@rivas.info,+50(9)7545105265,Mediana,1523371,78212,Alto,Aguascalientes
+350,Elvia,Tafoya-Serrano,Tecnología,liliacastaneda@aguilar.com,765.456.2841,Mediana,1846706,60831,Medio,Tlaxcala
+351,Joaquín,"Adame, Muñoz y Farías",Tecnología,espinalgloria@cepeda.biz,502.374.1678x72568,Pequeña,107806,11772,Bajo,Sinaloa
+352,Alejandra,Grupo Montañez-Sanches,Tecnología,granadoamelia@portillo-zambrano.com,(744)716-3928x234,Mediana,470387,27449,Bajo,Chihuahua
+353,Yeni,"Farías, Rojo y Candelaria",Retail,elenavillareal@grupo.biz,+43(2)6093106684,Grande,6396617,405331,Bajo,México
+354,Mauro,Segovia S.C.,Finanzas,maestasblanca@corporacin.com,1-020-005-3474,Pequeña,69878,6478,Alto,Chiapas
+355,Hernán,Calderón-Alcántar,Salud,isabelmuro@villalpando-tafoya.com,439.611.2910,Grande,4145715,341248,Bajo,Hidalgo
+356,Marisela,Benavídez-Treviño,Manufactura,hermelinda73@despacho.biz,(485)571-6176x8802,Grande,2971315,191446,Alto,Nayarit
+357,Amalia,Espinal e Hijos,Educación,rsaldana@de.net,866-943-2029x390,Mediana,1082631,32585,Bajo,Veracruz de Ignacio de la Llave
+358,Ofelia,"Corporacin Garay, Lucio y Jasso",Salud,de-la-torreesparta@tejeda.com,+24(2)4033810595,Grande,8029448,255123,Alto,Puebla
+359,Paulina,"Laboratorios Cepeda, Paredes y Lozano",Educación,ana-luisa05@laboratorios.com,+89(1)6498373543,Pequeña,103827,6330,Alto,Sonora
+360,Manuel,Cordero-Roque A.C.,Tecnología,dduran@proyectos.org,240.422.6931x216,Grande,2746609,284337,Bajo,Michoacán de Ocampo
+361,Verónica,"Camarillo, Soto y Chapa",Finanzas,zavalabenito@olivo.com,023-142-9001x85132,Mediana,1551272,101879,Medio,Yucatán
+362,María,Corporacin Meraz-Roque,Educación,federicobadillo@laboratorios.com,08418620303,Mediana,1881068,96443,Bajo,Tamaulipas
+363,Vanesa,"Grupo Olivo, Carreón y Salazar",Salud,blancagarrido@lerma-munguia.com,515.109.2268x5926,Mediana,1117953,52354,Bajo,Durango
+364,Hermelinda,"Corporacin Cano, Juárez y Sanabria",Retail,gabino10@proyectos.com,771-196-4215x226,Mediana,1157431,119876,Bajo,Quintana Roo
+365,Luz,Pedraza y Zarate y Asociados,Tecnología,citlali36@ulloa.net,883.619.6893x135,Grande,8093578,956312,Alto,Aguascalientes
+366,Cecilia,Balderas-Montes,Educación,clara47@proyectos.com,1-302-126-0650,Grande,2241728,242095,Bajo,Chiapas
+367,Rosario,Despacho Contreras-Navarrete,Tecnología,arceliaguevara@alcala-varela.biz,272-847-6570,Grande,4636018,419359,Bajo,Nuevo León
+368,Salma,Industrias Cruz-Alba,Educación,rpina@urrutia.net,(362)418-6236,Pequeña,123468,11441,Medio,Campeche
+369,Rafaél,Rocha-Romero,Finanzas,ursula66@despacho.com,111-595-0342,Pequeña,178663,12605,Medio,Chiapas
+370,Horacio,Industrias Ferrer y Apodaca,Finanzas,gabrielbriones@valle.info,+05(1)4054683565,Pequeña,142888,10723,Medio,Distrito Federal
+371,Nadia,Sandoval-Cornejo,Tecnología,villagomezjuana@villa.com,711-332-2889,Mediana,862829,101871,Bajo,Querétaro
+372,Jorge Luis,"Arenas, Ontiveros y Griego",Salud,santiagozepeda@corral-valverde.info,00248171752,Pequeña,168388,14103,Bajo,Nuevo León
+373,Jesús,Batista-Duarte,Salud,eholguin@proyectos.org,054.669.2758x955,Mediana,896197,86699,Bajo,Colima
+374,Alma,Guevara e Hijos,Educación,correabernardo@club.com,671.577.8711,Mediana,944780,110013,Medio,Guerrero
+375,Leonel,"Feliciano, Padilla y Méndez",Finanzas,mateojacobo@galindo.com,1-082-723-5909x605,Pequeña,139085,14212,Bajo,Tamaulipas
+376,Eric,Piña S.A. de C.V.,Manufactura,teresa21@despacho.com,(768)342-0165,Mediana,652123,66813,Alto,Oaxaca
+377,Omar,Laboratorios Quesada-Mota,Tecnología,jalarcon@despacho.com,(502)727-5164x80727,Pequeña,140764,10280,Alto,Chiapas
+378,Patricio,Industrias Ocasio-Gálvez,Salud,enrique39@nevarez.com,+44(8)1776655868,Mediana,1578923,127286,Medio,Querétaro
+379,María José,"Niño, Díaz y Uribe",Manufactura,patriciapulido@linares.org,01110961798,Mediana,816926,82084,Alto,Chiapas
+380,Yeni,"Proyectos Peres, Galarza y Garica",Salud,yurena@estevez-rodarte.com,766.053.8444,Pequeña,64974,5941,Bajo,Oaxaca
+381,Linda,Despacho Pedroza y Apodaca,Retail,alvarezcristian@solano-zapata.com,(963)863-9609,Grande,7342515,668427,Medio,Tamaulipas
+382,Débora,"Matías, Sierra y Covarrubias",Tecnología,ggodoy@industrias.biz,482-531-1060x92098,Grande,2893139,168053,Alto,Colima
+383,Catalina,Muñiz y Escobar S.A.,Educación,hectoresquibel@laboratorios.com,120-911-7911,Pequeña,26261,2585,Alto,Durango
+384,Dolores,Bernal-Saldaña,Salud,emilio61@alonzo.info,136-657-2240x29901,Grande,8203312,873522,Bajo,Querétaro
+385,Cristobal,"Despacho Espinoza, Zelaya y Anguiano",Salud,sisnerosnelly@grupo.com,+52(3)1244731584,Grande,4622731,117325,Bajo,Veracruz de Ignacio de la Llave
+386,Marco Antonio,"Espinoza, Henríquez y Delgadillo",Salud,gilbertoorozco@vergara-villagomez.com,(376)769-4591,Grande,8194567,324889,Bajo,Sinaloa
+387,Raquel,Niño-Barela S.C.,Tecnología,aldosegura@industrias.net,601.256.2531,Pequeña,144701,8352,Medio,Jalisco
+388,Clemente,Casillas-Aguirre S.A. de C.V.,Manufactura,mendezernesto@vanegas.net,06493831849,Pequeña,96655,8792,Alto,Coahuila de Zaragoza
+389,Verónica,"Puga, Matías y Maya",Manufactura,elsaarroyo@samaniego.biz,01729596390,Grande,4526269,448059,Bajo,Nuevo León
+390,María Teresa,"Grupo Padrón, Arce y Tejeda",Salud,mirandaveronica@barrios.com,(445)561-8579x064,Pequeña,119033,8773,Alto,Veracruz de Ignacio de la Llave
+391,Carlos,Candelaria-Anaya S.A.,Salud,alarconclara@medrano-pulido.com,(135)800-4010,Pequeña,172078,11612,Bajo,Oaxaca
+392,Sara,"Jimínez, de la Rosa y Chavarría",Tecnología,icasares@cordero-viera.biz,718-839-7745x73144,Grande,4045370,357024,Medio,Colima
+393,Vicente,Laboratorios Bernal y Benavídez,Manufactura,nbalderas@galvez.biz,1-715-398-8547,Grande,5737602,139912,Bajo,Durango
+394,Bernabé,Grupo Narváez-Olmos,Tecnología,mserna@escobedo.biz,(491)271-1307,Grande,6472854,535261,Alto,Guerrero
+395,María Cristina,Jaimes-Casanova S. R.L. de C.V.,Tecnología,morenoluis-manuel@grupo.biz,507-451-0663x4362,Grande,8851432,838133,Alto,Nayarit
+396,Miguel,"Cardona, Arteaga y Guzmán",Finanzas,gaonacamila@aranda.com,181.439.6661,Pequeña,24226,2408,Bajo,México
+397,Miguel Ángel,Grupo Figueroa y Montenegro,Manufactura,ruben40@escalante-santacruz.org,432.512.2572x076,Mediana,235422,20559,Bajo,Querétaro
+398,Gabino,de la Rosa-Aguirre,Tecnología,mario90@gutierrez.com,+94(3)8822114577,Pequeña,193732,10804,Bajo,Quintana Roo
+399,María José,Morales S.A. de C.V.,Manufactura,norma97@jiminez-solano.com,632-570-3965,Grande,2258529,80476,Alto,Jalisco
+400,José María,Lara-Tovar,Salud,lsoto@laboratorios.org,(443)098-5916x795,Pequeña,155103,5294,Alto,Nuevo León
+401,Martha,Industrias Longoria-Valdez,Educación,hernanruiz@despacho.com,1-491-074-0650,Pequeña,118174,12425,Alto,Campeche
+402,Gloria,Despacho Juárez-Collazo,Salud,magdalenavigil@lopez-gaona.com,536.661.4494x296,Grande,8708034,916303,Bajo,Puebla
+403,Elvira,"Grupo Peña, Urrutia y Feliciano",Manufactura,hilda14@trejo.biz,02875857567,Pequeña,162199,18677,Medio,Tabasco
+404,Alicia,Pérez A.C.,Finanzas,sessamadrid@industrias.com,894.062.6078x7010,Grande,2585599,133878,Medio,Nayarit
+405,Gregorio,Meraz y Ballesteros A.C.,Tecnología,floresnoemi@industrias.com,(244)079-3110x29181,Mediana,553662,28414,Alto,Michoacán de Ocampo
+406,Alberto,Ornelas y Baca A.C.,Retail,leticia72@proyectos.org,(791)620-2232x88377,Mediana,1133983,110536,Medio,Nuevo León
+407,Yeni,"Club Olvera, Carbajal y Rivera",Educación,jpizarro@limon.com,1-609-409-7052x7740,Mediana,1738354,48058,Alto,Guanajuato
+408,Jaqueline,"Serna, Barajas y Delgado",Salud,jesusvalladares@rico-cintron.com,176-792-9884x259,Grande,4186208,457965,Bajo,Quintana Roo
+409,Amalia,Covarrubias S.A.,Salud,caraballomodesto@mejia.com,02661094101,Mediana,1250931,36346,Medio,Tlaxcala
+410,Delia,Cardenas-Rascón S.C.,Salud,teodorovela@grupo.info,(433)268-3190x13020,Pequeña,158467,13618,Alto,San Luis Potosí
+411,Angélica,Escalante-Suárez S.C.,Educación,emiliovasquez@sanches.org,(217)661-9128x4117,Pequeña,21221,863,Medio,México
+412,Paola,Altamirano-Garrido y Asociados,Salud,fidel65@cotto-loera.com,(938)984-6908x1974,Pequeña,194480,16211,Medio,Baja California
+413,Francisca,Corporacin Bahena y Chávez,Educación,pascualmendoza@gracia.com,1-905-169-9187x2401,Mediana,1432451,157315,Alto,Baja California Sur
+414,Mateo,"Proyectos Gil, Alonso y Baca",Salud,estevezoswaldo@almanza.com,626-682-1719x553,Grande,2055345,222395,Medio,Querétaro
+415,Esther,Villalobos-Alarcón,Salud,lilianateran@alejandro.com,+10(2)7240559342,Pequeña,104954,9627,Alto,Sonora
+416,Carlos,Bermúdez-Henríquez,Manufactura,miguel-angelmunguia@club.net,(384)588-1056,Grande,6016588,247103,Alto,Zacatecas
+417,Emilia,Proyectos Soliz-Godoy,Finanzas,perla31@collado-aranda.info,710-704-4964x10496,Grande,6968972,233268,Bajo,Zacatecas
+418,Juan Carlos,Armendáriz y Garrido S.A.,Salud,qenriquez@tejada.com,(509)549-3059x6601,Grande,5401214,631533,Bajo,Sinaloa
+419,Oswaldo,Pineda y Vega e Hijos,Manufactura,dalia67@grupo.com,03845960945,Grande,5954502,220654,Medio,Nayarit
+420,Sandra,Castellanos S.A. de C.V.,Tecnología,gabino27@alfaro.info,+57(8)3609149851,Grande,6954278,298904,Medio,Tlaxcala
+421,Miguel Ángel,Grupo Delgado-Contreras,Salud,gonzalescamila@enriquez.net,1-950-830-4405x809,Pequeña,134746,10777,Bajo,Michoacán de Ocampo
+422,Natividad,Carreón y Segura A.C.,Educación,emiliamelgar@pelayo-becerra.biz,(205)955-6574,Pequeña,187880,11864,Medio,Baja California
+423,Conchita,Caraballo S. R.L. de C.V.,Educación,humbertosegura@galvan-ochoa.org,+26(1)1398986818,Grande,8749650,969337,Bajo,Campeche
+424,Nicolás,Mateo y Jiménez S.A.,Salud,federico53@godoy-resendez.com,1-376-515-8815x79376,Mediana,1454709,88540,Alto,México
+425,Felipe,"Viera, Chavarría y Zelaya",Educación,gonzalo55@bonilla-paredes.biz,297-327-0216x4871,Grande,3723176,373913,Medio,Distrito Federal
+426,Daniela,Centeno-Serrato,Retail,wpichardo@club.com,05599910157,Mediana,1483206,176768,Medio,Tabasco
+427,Gregorio,Cervantes y Elizondo e Hijos,Retail,coronadoabraham@rendon-ojeda.info,(894)134-7509,Mediana,732210,56940,Bajo,Tamaulipas
+428,Juan Carlos,Domínguez-Collazo A.C.,Educación,luis-manuelsolano@industrias.com,(144)773-2449,Mediana,1842299,211725,Alto,Chiapas
+429,Emiliano,Despacho Zamora-Arenas,Manufactura,abrahamsaenz@negron.com,1-678-274-1176x7412,Pequeña,48096,5414,Medio,Nayarit
+430,Arcelia,Laboratorios Benavídez y Mena,Manufactura,natividadmeza@club.com,(185)380-0329x633,Grande,5223960,425212,Bajo,Morelos
+431,Eduardo,Leyva y Ceja S.A.,Educación,sevillaernesto@puente.info,(932)064-9693x5782,Pequeña,62876,7109,Bajo,Oaxaca
+432,Minerva,"Zamora, Munguía y Tórrez",Educación,glucero@despacho.info,1-361-275-1562,Mediana,701757,14055,Alto,Yucatán
+433,Lilia,Despacho López y Jasso,Tecnología,lucasballesteros@ibarra-matias.biz,1-664-047-3504x763,Pequeña,194450,21762,Bajo,Guanajuato
+434,Blanca,Ceballos-Zedillo S. R.L. de C.V.,Manufactura,alonsojuan@merino-morales.net,00835832863,Grande,3631795,410288,Bajo,Nuevo León
+435,Esmeralda,Despacho Aranda y Almonte,Salud,sanchezleonel@arias.com,+33(0)4166241118,Mediana,445385,51518,Bajo,Tabasco
+436,Salma,Despacho Villalobos-Ornelas,Manufactura,samuelmarrero@pizarro-sepulveda.com,(473)149-7646,Mediana,1629407,178668,Alto,Colima
+437,Gloria,Club Alfaro y Salgado,Salud,wnieves@regalado-garrido.org,+63(7)5791452118,Mediana,1283187,26911,Medio,Guanajuato
+438,Felix,Cisneros-Padrón,Retail,usolorzano@despacho.biz,(520)599-6043,Mediana,858238,35922,Bajo,Zacatecas
+439,Uriel,Corporacin Riojas y Rosas,Retail,cantuluz@nunez-cavazos.com,(812)371-0672,Pequeña,73453,2987,Alto,Zacatecas
+440,Pascual,"Ozuna, Aguirre y Lucio",Educación,pugaguadalupe@industrias.com,483-958-9477,Pequeña,187160,12963,Alto,Jalisco
+441,Celia,Industrias Rojo-Alarcón,Retail,lorena22@barrera.com,1-187-510-9792,Pequeña,143990,8608,Bajo,Coahuila de Zaragoza
+442,Jaime,Espinoza S.A. de C.V.,Finanzas,luis94@padron-hernandez.net,319-213-4249x12896,Mediana,1639356,107737,Alto,Querétaro
+443,Rosalia,"Proyectos Rojas, Fuentes y de la Garza",Manufactura,gomezesmeralda@contreras-collazo.com,051.028.7675x481,Grande,3767919,294277,Medio,Michoacán de Ocampo
+444,Mario,Marrero-Solorio S.A. de C.V.,Finanzas,zedilloernesto@laboratorios.biz,(774)186-5205x7563,Mediana,967398,67598,Alto,Hidalgo
+445,Adalberto,Club Muro y Sotelo,Educación,abigailvilla@corporacin.net,+94(0)4760440907,Pequeña,160966,6898,Alto,Veracruz de Ignacio de la Llave
+446,Vicente,Arellano-Negrón,Manufactura,corraldiana@despacho.com,1-051-843-9055x295,Pequeña,56296,3938,Bajo,Aguascalientes
+447,Yeni,Barragán S.A.,Tecnología,gabrielabotello@club.org,1-862-044-8515,Pequeña,114438,10191,Alto,Veracruz de Ignacio de la Llave
+448,Asunción,Bueno y Carrión A.C.,Retail,asuncionescamilla@villareal-almonte.com,+35(7)1343240642,Grande,4807302,269671,Bajo,Nayarit
+449,Elena,"Grupo Díaz, Lucero y Huerta",Educación,fjaime@mota.com,872-096-2893x65435,Grande,6830952,580037,Alto,Nayarit
+450,Mayte,"Despacho Carrillo, Sierra y Escamilla",Educación,dcintron@nieves-valle.org,+51(5)0267551254,Mediana,1172558,135617,Alto,Guanajuato
+451,Sergio,Villaseñor y Velásquez e Hijos,Retail,eozuna@corporacin.com,640.381.6649x690,Mediana,678607,35075,Medio,Guanajuato
+452,Rubén,Industrias Chávez y Cedillo,Manufactura,ana14@proyectos.biz,(702)324-4123,Grande,5777295,212210,Alto,Jalisco
+453,Cristian,Adame-Romero S.A.,Tecnología,benito78@galindo.info,1-316-252-6546x96815,Mediana,416026,10974,Medio,Zacatecas
+454,Sandra,Proyectos Gollum-Negrete,Manufactura,jacinto80@bernal.info,1-034-615-6262,Pequeña,181660,9253,Alto,Nuevo León
+455,Mauricio,Ibarra S.C.,Educación,daliaotero@rivero-borrego.com,(160)252-9867x07660,Pequeña,19215,1069,Medio,Oaxaca
+456,María del Carmen,Rojas-Meza y Asociados,Educación,bruno26@betancourt.com,1-943-897-6074x01775,Grande,5829763,553192,Bajo,Campeche
+457,Iván,"Proyectos Alva, Torres y Jaramillo",Retail,guadalupemunguia@alfaro.com,091-508-6321x81227,Pequeña,125831,7119,Medio,Tamaulipas
+458,Federico,Arevalo y Bermúdez S.A. de C.V.,Manufactura,alfonso29@olivas-sepulveda.com,1-466-024-1613,Pequeña,190294,21825,Medio,Morelos
+459,Federico,Noriega S. R.L. de C.V.,Manufactura,wgalvan@laureano.net,(096)244-0630x62447,Mediana,1375567,81812,Alto,Puebla
+460,Irma,Despacho Loera y Rincón,Salud,vyanez@rolon.com,1-557-277-3826,Grande,8413412,847714,Bajo,Morelos
+461,Susana,Valentín y Montaño A.C.,Tecnología,olganegron@corporacin.com,992-959-6604,Pequeña,85915,7190,Bajo,Zacatecas
+462,José María,Calderón-Ortiz,Tecnología,ericcarranza@grupo.biz,369.455.1588,Pequeña,150239,5798,Alto,Sonora
+463,Marisol,"Proyectos Rascón, Cortez y Díaz",Finanzas,alomeli@rivera-de.com,966-630-9329x981,Pequeña,139388,7553,Medio,Tabasco
+464,Santiago,Grupo Varela y Rodríquez,Tecnología,nevarezagustin@urias.com,1-532-735-2410x397,Pequeña,48296,2253,Medio,Veracruz de Ignacio de la Llave
+465,María,Proyectos Díaz y Riojas,Educación,zayasisabel@grupo.com,068.761.6481x98077,Pequeña,41971,1884,Medio,Campeche
+466,Alfredo,Pabón-Segura e Hijos,Retail,yporras@cano-concepcion.com,1-125-652-3734x1517,Mediana,1629088,185099,Alto,Zacatecas
+467,María,Raya-Holguín S. R.L. de C.V.,Tecnología,rosario02@industrias.com,954.429.4774,Pequeña,104483,11113,Alto,Durango
+468,Concepción,"Proyectos Olivo, Hinojosa y Gil",Manufactura,galarzarodolfo@grupo.com,886.792.5298x58567,Grande,3003693,297108,Alto,Guanajuato
+469,Juan,Barragán S.A. de C.V.,Educación,horaciofonseca@grupo.com,779.083.3506,Mediana,391682,32064,Bajo,Chiapas
+470,Genaro,Badillo-Ramón,Finanzas,felipehidalgo@laboratorios.info,(094)841-3128,Pequeña,137885,7125,Bajo,Oaxaca
+471,Federico,Rivera y Calvillo S. R.L. de C.V.,Finanzas,matostania@estrada-romo.com,1-173-189-3974x909,Mediana,1719175,77482,Alto,Tamaulipas
+472,Margarita,Industrias Reyes y Abrego,Salud,lorenzo94@del.info,444-835-4884x7127,Grande,3565538,195271,Bajo,Aguascalientes
+473,Mariano,Dávila y Duarte A.C.,Retail,gmaestas@monroy.com,1-133-484-5871,Pequeña,127803,13028,Bajo,Oaxaca
+474,Irene,Grupo Ortiz-de la Torre,Retail,santiagocortez@sevilla-rojo.org,(434)745-2455x574,Grande,4003086,368685,Bajo,Tamaulipas
+475,Karina,Paredes S.A. de C.V.,Educación,maria-eugenialara@fierro.com,(505)665-8833,Mediana,1059422,55304,Alto,Tlaxcala
+476,Antonio,Grupo Melgar y Rosado,Manufactura,xarredondo@ruiz.org,1-601-054-8574x1721,Pequeña,38063,1490,Alto,Puebla
+477,Cornelio,"Industrias Feliciano, Valenzuela y Bueno",Finanzas,uguillen@industrias.com,05573257375,Pequeña,106037,8546,Alto,Querétaro
+478,Francisco Javier,"Industrias Altamirano, Cintrón y Casares",Retail,zponce@arriaga.net,096.085.8749,Grande,2509190,190201,Medio,Querétaro
+479,Raúl,Valdez-Carreón,Finanzas,nellybrito@espino.biz,772-512-9578,Mediana,363442,42180,Alto,Tamaulipas
+480,Abraham,"Almaraz, Aguilera y Garza",Finanzas,luis24@industrias.info,395-923-2342x10890,Grande,7245606,549523,Bajo,Distrito Federal
+481,Estela,Grupo Madrigal y Dávila,Manufactura,ojuarez@proyectos.com,1-160-736-0776x336,Pequeña,154170,10864,Bajo,Chihuahua
+482,Ricardo,Curiel-Fuentes,Educación,saenzsalma@mateo-pelayo.com,08574817006,Mediana,1064746,67141,Bajo,Tabasco
+483,Andrés,"Macías, Girón y Bravo",Manufactura,brodriguez@laboratorios.com,(902)822-7009,Mediana,1138475,22791,Alto,Jalisco
+484,Guadalupe,Pedroza-Cotto S.C.,Finanzas,deliasolano@laboratorios.com,(073)465-4950,Mediana,665330,70240,Alto,Baja California
+485,Claudio,"Arredondo, Tirado y Ocasio",Finanzas,cristinacamarillo@montes.com,(117)768-7290x477,Mediana,527380,24522,Bajo,Morelos
+486,Víctor,Caldera-Romo S.C.,Finanzas,carmengaona@proyectos.com,164.913.3424x57988,Mediana,1393415,130182,Bajo,Nayarit
+487,Virginia,Industrias Aragón-Olmos,Tecnología,fajardodulce@collazo.com,265.097.7539,Mediana,364579,40901,Medio,Sonora
+488,Silvia,"Industrias Quiñónez, Carvajal y Lemus",Educación,ivan24@saavedra-ulloa.com,(584)156-0821x37118,Grande,8521460,496363,Medio,Nuevo León
+489,Perla,Santana-Echeverría,Educación,msegura@proyectos.com,589.298.8085x83825,Pequeña,186589,22341,Medio,Guanajuato
+490,Teresa,Proyectos Coronado y Toledo,Finanzas,rfierro@pacheco.biz,677-524-0148x4399,Mediana,510404,27366,Medio,Coahuila de Zaragoza
+491,Mauricio,Proyectos Guerra-Ornelas,Educación,veronicaperea@villareal.com,03426192372,Mediana,1822828,60221,Alto,Nayarit
+492,Nicolás,"Industrias Candelaria, Zamora y Rodríguez",Finanzas,virginiaquezada@proyectos.com,05406417692,Grande,6397709,282980,Medio,Zacatecas
+493,Espartaco,Bueno-Zavala,Manufactura,fabiola76@baez.com,856-451-0173,Grande,5469377,309166,Alto,Zacatecas
+494,Manuel,"Despacho Saavedra, Valentín y Zepeda",Salud,hzepeda@arias.org,191-135-9966x05779,Pequeña,101676,10387,Medio,Baja California Sur
+495,Soledad,"Alvarez, Gálvez y Valverde",Tecnología,albertomendez@loya-paz.com,745.553.4705x74238,Pequeña,32495,3053,Alto,Puebla
+496,Débora,Burgos y Merino S.A. de C.V.,Retail,ilsemalave@bustamante-palomino.com,726.347.5575x2250,Mediana,247706,10131,Bajo,Chihuahua
+497,Natividad,"Proyectos Valencia, Tijerina y Domínguez",Educación,mbenitez@bustamante-zamora.biz,258-562-6149,Grande,3185708,286317,Alto,Colima
+498,Margarita,Guillen S. R.L. de C.V.,Retail,yenilara@saldana.com,373.204.3097,Pequeña,25757,1032,Bajo,Tlaxcala
+499,Pedro,Club Escamilla y Solano,Retail,yvelasquez@laboratorios.com,358.512.5389,Mediana,1584902,136774,Bajo,Distrito Federal
+500,Martín,Cantú-Zayas S.A.,Salud,veronica83@jimenez.com,1-977-961-2087x805,Mediana,1216410,88987,Alto,Yucatán

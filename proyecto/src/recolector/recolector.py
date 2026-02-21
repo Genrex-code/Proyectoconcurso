@@ -4,10 +4,13 @@ Modulo encargado de cargar datos desde CSV o Excel
 para el sistema IA HPE
 """
 
+from email.mime import base
 from pathlib import Path
 import pandas as pd
 
 
+print ("Cargando módulo recolector...")
+print ("buscandoen:", base.resolve())
 
 def log(msg):
     print(f"[Recolector] {msg}")
