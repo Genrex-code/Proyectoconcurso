@@ -6,6 +6,7 @@ Equipo Devcode
 """
 
 import time
+import pandas as pd
 
 #modulos del proyecto ( sujeto a cambios)
 from src.recolector.recolector import carga_datos  # recolector.py en src/
@@ -15,12 +16,12 @@ from src.clasificador.modelo import clasificar_clientes  # Ajustado a src/clasif
 from src.recomendador.recomendador import recomendar_hpe  # Ajustado a src/recomendador/
 from src.salida.reportes import guardar_resultados  # Ajustado a src/reportes/
 from run_pipeline import run_pipeline  # run_pipeline.py en scripts/
+from src.speech.speech import generar_speech
 
-def log_paso(nombre):
-    """Imprime separador bonito para debug"""
-    print("\n" + "="*50)
-    print(f"--> Ejecutando módulo: {nombre}")
-    print("="*50)
+#generador de log simple porque no tengo fuerzas par que esto funcione :3
+def log_paso (nombre):
+    print("\n" + "=" * 50)
+    print(f"Ejecutando modulo: {nombre}")
 
 
 def run_pipeline(config):
@@ -49,14 +50,36 @@ def run_pipeline(config):
         log_paso("5. Recomendador HPE")
         recomendaciones = recomendar_hpe(segmentos)
 
+        #------------------------------
+        log_paso("6.Generador Speech")
+        spech = generar_speech(recomendaciones)
+
         # ---------------------------
         log_paso("6. Salida")
         guardar_resultados(recomendaciones, config)
+
+        #----------------------------
+        log_paso ("7. combinar ")
+
+
+        df_final = pd.concat(
+        [recomendaciones.reset_index(drop = True),
+         speech.reset_index(drop =True)],
+        axis = 1)
+    
+    # -------------------------
+    log_paso ("(8.guardar salida)")
+    guardar_resultados(df_final , config)
+    fin_total = time.time()
+    print(f"\npipeline completado en {fin_total + inicio_total:.2f} segundos")
+    return df_final
+    #manejo de exepciopn por si truena la chingadera
     except Exception as e:
         print(f"Error en ejecución del pipeline: {e}")
-        raise
+    raise
     fin_total = time.time()
     print(f"Pipeline completado en {fin_total - inicio_total:.2f} segundos")
+
 
 if __name__ == "__main__":
     config = {
@@ -65,6 +88,7 @@ if __name__ == "__main__":
         "modo": "test"
     }
     run_pipeline(config)
+
 
 
 def test_pipeline():

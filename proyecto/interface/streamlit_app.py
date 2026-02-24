@@ -383,7 +383,6 @@ if pagina == "Exportar":
         # EXPORTAR EXCEL
         # ==========================
         output = io.BytesIO()
-        
         with pd.ExcelWriter(output, engine="xlsxwriter") as writer:
             df.to_excel(writer, index=False, sheet_name="Resultados")
 
@@ -432,3 +431,7 @@ score
 segmento
 recomendacion
 """
+
+if st.button ("ejecutar modelo"):
+    resultados = run_pipeline(config)
+    st.session_state.resultados = resultados
