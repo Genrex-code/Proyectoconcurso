@@ -1,4 +1,4 @@
-from scripts.run_pipeline import run_pipeline
+from proyecto.scripts.run_pipeline import run_pipeline
 import streamlit as st
 from pathlib import Path
 import time
@@ -212,3 +212,7 @@ if pagina == "Exportar":
             data=output.getvalue(),
             file_name="clientes_analizados.xlsx"
         )
+
+
+
+        # que chinfue asu madre el america
