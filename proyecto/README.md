@@ -198,7 +198,7 @@ The design prioritizes long-term maintainability and scalability over short-term
 ---
 ---
 
-## Resumen Ejecutivo (Español)
+## Resumen en Español
 
 Este proyecto implementa un sistema modular de procesamiento de datos basado en una arquitectura orientada a pipeline.
 
