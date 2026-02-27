@@ -1,5 +1,6 @@
 import sys
 from proyecto.src.pipiline.run_pipeline import run_pipeline
+#import run_pipeline
 import streamlit as st
 from pathlib import Path
 import time
