@@ -1,18 +1,23 @@
+#import sys
 from proyecto.src.pipiline.run_pipeline import run_pipeline
+#import run_pipeline
 import streamlit as st
-from pathlib import Path
+#from pathlib import Path
 import time
 import io
 from datetime import datetime
 import plotly.express as px
 import pandas as pd
+import sys
+from pathlib import Path
 
+BASE_DIR = Path(__file__).resolve().parents[1]
+sys.path.append(str(BASE_DIR))
 """
 sample code for streamlit app
 screen 1 
 me puse gringo por el cansancio me debe una coca 
 """
-
 # configuracion base de direcctorios
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
