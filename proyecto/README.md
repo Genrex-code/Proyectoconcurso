@@ -31,6 +31,9 @@ Each stage is encapsulated within an independent module to ensure loose coupling
 
 ## Project Structure
 
+## Project Structure
+
+```
 project-root/
 │
 ├── proyecto/
@@ -53,6 +56,7 @@ project-root/
 │
 ├── docs/
 └── README.md
+```
 
 Each module encapsulates a specific responsibility within the processing flow, allowing the system to scale or evolve without impacting unrelated components.
 
