@@ -29,7 +29,6 @@ Each stage is encapsulated within an independent module to ensure loose coupling
 
 ---
 
-
 ## Project Structure
 
 ```
