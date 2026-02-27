@@ -10,6 +10,7 @@ import plotly.express as px
 import pandas as pd
 import sys
 from pathlib import Path
+from time import get_clock_info
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 sys.path.append(str(BASE_DIR))
