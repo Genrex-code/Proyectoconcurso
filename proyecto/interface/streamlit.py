@@ -18,7 +18,6 @@ sample code for streamlit app
 screen 1 
 me puse gringo por el cansancio me debe una coca 
 """
-Sys = 0
 # configuracion base de direcctorios
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
