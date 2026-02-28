@@ -1,118 +1,108 @@
-"""
-recolector.py
-Modulo encargado de cargar datos desde CSV o Excel
-para el sistema IA HPE
-"""
+# src/recolector/recolector_main.py
 
-from pathlib import Path
-import pandas as pd
+import logging
+import traceback
+from typing import Any, Dict, Optional
 
+# Configurar logging básico si no existe
+try:
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    )
+except Exception:
+    print("Advertencia: No se pudo configurar logging")
 
-print ("Cargando módulo recolector...")
+logger = logging.getLogger(__name__)
 
-def log(msg):
-    print(f"[Recolector] {msg}")
+def validar_config(config: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Valida que la configuración tenga los campos requeridos.
+    """
+    tipo_entrada = config.get("input_type", "local")
+    
+    configuraciones_requeridas = {
+        "local": ["data_path"],
+        "url": ["url_fuente"],
+        "scraping": ["url_empresa"],
+        "datasets_limpios": ["data_path"]
+    }
+    
+    campos_requeridos = configuraciones_requeridas.get(tipo_entrada, [])
+    
+    for campo in campos_requeridos:
+        if not config.get(campo):
+            raise ValueError(
+                f"Configuración inválida para '{tipo_entrada}': "
+                f"falta el campo obligatorio '{campo}'"
+            )
+    
+    return config
 
-
-def validar_archivo(path: Path):
-    if not path.exists():
-        raise FileNotFoundError(f"El archivo {path} no existe.")
-
-
-def validar_columnas(df, columnas, nombre_tabla):
-    faltantes = [c for c in columnas if c not in df.columns]
-    if faltantes:
-        raise ValueError(
-            f"Las columnas {faltantes} no existen en la tabla '{nombre_tabla}'"
+def carga_datos(config: Dict[str, Any]) -> Optional[Any]:
+    """
+    Orquestador principal que selecciona la fuente según la config.
+    Versión robusta con manejo completo de errores.
+    """
+    if not isinstance(config, dict):
+        raise TypeError("La configuración debe ser un diccionario")
+    
+    try:
+        # Validar configuración primero
+        config_validada = validar_config(config)
+        tipo_entrada = config_validada.get("input_type", "local")
+        
+        logger.info(f"[Recolector] Modo de entrada detectado: {tipo_entrada}")
+        
+        # Importar conectores con manejo de errores
+        try:
+            from .conectores import (
+                conector_local, 
+                conector_url, 
+                conector_scraping
+            )
+        except ImportError as e:
+            logger.error(f"Error importando conectores: {e}")
+            logger.error(traceback.format_exc())
+            raise ImportError(
+                "No se pudieron importar los conectores. "
+                "Verifica que los módulos existan en src/recolector/conectores/"
+            )
+        
+        # Mapa de conectores para fácil mantenimiento
+        conectores = {
+            "local": conector_local.cargar,
+            "url": conector_url.cargar,
+            "scraping": conector_scraping.cargar,
+            "api": conector_api.cargar,
+            "datasets_limpios": conector_local.cargar_limpios
+        }
+        
+        conector_func = conectores.get(tipo_entrada)
+        if not conector_func:
+            raise ValueError(
+                f"Tipo de entrada '{tipo_entrada}' no soportado. "
+                f"Opciones válidas: {list(conectores.keys())}"
+            )
+        
+        # Llamar al conector correspondiente
+        resultado = conector_func(config_validada)
+        
+        if resultado is None:
+            logger.warning(f"Conector '{tipo_entrada}' devolvió None")
+        
+        logger.info(f"[Recolector] Datos cargados exitosamente con {tipo_entrada}")
+        return resultado
+        
+    except ValueError as e:
+        logger.error(f"Error de configuración: {e}")
+        raise
+    except ImportError as e:
+        logger.error(f"Error de importación: {e}")
+        raise
+    except Exception as e:
+        logger.error(f"Error inesperado en carga_datos: {e}")
+        logger.error(traceback.format_exc())
+        raise Exception(
+            f"Error crítico al cargar datos con '{tipo_entrada}': {str(e)}"
         )
-
-
-def leer_archivo(path: Path):
-    """Lee CSV o Excel automáticamente"""
-    if path.suffix == ".csv":
-        return pd.read_csv(path, low_memory=False)
-    elif path.suffix in [".xlsx", ".xls"]:
-        return pd.read_excel(path)
-    else:
-        raise ValueError(f"Formato no soportado: {path}")
-
-
-def limpiar_basico(df):
-    """Elimina duplicados y rellena nulos"""
-    df = df.drop_duplicates()
-
-    for col in df.columns:
-        if df[col].dtype == "object":
-            df[col] = df[col].fillna("NULO")
-        else:
-            df[col] = df[col].fillna(0)
-
-    return df
-
-
-def carga_datos(config):
-    """
-    Carga clientes, eventos e historial
-
-    config ejemplo:
-    {"data_path": "data/synthetic/"}
-    """
-
-    base = Path(config["data_path"])
-
-    path_clientes = base / "clientes.csv"
-    path_eventos = base / "eventos.csv"
-    path_historial = base / "historial.csv"
-
-    # Validar existencia
-    validar_archivo(path_clientes)
-    validar_archivo(path_eventos)
-    validar_archivo(path_historial)
-
-    log("Archivos encontrados")
-
-    # Leer archivos
-    clientes = leer_archivo(path_clientes)
-    eventos = leer_archivo(path_eventos)
-    historial = leer_archivo(path_historial)
-
-    log("Archivos cargados en memoria")
-
-    # Validar columnas mínimas
-    validar_columnas(
-        clientes,
-        ["id_cliente", "nombre", "empresa", "industria"],
-        "clientes"
-    )
-
-    validar_columnas(
-        eventos,
-        ["id_cliente", "tipo_evento", "fecha"],
-        "eventos"
-    )
-
-    validar_columnas(
-        historial,
-        ["id_cliente", "compras_previas"],
-        "historial"
-    )
-
-    log("Columnas validadas")
-
-    # Limpieza básica
-    clientes = limpiar_basico(clientes)
-    eventos = limpiar_basico(eventos)
-    historial = limpiar_basico(historial)
-
-    # Convertir fechas si existen
-    if "fecha" in eventos.columns:
-        eventos["fecha"] = pd.to_datetime(eventos["fecha"], errors="coerce")
-
-    log(f"Clientes cargados: {len(clientes)}")
-    log(f"Eventos cargados: {len(eventos)}")
-    log(f"Historial cargado: {len(historial)}")
-
-    if clientes.empty:
-        raise ValueError("Tabla clientes vacía")
-
-    return clientes, eventos, historial
