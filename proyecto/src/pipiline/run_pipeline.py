@@ -7,6 +7,7 @@ Equipo Devcode
 import time
 import pandas as pd
 
+from src.modelo_IA.predict import predecir
 from src.recolector.recolector import carga_datos
 from src.extractor.extractor import extraer_senales
 from src.scoring.scoring import calcular_score
