@@ -7,8 +7,12 @@ Equipo Devcode
 import time
 import pandas as pd
 
+<<<<<<< HEAD
 from src.modelo_IA.predict import predecir
 from src.recolector.recolector import carga_datos
+=======
+from proyecto.src.recolector.recolector_main import carga_datos
+>>>>>>> main
 from src.extractor.extractor import extraer_senales
 from src.scoring.scoring import calcular_score
 from src.clasificador.modelo import clasificar_clientes
