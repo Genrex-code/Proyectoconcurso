@@ -1,41 +1,51 @@
 import pandas as pd 
 from recomendador.productos.catalogo_hpe import CATALOGO
 
-def generar_recomendaciones(df_scoring):
+def generar_recomendaciones_expertas(df_scoring):
     """
-    Cabeza de búsqueda que asigna productos basados en los scores de las capas.
+    Recomendador avanzado con lógica de Cross-selling y Trigger de Venta.
     """
-    recomendaciones = []
+    resultados = []
 
     for _, row in df_scoring.iterrows():
-        id_cliente = row['id_cliente']
+        # --- 1. LÓGICA DE SEGMENTACIÓN ---
         valor = row['detalle_valor']
         intencion = row['detalle_intencion']
         relacion = row['detalle_relacion']
-        
-        # 1. Determinamos el Segmento (Cabeza de Búsqueda de Valor)
         segmento = "ENTERPRISE" if valor > 60 else "PYME"
         
-        # 2. Selección de Oferta Principal
-        # Si la intención es alta, buscamos algo específico del segmento
-        if intencion > 70:
-            if segmento == "ENTERPRISE":
-                propuesta = CATALOGO["ENTERPRISE"]["computo_ia"]
-            else:
-                propuesta = CATALOGO["PYME"]["hiperconvergencia"]
-        # Si la relación es baja (cliente nuevo) o quiere ahorrar, sugerimos GreenLake
+        # --- 2. SELECCIÓN DE SOLUCIÓN INTEGRAL ---
+        # Inicializamos variables de la oferta
+        primario = None
+        complemento = "HPE InfoSight (Monitoreo Predictivo IA)" # Default para todos
+        
+        if intencion > 75:
+            # Caso: Necesidad de Cómputo/IA detectada
+            primario = CATALOGO[segmento].get("computo_ia") or CATALOGO[segmento].get("computo")
+            complemento = CATALOGO[segmento].get("storage_ia") or CATALOGO["ESTRATEGICO"]["software_ia"]
         elif relacion < 30:
-            propuesta = CATALOGO["ESTRATEGICO"]["consumo"]
+            # Caso: Riesgo financiero o cliente nuevo
+            primario = CATALOGO["ESTRATEGICO"]["consumo"] # GreenLake
+            complemento = CATALOGO[segmento].get("almacenamiento")
         else:
-            # Oferta por defecto del segmento
-            propuesta = CATALOGO[segmento]["computo"] if segmento == "PYME" else CATALOGO[segmento]["storage_ia"]
+            # Caso: Mantenimiento / Consolidación
+            primario = CATALOGO[segmento].get("hiperconvergencia") or CATALOGO[segmento].get("almacenamiento")
 
-        recomendaciones.append({
-            "id_cliente": id_cliente,
-            "segmento": segmento,
-            "producto_sugerido": propuesta["producto"],
-            "justificacion": propuesta["descripcion"],
-            "urgencia": "ALTA" if intencion > 80 else "MEDIA"
+        # --- 3. CÁLCULO DE CONFIANZA DEL "MATCH" ---
+        # Si la intención y el valor están alineados, la confianza sube
+        confianza = (intencion + valor) / 2
+        
+        # --- 4. CONSTRUCCIÓN DEL TRIGGER (Basado en PDF) ---
+        trigger = "Acelerar el time-to-market de modelos de IA" if segmento == "ENTERPRISE" else "Simplificar la TI para enfoque en el negocio"
+
+        resultados.append({
+            "id_cliente": row['id_cliente'],
+            "propuesta_base": primario["producto"] if primario else "Consultoría HPE",
+            "cross_sell": complemento["producto"] if isinstance(complemento, dict) else complemento,
+            "match_confidence": f"{confianza:.1f}%",
+            "justificacion_comercial": primario["descripcion"] if primario else "Optimización general",
+            "trigger_venta": trigger,
+            "prioridad_llamada": "URGENTE" if intencion > 85 else "ESTRÁTEGICA"
         })
 
-    return pd.DataFrame(recomendaciones)
+    return pd.DataFrame(resultados)
