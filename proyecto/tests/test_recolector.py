@@ -1,6 +1,6 @@
 def test_recolector_basico(tmp_path):
     import pandas as pd
-    from src.recolector.recolector import carga_datos
+    from proyecto.src.recolector.recolector_main import carga_datos
 
     base = tmp_path
 
