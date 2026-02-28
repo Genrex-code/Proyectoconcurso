@@ -1,5 +1,5 @@
 import requests
-from bs4 import beautifulsoup
+from bs4 import BeautifulSoup
 import pandas as pd
 
 def cargar (urls_empresas):

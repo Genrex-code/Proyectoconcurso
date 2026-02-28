@@ -25,7 +25,8 @@ def validar_config(config: Dict[str, Any]) -> Dict[str, Any]:
         "local": ["data_path"],
         "url": ["url_fuente"],
         "scraping": ["url_empresa"],
-        "datasets_limpios": ["data_path"]
+        "datasets_limpios": ["data_path"],
+        "api": ["api_endpoint", "api_key", "client_ids"]  # Agregado
     }
     
     campos_requeridos = configuraciones_requeridas.get(tipo_entrada, [])
@@ -47,6 +48,8 @@ def carga_datos(config: Dict[str, Any]) -> Optional[Any]:
     if not isinstance(config, dict):
         raise TypeError("La configuración debe ser un diccionario")
     
+    tipo_entrada = None  # Inicializar para el except final
+    
     try:
         # Validar configuración primero
         config_validada = validar_config(config)
@@ -59,7 +62,8 @@ def carga_datos(config: Dict[str, Any]) -> Optional[Any]:
             from .conectores import (
                 conector_local, 
                 conector_url, 
-                conector_scraping
+                conector_scraping,
+                conector_api  # Importar conector_api
             )
         except ImportError as e:
             logger.error(f"Error importando conectores: {e}")
@@ -74,8 +78,8 @@ def carga_datos(config: Dict[str, Any]) -> Optional[Any]:
             "local": conector_local.cargar,
             "url": conector_url.cargar,
             "scraping": conector_scraping.cargar,
-            "api": conector_api.cargar,
-            "datasets_limpios": conector_local.cargar_limpios
+            "datasets_limpios": conector_local.cargar,
+            "api": conector_api.cargar,  # Corregido aquí
         }
         
         conector_func = conectores.get(tipo_entrada)
