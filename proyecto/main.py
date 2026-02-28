@@ -1,4 +1,4 @@
-from src.recolector.recolector import carga_datos
+from proyecto.src.recolector.recolector_main import carga_datos
 from pathlib import Path
 import os
 from src.utils.my_config import config
