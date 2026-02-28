@@ -36,6 +36,8 @@ def entrenar_modelo(df,target_col):
     mae = mean_absolute_error(Y_test,pred)
     r2 = r2_score(Y_test,pred)
     joblib.dump(modelo,MODEL_DIR / Model_NAME)
+
+    #usaremos esto para graficas en la interfaz despues 
     return {
         "modelo": modelo,
         "mae" : mae,

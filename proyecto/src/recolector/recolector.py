@@ -1,118 +1,38 @@
-"""
-recolector.py
-Modulo encargado de cargar datos desde CSV o Excel
-para el sistema IA HPE
-"""
-
-from pathlib import Path
 import pandas as pd
+import requests
+from bs4 import BeautifulSoup
+from io import StringIO, BytesIO
 
+class RecolectorInteligente:
+    def __init__(self, config):
+        self.config = config
 
-print ("Cargando módulo recolector...")
-
-def log(msg):
-    print(f"[Recolector] {msg}")
-
-
-def validar_archivo(path: Path):
-    if not path.exists():
-        raise FileNotFoundError(f"El archivo {path} no existe.")
-
-
-def validar_columnas(df, columnas, nombre_tabla):
-    faltantes = [c for c in columnas if c not in df.columns]
-    if faltantes:
-        raise ValueError(
-            f"Las columnas {faltantes} no existen en la tabla '{nombre_tabla}'"
-        )
-
-
-def leer_archivo(path: Path):
-    """Lee CSV o Excel automáticamente"""
-    if path.suffix == ".csv":
-        return pd.read_csv(path, low_memory=False)
-    elif path.suffix in [".xlsx", ".xls"]:
-        return pd.read_excel(path)
-    else:
-        raise ValueError(f"Formato no soportado: {path}")
-
-
-def limpiar_basico(df):
-    """Elimina duplicados y rellena nulos"""
-    df = df.drop_duplicates()
-
-    for col in df.columns:
-        if df[col].dtype == "object":
-            df[col] = df[col].fillna("NULO")
+    def obtener_desde_url(self, url):
+        """Descarga CSV/Excel desde una URL directa"""
+        print(f"[Recolector] Descargando desde URL: {url}")
+        resp = requests.get(url)
+        if url.endswith('.csv'):
+            return pd.read_csv(StringIO(resp.text))
         else:
-            df[col] = df[col].fillna(0)
+            return pd.read_excel(BytesIO(resp.content))
 
-    return df
+    def scrapear_noticias(self, url_empresa):
+        """Busca señales de crecimiento en el sitio web"""
+        print(f"[Recolector] Scrapeando señales en: {url_empresa}")
+        try:
+            # Esto es un scraping básico, luego lo evolucionamos
+            html = requests.get(url_empresa, timeout=5).text
+            soup = BeautifulSoup(html, 'html.parser')
+            texto = soup.get_text().lower()
+            
+            # Buscamos 'señales' rápidas para el Extractor
+            hits = sum(1 for word in ['expansión', 'inversión', 'contratando', 'hpe'] if word in texto)
+            return hits
+        except:
+            return 0
 
-
-def carga_datos(config):
-    """
-    Carga clientes, eventos e historial
-
-    config ejemplo:
-    {"data_path": "data/synthetic/"}
-    """
-
-    base = Path(config["data_path"])
-
-    path_clientes = base / "clientes.csv"
-    path_eventos = base / "eventos.csv"
-    path_historial = base / "historial.csv"
-
-    # Validar existencia
-    validar_archivo(path_clientes)
-    validar_archivo(path_eventos)
-    validar_archivo(path_historial)
-
-    log("Archivos encontrados")
-
-    # Leer archivos
-    clientes = leer_archivo(path_clientes)
-    eventos = leer_archivo(path_eventos)
-    historial = leer_archivo(path_historial)
-
-    log("Archivos cargados en memoria")
-
-    # Validar columnas mínimas
-    validar_columnas(
-        clientes,
-        ["id_cliente", "nombre", "empresa", "industria"],
-        "clientes"
-    )
-
-    validar_columnas(
-        eventos,
-        ["id_cliente", "tipo_evento", "fecha"],
-        "eventos"
-    )
-
-    validar_columnas(
-        historial,
-        ["id_cliente", "compras_previas"],
-        "historial"
-    )
-
-    log("Columnas validadas")
-
-    # Limpieza básica
-    clientes = limpiar_basico(clientes)
-    eventos = limpiar_basico(eventos)
-    historial = limpiar_basico(historial)
-
-    # Convertir fechas si existen
-    if "fecha" in eventos.columns:
-        eventos["fecha"] = pd.to_datetime(eventos["fecha"], errors="coerce")
-
-    log(f"Clientes cargados: {len(clientes)}")
-    log(f"Eventos cargados: {len(eventos)}")
-    log(f"Historial cargado: {len(historial)}")
-
-    if clientes.empty:
-        raise ValueError("Tabla clientes vacía")
-
-    return clientes, eventos, historial
+    def ejecutar(self):
+        # Aquí decidimos qué motor usar según la config
+        if self.config.get("input_type") == "url":
+            return self.obtener_desde_url(self.config["source"])
+        # ... resto de la lógica
