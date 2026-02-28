@@ -1,64 +1,41 @@
-#se debe ampliar horizontalmente con nuevas señales, pero se deja esta base para el concurso
-#recomendable añadir un ranking de productos para cada segmento, pero por ahora a comer :D
-#nota: que chingue a su madre el america 
-"""
-recomendador.py
-Modulo que genera recomendaciones comerciales
-Sistema IA HPE
-"""
+import pandas as pd 
+from recomendador.productos.catalogo_hpe import CATALOGO
 
-import pandas as pd
-
-
-def elegir_producto(segmento, industria=None):
-    """Reglas simples de recomendación"""
-    
-    if segmento == "Caliente":
-        return "Servidor HPE ProLiant"
-    
-    if segmento == "Tibio":
-        return "Almacenamiento HPE Alletra"
-    
-    return "Newsletter de soluciones HPE"
-
-
-def elegir_canal(segmento):
-    """Canal de contacto"""
-    
-    if segmento == "Caliente":
-        return "Llamada directa"
-    
-    if segmento == "Tibio":
-        return "Email personalizado"
-    
-    return "Email masivo"
-
-
-def prioridad(segmento):
-    """Nivel de urgencia"""
-    
-    if segmento == "Caliente":
-        return "Alta"
-    
-    if segmento == "Tibio":
-        return "Media"
-    
-    return "Baja"
-
-
-def recomendar_hpe(segmentos_df):
+def generar_recomendaciones(df_scoring):
     """
-    segmentos_df columnas:
-    id_cliente | score | segmento
+    Cabeza de búsqueda que asigna productos basados en los scores de las capas.
     """
+    recomendaciones = []
 
-    df = segmentos_df.copy()
+    for _, row in df_scoring.iterrows():
+        id_cliente = row['id_cliente']
+        valor = row['detalle_valor']
+        intencion = row['detalle_intencion']
+        relacion = row['detalle_relacion']
+        
+        # 1. Determinamos el Segmento (Cabeza de Búsqueda de Valor)
+        segmento = "ENTERPRISE" if valor > 60 else "PYME"
+        
+        # 2. Selección de Oferta Principal
+        # Si la intención es alta, buscamos algo específico del segmento
+        if intencion > 70:
+            if segmento == "ENTERPRISE":
+                propuesta = CATALOGO["ENTERPRISE"]["computo_ia"]
+            else:
+                propuesta = CATALOGO["PYME"]["hiperconvergencia"]
+        # Si la relación es baja (cliente nuevo) o quiere ahorrar, sugerimos GreenLake
+        elif relacion < 30:
+            propuesta = CATALOGO["ESTRATEGICO"]["consumo"]
+        else:
+            # Oferta por defecto del segmento
+            propuesta = CATALOGO[segmento]["computo"] if segmento == "PYME" else CATALOGO[segmento]["storage_ia"]
 
-    df["producto"] = df["segmento"].apply(elegir_producto)
-    df["canal"] = df["segmento"].apply(elegir_canal)
-    df["prioridad"] = df["segmento"].apply(prioridad)
+        recomendaciones.append({
+            "id_cliente": id_cliente,
+            "segmento": segmento,
+            "producto_sugerido": propuesta["producto"],
+            "justificacion": propuesta["descripcion"],
+            "urgencia": "ALTA" if intencion > 80 else "MEDIA"
+        })
 
-    print("Recomendaciones generadas:", len(df))
-    print(df["prioridad"].value_counts())
-
-    return df
+    return pd.DataFrame(recomendaciones)
