@@ -5,10 +5,11 @@ Este archivo centraliza los parámetros de negocio y técnicos.
 from pathlib import Path
 import os
 
-BASE_DIR = Path(__file__).resolve().parent.parent.parent
-
+# Detecta la raíz del proyecto (donde está este archivo)
+BASE_DIR = Path(__file__).resolve().parent
 
 config = {
+    # Ruta a la carpeta de datos sintéticos
     "data_path": BASE_DIR / "data" / "synthetic",
     "output_path": BASE_DIR / "results",
     "modo": "test"
