@@ -1,73 +1,39 @@
-# """
-# run_pipeline.py
-# pipeline principal del sistema IA HPE
-# Equipo Devcode
-# """
+import pandas as pd
+import logging
+from .recolector import recolectar_datos
+from .extractor import extraer_features
+from .scoring.scoringGen import generar_scoreing_heuristioco # Respetando tu typo ;)
+from .recomendador import generar_recomendaciones
+from .speech_gen import generar_speech_personalizado
 
-# import time
-# import pandas as pd
+def ejecutar_pipeline_completo(config_pesos):
+    """
+    Coordina el flujo desde la recolección hasta el guion de venta.
+    """
+    try:
+        # 1. Recolección
+        print("\n[STEP 1] Recolectando datos de mercado...")
+        datos_crudos = recolectar_datos()
+        
+        # 2. Extracción de Features
+        print("[STEP 2] Extrayendo variables numéricas y sentimiento...")
+        df_features = extraer_features(datos_crudos)
+        
+        # 3. Scoring Heurístico
+        print("[STEP 3] Aplicando lógica de negocio (3 Capas)...")
+        df_scores = generar_scoreing_heuristioco(df_features, config_pesos)
+        
+        # 4. Recomendación de Producto
+        print("[STEP 4] Mapeando portafolio de infraestructura HPE...")
+        df_estrategia = generar_recomendaciones(df_scores)
+        
+        # 5. Generación de Speech
+        print("[STEP 5] Redactando guiones de venta personalizados...")
+        df_final = generar_speech_personalizado(df_estrategia)
+        
+        # Retornamos el merge de todo para el CLI
+        return pd.merge(df_estrategia, df_final, on="id_cliente")
 
-# # from src.modelo_IA.predict import predecir
-# # from src.recolector.recolector import carga_datos
-# # from src.extractor.extractor import extraer_senales
-# # from proyecto.src.scoring.scoringGen import calcular_score
-# # from src.clasificador.modelo import clasificar_clientes
-# # from src.recomendador.recomendador import recomendar_hpe
-# # from src.salida.reportes import guardar_resultados
-# # from src.speech.speech import generar_speech
-
-
-# def log_paso(nombre):
-#     print("\n" + "=" * 50)
-#     print(f"Ejecutando modulo: {nombre}")
-
-
-# def run_pipeline(config):
-#     inicio_total = time.time()
-
-#     try:
-#         log_paso("1. Recolector")
-#         clientes, eventos, historial = carga_datos(config)
-
-#         log_paso("2. Extractor")
-#         features = extraer_senales(clientes, eventos, historial)
-
-#         log_paso("3. Scoring")
-#         scores = calcular_score(features)
-
-#         log_paso("4. Clasificador")
-#         segmentos = clasificar_clientes(scores)
-
-#         log_paso("5. Recomendador")
-#         recomendaciones = recomendar_hpe(segmentos)
-
-#         log_paso("6. Speech")
-#         speech = generar_speech(recomendaciones)
-
-#         log_paso("7. Combinar resultados")
-#         df_final = pd.concat(
-#             [recomendaciones.reset_index(drop=True),
-#              speech.reset_index(drop=True)],
-#             axis=1
-#         )
-
-#         log_paso("8. Guardar resultados")
-#         guardar_resultados(df_final, config)
-
-#         fin_total = time.time()
-#         print(f"\nPipeline completado en {fin_total - inicio_total:.2f} segundos")
-
-#         return df_final
-
-#     except Exception as e:
-#         print(f"Error en pipeline: {e}")
-#         raise
-
-
-# if __name__ == "__main__":
-#     config = {
-#         "data_path": "data/synthetic/",
-#         "output_path": "results/",
-#         "modo": "test"
-#     }
-#     run_pipeline(config)
+    except Exception as e:
+        print(f"❌ Error en el Pipeline: {e}")
+        return None
