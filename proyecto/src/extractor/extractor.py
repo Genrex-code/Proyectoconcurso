@@ -44,8 +44,7 @@ def extraer_senales(clientes, eventos, historial):
         texto = str(row.get('descripcion', '')).lower()
         return sum(1.5 for word in keywords_hpe if word in texto)
 
-    # ❌ BUG1: Código DUPLICADO eliminado
-    # Usar columna correcta del CSV (tipo_evento)
+    # Procesamiento de eventos (columna correcta del CSV)
     eventos["peso_evento"] = eventos["tipo_evento"].map(PESO_EVENTO).fillna(0)
     eventos["bonus_hpe"] = eventos.apply(detectar_intencion_hpe, axis=1)
     eventos["score_total_eventos"] = (eventos["peso_evento"] * eventos["factor_recencia"]) + eventos["bonus_hpe"]
@@ -54,7 +53,7 @@ def extraer_senales(clientes, eventos, historial):
     eventos_agg = eventos.groupby("id_cliente")["score_total_eventos"].agg(['sum', 'count']).reset_index()
     eventos_agg.rename(columns={"sum": "score_eventos", "count": "volumen_noticias"}, inplace=True)
 
-    # 5. Historial y Lealtad
+    # 5. Historial y Lealtad (FIX: str.upper() para case-insensitive)
     if not historial.empty:
         historial_agg = historial.groupby("id_cliente").agg({
             "compras_previas": "sum",
@@ -76,10 +75,12 @@ def extraer_senales(clientes, eventos, historial):
     elif "ingresosAP" in features.columns:
         features["ingresos_log"] = np.log1p(features["ingresosAP"])
 
-    # 7. Crear columna 'segmento' PARA EL DISCURSO
+    # 7. Crear columna 'segmento' PARA EL DISCURSO (ÚNICA versión)
     if 'tamano_empresa' in features.columns:
         features['segmento'] = features['tamano_empresa'].map({
-            'Grande': 'ENTERPRISE', 'Mediana': 'ENTERPRISE', 'Pequeña': 'PYME'
+            'Grande': 'ENTERPRISE', 
+            'Mediana': 'ENTERPRISE', 
+            'Pequeña': 'PYME'
         }).fillna('PYME')
     else:
         features['segmento'] = 'PYME'
@@ -89,10 +90,10 @@ def extraer_senales(clientes, eventos, historial):
     if not historial_agg.empty:
         features = features.merge(historial_agg, on="id_cliente", how="left")
 
-    # 9. Relleno inteligente
+    # 9. Relleno inteligente (ÚNICA vez, al final)
     columnas_numericas = features.select_dtypes(include=[np.number]).columns
     features[columnas_numericas] = features[columnas_numericas].fillna(0)
-    features = features.fillna('')
+    features = features.fillna("N/A")
 
     log(f"Extracción finalizada: {len(features)} perfiles generados.")
     return features
