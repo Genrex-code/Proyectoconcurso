@@ -4,7 +4,10 @@ Este archivo centraliza los parámetros de negocio y técnicos.
 """
 from pathlib import Path
 import os
+
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
+
+
 config = {
     "data_path": BASE_DIR / "data" / "synthetic",
     "output_path": BASE_DIR / "results",

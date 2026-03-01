@@ -1,12 +1,13 @@
 import pandas as pd 
 from pathlib import Path
+from proyecto.src.utils.my_config import config
 
-def cargar(config_path):
+def cargar(config):
     """
     CARGA ROBUSTA DESDE ARCHIVOS LOCALES CSV O EXCEL 
     PREVIAMENTE LIMPIADOS
     """
-    base = Path(config_path)
+    base = Path("data_path")
     archivos = {
         "clientes": base / "clientes.csv",
         "eventos" : base / "eventos.csv",
