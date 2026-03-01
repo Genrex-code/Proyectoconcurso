@@ -2,6 +2,10 @@ import os
 import sys
 from pathlib import Path
 
+ruta_raiz = os.path.dirname(os.path.abspath(__file__))
+if ruta_raiz not in sys.path:
+    sys.path.insert(0, ruta_raiz)
+    
 # CONFIGURACIÓN DE RUTAS (Solo aquí)
 # Agregamos la raíz del proyecto al path de Python
 root_path = Path(__file__).resolve().parent
