@@ -1,5 +1,5 @@
 import pandas as pd 
-from recomendador.productos.catalogo_hpe import CATALOGO
+from src.recomendador.productos.catalogo_hpe import CATALOGO
 
 def generar_recomendaciones_expertas(df_scoring):
     """

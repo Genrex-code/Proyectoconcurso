@@ -1,9 +1,9 @@
 import pandas as pd 
 import logging
 #imports de capas 
-from .capas.capa_valor import calcular_capa_valor
-from .capas.capa_intencion import calcular_capa_intencion
-from .capas.capa_relacion import calcular_capa_relacion
+from src.scoring.capas.capa_valor import calcular_capa_valor
+from src.scoring.capas.capa_intencion import calcular_capa_intencion
+from src.scoring.capas.capa_relacion import calcular_capa_relacion
 # se que debi asumirlos pero fui al baño y se me olvido cambiarlos jajasjasjas+
 #y hablo del config
 #esquisofrenico 

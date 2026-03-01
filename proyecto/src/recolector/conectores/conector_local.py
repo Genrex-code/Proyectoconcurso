@@ -1,6 +1,6 @@
 import pandas as pd 
 from pathlib import Path
-from proyecto.src.utils.my_config import config
+from src.utils.my_config import config
 
 def cargar(config):
     """

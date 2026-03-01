@@ -1,6 +1,6 @@
 import joblib
 import pandas as pd
-from .config import MODEL_DIR, MODEL_NAME
+from src.modelo_IA.config import MODEL_DIR, MODEL_NAME
 
 def predecir(df_features):
     """Predicción con validación de consistencia"""

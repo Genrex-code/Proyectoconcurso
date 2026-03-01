@@ -1,6 +1,6 @@
 import pandas as pd
 import logging
-from proyecto.src.utils.my_config import config
+from src.utils.my_config import config
 
 # Imports directos confiando en la jerarquía de carpetas
 from src.recolector.recolector_main import carga_datos
