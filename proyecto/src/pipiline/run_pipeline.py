@@ -15,7 +15,7 @@ def ejecutar_pipeline_completo(config_pesos):
         # Convertimos Path a string para evitar errores de tipo
         config_recoleccion = {
             "input_type": "local", 
-            "data_path": str(config["data_path"])
+            "data_path": config["data_path"] # <--- CAMBIA ESTO
         }
 
         # 1. Recolección
