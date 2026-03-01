@@ -6,7 +6,7 @@ from pathlib import Path
 import os
 
 # Detecta la raíz del proyecto (donde está este archivo)
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 config = {
     # Ruta a la carpeta de datos sintéticos
