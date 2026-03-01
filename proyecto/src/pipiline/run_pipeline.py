@@ -1,10 +1,10 @@
 import pandas as pd
 import logging
-from .recolector import recolectar_datos
-from .extractor import extraer_features
-from .scoring.scoringGen import generar_scoreing_heuristioco # Respetando tu typo ;)
-from .recomendador import generar_recomendaciones
-from .speech_gen import generar_speech_personalizado
+from src.recolector.recolector_main import recolectar_datos
+from src.extractor.extractor import extraer_features
+from src.scoring.scoringGen import generar_scoreing_heuristioco # Respetando tu typo ;)
+from src.recomendador.recomendador import generar_recomendaciones
+from src.speech.speech_Gen import generar_speech_personalizado
 
 def ejecutar_pipeline_completo(config_pesos):
     """
@@ -35,5 +35,5 @@ def ejecutar_pipeline_completo(config_pesos):
         return pd.merge(df_estrategia, df_final, on="id_cliente")
 
     except Exception as e:
-        print(f"❌ Error en el Pipeline: {e}")
+        print(f" Error en el Pipeline: {e}")
         return None
