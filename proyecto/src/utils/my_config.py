@@ -2,7 +2,14 @@
 Configuración Global del Sistema HPE AI-Sales Enhancer
 Este archivo centraliza los parámetros de negocio y técnicos.
 """
-
+from pathlib import Path
+import os
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+config = {
+    "data_path": BASE_DIR / "data" / "synthetic",
+    "output_path": BASE_DIR / "results",
+    "modo": "test"
+}
 # --- 1. CONFIGURACIÓN DE PESOS DEL SCORING (30/40/30) ---
 # Permite ajustar la importancia de cada capa heurística
 PESOS_SCORING = {

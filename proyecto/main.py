@@ -1,5 +1,16 @@
 import sys
 from src.pipiline.run_pipeline import ejecutar_pipeline_completo
+import sys
+import os
+from pathlib import Path
+root_path = Path(__file__).resolve().parent.parent.parent.parent
+sys.path.append(str(root_path))
+from src.recolector.recolector_main import carga_datos
+from src.extractor.extractor import extraer_senales
+from proyecto.src.scoring.scoringGen import generar_scoreing_heuristioco # Respetando tu typo ;)
+from proyecto.src.recomendador.recomendador import generar_recomendaciones_expertas
+from proyecto.src.speech.speech_Gen import generar_speech_personalizado
+
 
 def mostrar_banner():
     print("="*60)

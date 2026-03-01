@@ -40,11 +40,17 @@ def validar_config(config: Dict[str, Any]) -> Dict[str, Any]:
     
     return config
 
-def carga_datos(config: Dict[str, Any]) -> Optional[Any]:
+def carga_datos(config: Optional[Dict[str, Any]] = None) -> Optional[Any]:
     """
     Orquestador principal que selecciona la fuente según la config.
     Versión robusta con manejo completo de errores.
     """
+    if config is None:
+        config = {
+            "input_type": "local",
+            "data_path": "proyecto/data/synthetic" # Asegúrate que esta ruta exista
+        }
+
     if not isinstance(config, dict):
         raise TypeError("La configuración debe ser un diccionario")
     
